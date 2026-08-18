@@ -91,10 +91,16 @@ pnpm seed
 pnpm baseline:eval
 ```
 
+On native Windows with Docker Desktop and no bash (no WSL, no Git Bash),
+replace step 1 with:
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/hydradb-up.ps1
+```
+
 ## Running tests
 
 ```bash
-bash scripts/hydradb-up.sh
+bash scripts/hydradb-up.sh   # or scripts/hydradb-up.ps1 on native Windows
 pnpm test
 ```
 
