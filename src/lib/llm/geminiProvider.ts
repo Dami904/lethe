@@ -9,8 +9,15 @@ import type { GenerateTextInput, LlmProvider } from "./types.js";
  * provider deliberately does NOT rely on Gemini's schema-constrained JSON
  * mode; it asks for plain text and lets callers parse/validate it, same as
  * the other two providers. See docs/API_NOTES.md.
+ *
+ * Model default confirmed live against a real key's `/v1beta/models` list
+ * and a real generateContent call, not guessed: `gemini-3.7-flash` (the
+ * newest listed model at the time) returned persistent 503 "high demand"
+ * errors that didn't clear on retry; `gemini-2.5-flash` is a 404
+ * ("no longer available to new users"); `gemini-3.1-flash-lite` responded
+ * cleanly. Override with GEMINI_MODEL if your key's availability differs.
  */
-const DEFAULT_MODEL = "gemini-3.7-flash";
+const DEFAULT_MODEL = "gemini-3.1-flash-lite";
 
 interface GeminiResponse {
   candidates?: Array<{ content?: { parts?: Array<{ text?: string }> } }>;

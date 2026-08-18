@@ -14,6 +14,7 @@
 import "../src/loadEnv.js";
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 import { extractFactsFromSession } from "../src/ingest/extractFacts.js";
 import { parseLongMemEvalDate } from "../src/ingest/parseLongMemEvalDate.js";
 import { getLlmProvider } from "../src/lib/llm/index.js";
@@ -114,8 +115,12 @@ async function main(): Promise<void> {
     return;
   }
 
-  const instances = JSON.parse(readFileSync(DATA_PATH, "utf8")) as LongMemEvalInstance[];
-  console.log(`Ingesting ${instances.length} LongMemEval instances into ${BASE_URL} ...`);
+  const allInstances = JSON.parse(readFileSync(DATA_PATH, "utf8")) as LongMemEvalInstance[];
+  const limit = process.env["LONGMEMEVAL_LIMIT"] ? Number(process.env["LONGMEMEVAL_LIMIT"]) : undefined;
+  const instances = limit ? allInstances.slice(0, limit) : allInstances;
+  console.log(
+    `Ingesting ${instances.length}${limit ? ` of ${allInstances.length}` : ""} LongMemEval instances into ${BASE_URL} ...`,
+  );
 
   const allIngested: IngestedFactRecord[] = [];
   let totalSessionsFailed = 0;
@@ -139,7 +144,15 @@ async function main(): Promise<void> {
   console.log("\nRun `pnpm eval:longmemeval` next to score Lethe's supersession correctness on this data.");
 }
 
-if (import.meta.url === `file://${process.argv[1]}`) {
+// A raw `import.meta.url === \`file://${process.argv[1]}\`` string
+// comparison (the common pattern for this check) is NOT cross-platform:
+// on Windows, process.argv[1] uses backslashes and no leading slash before
+// the drive letter, so it never matches import.meta.url's
+// forward-slash/triple-slash form -- this made main() silently never run
+// when this script was invoked directly on Windows (caught by actually
+// running it: exit code 0, zero output, nothing ingested, no error at
+// all). Comparing resolved filesystem paths instead is platform-safe.
+if (process.argv[1] && fileURLToPath(import.meta.url) === path.resolve(process.argv[1])) {
   main().catch((error) => {
     console.error(error);
     process.exitCode = 1;

@@ -146,8 +146,14 @@ instances) than the hand-curated demo:
 pnpm ingest:longmemeval   # extracts + ingests real transcripts via the LLM
 pnpm eval:longmemeval     # scores Lethe's supersession correctness, with N stated
 ```
-See `docs/LIMITATIONS.md` for exactly what this measures (and deliberately
-does not) and its live-verification status.
+Run for real against all 23 instances (Gemini, `gemini-3.1-flash-lite`):
+**N = 53 auto-extracted update pairs, zero extraction failures. Lethe:
+100% (53/53) correct once enough time has passed for an update to apply —
+the actual invariant. Naive baseline: 0% (0/53).** See `docs/LIMITATIONS.md`
+for exactly what this measures (and deliberately does not), plus a verified
+explanation for the one softer number (85% correct at the *earlier*
+timestamp — a same-session timestamp-tie artifact in the source data, not
+a Lethe bug).
 
 ## Docs
 
