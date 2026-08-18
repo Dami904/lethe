@@ -11,6 +11,7 @@
  *
  * Run with: pnpm ingest:longmemeval
  */
+import "../src/loadEnv.js";
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { extractFactsFromSession } from "../src/ingest/extractFacts.js";

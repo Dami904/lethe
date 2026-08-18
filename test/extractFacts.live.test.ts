@@ -1,3 +1,4 @@
+import "../src/loadEnv.js";
 import { describe, expect, it } from "vitest";
 import { extractFactsFromSession } from "../src/ingest/extractFacts.js";
 import { classifyRelation } from "../src/lib/conflictClassifier.js";

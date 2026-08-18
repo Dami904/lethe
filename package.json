@@ -23,6 +23,7 @@
     "eval:longmemeval": "tsx scripts/eval-longmemeval.ts"
   },
   "dependencies": {
+    "dotenv": "^17.4.2",
     "express": "^4.21.2",
     "zod": "^4.4.3"
   },
