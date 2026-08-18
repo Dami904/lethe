@@ -7,3 +7,4 @@ dist/
 coverage/
 lethe-claude-code-prompt.md
 .claude/scheduled_tasks.lock
+.cache/

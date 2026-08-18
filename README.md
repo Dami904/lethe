@@ -91,6 +91,12 @@ pnpm seed
 pnpm baseline:eval
 ```
 
+Optional: for semantic conflict detection and automated LongMemEval
+extraction (see "Optional: LLM-powered features" below), set exactly one of
+`ANTHROPIC_API_KEY`, `OPENAI_API_KEY`, or `GEMINI_API_KEY` in `.env`. With
+none set, everything above works identically — conflict detection falls
+back to exact-string matching automatically.
+
 On native Windows with Docker Desktop and no bash (no WSL, no Git Bash),
 replace step 1 with:
 ```powershell
@@ -116,8 +122,32 @@ a mock — the property it guards is a graph-shape property.
 [LongMemEval](https://github.com/xiaowu0162/LongMemEval) oracle dataset
 (3 `knowledge-update` cases + their paired abstention case). Facts are
 hand-extracted from the evidence turns into entity/attribute/content
-triples in `src/demoFacts.ts` — see `docs/LIMITATIONS.md` for why this is
-hand-extracted rather than automated.
+triples in `src/demoFacts.ts` — deliberate, so the frontend has clean,
+natural-language sentences to display.
+
+## Optional: LLM-powered features
+
+Both require one of `ANTHROPIC_API_KEY` / `OPENAI_API_KEY` /
+`GEMINI_API_KEY` (see `src/lib/llm/`); without one, both fall back
+automatically rather than failing.
+
+**Semantic conflict detection.** By default, a new fact supersedes a prior
+one about the same entity+attribute only if their content strings differ.
+That can't tell a paraphrase ("5 ounces" vs. "five ounces") from a genuine
+update — with a key set, `src/lib/conflictClassifier.ts` asks a small LLM
+to classify `same` / `contradicts` / `unrelated` instead, with the
+exact-string check as a mandatory fallback on any failure. See
+`docs/LIMITATIONS.md` for the honest reliability caveats.
+
+**Automated LongMemEval evaluation**, on a larger, real subset
+(`data/longmemeval/eval_subset.json`, 20 knowledge-update + 3 abstention
+instances) than the hand-curated demo:
+```bash
+pnpm ingest:longmemeval   # extracts + ingests real transcripts via the LLM
+pnpm eval:longmemeval     # scores Lethe's supersession correctness, with N stated
+```
+See `docs/LIMITATIONS.md` for exactly what this measures (and deliberately
+does not) and its live-verification status.
 
 ## Docs
 

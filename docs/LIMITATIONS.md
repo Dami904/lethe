@@ -92,26 +92,94 @@ network will surface as a 502 from the relevant Lethe endpoint, not a
 silent retry. Idempotency on `/facts` makes a *client-initiated* retry safe;
 there's no automatic retry built in yet.
 
-## Conflict detection is exact-content-mismatch, not semantic
+## Conflict detection is LLM-classified with a mandatory exact-string fallback
 
-A new fact about the same entity+attribute supersedes the prior one iff its
-`content` string differs (case/whitespace-insensitive) from the prior
-unsuperseded fact's content. There's no semantic equivalence check — "5
-ounces" and "five ounces" would be treated as a genuine update, not a
-restatement. Fine for the demo's hand-authored facts; would need real NLP
-for arbitrary agent-authored content.
+`src/lib/conflictClassifier.ts` asks a small LLM (Anthropic, OpenAI, or
+Gemini — whichever of `ANTHROPIC_API_KEY`/`OPENAI_API_KEY`/`GEMINI_API_KEY`
+is set, see `src/lib/llm/index.ts`) to classify whether a new fact is the
+`same` as, `contradicts`, or is `unrelated` to the prior unsuperseded fact
+for that entity+attribute. This exists because cosine similarity genuinely
+cannot do this job: "I live in London" and "I live in Tokyo" are *also*
+highly similar as embeddings (same sentence template), so no similarity
+threshold can distinguish a paraphrase from a contradiction — it's a
+natural-language-inference question, not a similarity question.
 
-## LongMemEval seed facts are hand-extracted, not auto-extracted
+**This is not 100% reliable**, and the design does not pretend otherwise:
+- If no provider is configured, the call fails, times out (8s), or returns
+  anything other than exactly one of the three expected words, the write
+  falls back to the previous exact-string-mismatch heuristic (case/whitespace-
+  insensitive) rather than blocking or guessing. A cloned repo with no LLM
+  key behaves exactly as before this feature existed.
+- An unparseable/ambiguous LLM response is treated as "unavailable," not as
+  "contradicts" — an incorrect supersession is worse than a missed one,
+  since it can make `/recall` return the wrong answer, which is the one
+  thing this project exists to prevent.
+- The classifier itself can misclassify. It has not been evaluated for
+  accuracy on adversarial or genuinely ambiguous inputs — only on the three
+  fixture cases in `test/conflictClassifier.test.ts` (paraphrase,
+  contradiction, unrelated) and, if a key was available, the live cases in
+  `test/extractFacts.live.test.ts`. Treat it as a real improvement over
+  string-matching, not a solved problem.
+- Results are cached by content-pair hash (`src/lib/classifierCache.ts`,
+  `.cache/classifier-cache.json`, gitignored) so repeated runs of the same
+  pair don't re-pay LLM latency/cost — this is a demo-scale convenience, not
+  built for concurrent-writer correctness.
 
-LongMemEval ships full multi-turn chat transcripts (`haystack_sessions`),
-not pre-extracted `entity/attribute/content` triples. Building a general
-transcript-to-fact-triple extraction pipeline was out of scope for the
-hackathon timeline. `scripts/seed.ts` / `src/demoFacts.ts` hand-extract three
-real knowledge-update cases and one abstention case from
-`data/longmemeval/subset.json` (a 4-instance real subset of the LongMemEval
-oracle dataset), with the source `question_id` cited for each. A production
-system would need an actual extraction step (an LLM call or a rules engine)
-between "raw conversation" and "fact triple."
+## Two separate LongMemEval datasets exist in this repo, for two separate purposes
+
+`data/longmemeval/subset.json` (4 instances) backs the **shipped demo**
+(`scripts/seed.ts` / `src/demoFacts.ts`) with three hand-extracted
+knowledge-update cases and one abstention case, source `question_id` cited
+for each. Hand-extraction here is deliberate, not a shortcut: the demo
+needs clean, natural-language sentences for the frontend, and hand-curation
+guarantees that.
+
+`data/longmemeval/eval_subset.json` (23 instances: 20 knowledge-update +
+3 paired abstention, oracle setting) backs the **automated pipeline**
+(`scripts/ingest-longmemeval.ts` + `scripts/eval-longmemeval.ts`):
+real multi-turn transcripts, processed in chronological session order,
+extracted into `(entity, attribute, content)` triples by an LLM
+(`src/ingest/extractFacts.ts`, schema-validated with zod before ever
+reaching `writeFact`), then ingested and scored automatically. This
+requires an LLM key (see the conflict-detection section above) — with none
+configured, `pnpm ingest:longmemeval` says so plainly and exits rather than
+silently doing nothing.
+
+**What `eval-longmemeval.ts` measures, and what it deliberately does not:**
+for every entity+attribute the extractor found a real update for (2+
+distinct facts within one instance), it checks whether `/recall` returns
+the earlier fact when queried before the update and the later fact after
+— the core invariant, now exercised on real extracted data instead of only
+the 4 hand-curated facts. It does **not** grade against LongMemEval's
+original free-text `answer` field, because doing that honestly would need
+a further LLM-judge call to compare a paraphrased answer against free
+text — itself an unverified error source that would muddy exactly what's
+being measured. Comparing against the extractor's own last-written content
+isolates "does the supersession mechanism work end-to-end on real data"
+(what Lethe claims) from "is extraction+answer-grading accurate" (a
+different, harder problem). The baseline is queried with a synthetic
+"What is the {attribute} for {entity}?" template, since there's no original
+question tied to these auto-extracted pairs.
+
+Entities are namespaced per instance (`${question_id}:${entity}`) in the
+ingestion script — LongMemEval's 500 instances each describe a different
+synthetic persona, but the extractor defaults to the generic entity name
+`"user"` for all of them; without the namespace, facts from unrelated
+instances would collide on entity+attribute and produce spurious
+cross-instance `SUPERSEDES` edges.
+
+**Extraction slug consistency is a real, imperfect mitigation, not a
+guarantee.** The extractor is given the attribute slugs already seen
+earlier in the same instance and told to reuse a matching one rather than
+minting a new slug for the same topic — without this, a session updating
+`home_city` could come back slugged `current_city` instead, silently
+breaking the supersession chain. This reduces but does not eliminate slug
+drift; it hasn't been measured at scale beyond the 23-instance subset.
+
+**Status at time of writing: built and unit/fixture-tested, live execution
+pending an LLM key being available in this environment** (see the
+"Verified live" section below for exactly what has and hasn't been run for
+real).
 
 ## No auth/multi-tenancy on the Lethe API itself
 
@@ -131,24 +199,31 @@ embedding model has here (no notion of recency/contradiction), just with a
 cruder similarity signal. A judge cloning the repo cold can run
 `pnpm baseline:eval` with zero setup.
 
-## `/connect` is implemented but not exercised by the demo data
+## Verified live, and what isn't yet
 
-The seed data (`src/demoFacts.ts`) only ever states facts about a single
-`user` entity, so there's no second named entity for `/connect` to trace a
-path to in the current demo. The endpoint itself is verified against a live
-node with synthetic multi-node data (see `docs/API_NOTES.md`'s native path
-procedure section), but the shipped demo doesn't showcase it. A judge
-wanting to see it would need to seed a fact naming a second entity (e.g. "X
-works with Y") first.
+Every query shape in `src/db/graph.ts`, the full test suite (`pnpm test`,
+30 passing + 4 intentionally-skipped live-LLM tests), `pnpm seed`, the
+baseline comparison (`pnpm baseline:eval` — Lethe 100% / naive baseline 0%
+on the four demo cases), and the `/connect` cross-entity scenario (now
+shipped in the demo itself — see `src/demoFacts.ts`'s `seed-session-connect`
+facts and `src/demoScenarios.ts`'s `connectScenario`, exercised end-to-end
+in `test/connect.route.test.ts`) have all been round-tripped against a real
+running HydraDB node in this environment. The mutation engine rejected
+nearly every write shape assumed from the README alone (see
+`docs/API_NOTES.md`); the whole data-access layer was rewritten around what
+actually works before any of this passed.
 
-## Verified live
-
-Every claim above and every query shape in `src/db/graph.ts` has been
-round-tripped against a real running HydraDB node (`scripts/hydradb-up.sh`)
-in this environment, including the full test suite (`pnpm test`, 12/12
-passing), the seed script (`pnpm seed`), and the baseline comparison
-(`pnpm baseline:eval`, which shows Lethe 100% / naive baseline 0% on the
-four demo cases). This was not a small effort: the mutation engine turned
-out to reject nearly every write shape assumed from the README alone (see
-`docs/API_NOTES.md`), and the whole data-access layer was rewritten around
-what actually works before any of this passed.
+**Not yet run live in this environment: the LLM-dependent paths** —
+`classifyRelation`'s real classification calls, `extractFactsFromSession`'s
+real extraction calls, and `scripts/ingest-longmemeval.ts` /
+`scripts/eval-longmemeval.ts` end-to-end. No Anthropic/OpenAI/Gemini key was
+available here. Everything LLM-dependent is fully covered by fixture-mocked
+tests (`test/conflictClassifier.test.ts`, `test/extractFacts.test.ts`) that
+never make a network call, plus an opt-in live suite
+(`test/extractFacts.live.test.ts`, gated behind `RUN_LIVE_LLM_TESTS=1`) that
+exercises the real request/response shape for whichever provider is
+configured. Set one of the three API key env vars and run
+`RUN_LIVE_LLM_TESTS=1 pnpm test`, then `pnpm ingest:longmemeval && pnpm
+eval:longmemeval`, to close this gap the same way the HydraDB gap was
+closed — by actually running it and fixing what breaks, not by assuming the
+code is correct because it typechecks.

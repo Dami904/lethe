@@ -70,3 +70,17 @@ export const abstentionScenario = {
     "How often does the user play table tennis with friends at the local park?",
   asOf: "2023-08-15T00:00:00.000Z",
 };
+
+/**
+ * The cross-entity connect scenario: exercises `GET /connect` (algo.SPpaths)
+ * through the shipped demo instead of only against synthetic data in tests.
+ * A vector-similarity baseline has no relationship-traversal concept at
+ * all -- there's no "recall query" to run against it for this, which is
+ * itself worth showing, not just an endpoint we skip comparing.
+ */
+export const connectScenario = {
+  id: "user_priya_connection",
+  from: "user",
+  to: "Priya",
+  naturalLanguageQuery: "How is the user connected to Priya?",
+};

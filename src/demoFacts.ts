@@ -81,6 +81,27 @@ export const seedFacts: SeedFact[] = [
   },
   // Deliberately NOT seeding table_tennis_frequency for any timestamp -- the
   // abstention scenario in src/demoScenarios.ts relies on it never existing.
+
+  // Cross-entity connect scenario: two facts stated in the SAME session, one
+  // about "user" and one about "Priya" -- this is what actually links the
+  // two Entity nodes in the graph. No new edge types needed: both Facts
+  // share a STATES edge from the same Session node, so
+  // Entity(user) <-ABOUT- Fact -STATES- Session -STATES-> Fact -ABOUT-> Entity(Priya)
+  // is a real, traceable path for GET /connect (algo.SPpaths) to find.
+  {
+    session_id: "seed-session-connect",
+    entity: "user",
+    attribute: "colleague",
+    content: "The user works closely with a colleague named Priya.",
+    timestamp: "2023-04-01T00:00:00.000Z",
+  },
+  {
+    session_id: "seed-session-connect",
+    entity: "Priya",
+    attribute: "team",
+    content: "Priya leads the platform team.",
+    timestamp: "2023-04-01T00:00:00.000Z",
+  },
 ];
 
 /** The currently-correct (most recent) content for each entity+attribute pair. */

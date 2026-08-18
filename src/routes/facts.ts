@@ -2,6 +2,7 @@ import { Router } from "express";
 import { writeFact, writeSupersedesEdge } from "../db/graph.js";
 import { idempotencyKeyFor } from "../lib/idempotency.js";
 import { respondToUpstreamFailure } from "../lib/httpErrors.js";
+import { classifyRelation } from "../lib/conflictClassifier.js";
 import type { IngestFactRequest, IngestFactResponse } from "../types.js";
 
 export const factsRouter = Router();
@@ -65,10 +66,24 @@ factsRouter.post("/facts", async (req, res) => {
 
     let supersededId: string | null = null;
     let supersededByFactId: string | null = null;
-    const contentDiffers =
-      priorUnsupersededFact &&
-      priorUnsupersededFact.content.trim().toLowerCase() !==
-        fact.content.trim().toLowerCase();
+    let contentDiffers = false;
+
+    if (priorUnsupersededFact) {
+      const relation = await classifyRelation(
+        priorUnsupersededFact.content,
+        fact.content,
+        body.attribute,
+      );
+      // relation === null means no LLM provider is configured, the call
+      // failed, timed out, or returned something unparseable -- fall back
+      // to the exact-string heuristic rather than blocking the write or
+      // guessing. See src/lib/conflictClassifier.ts.
+      contentDiffers =
+        relation === null
+          ? priorUnsupersededFact.content.trim().toLowerCase() !==
+            fact.content.trim().toLowerCase()
+          : relation === "contradicts";
+    }
 
     if (priorUnsupersededFact && contentDiffers) {
       if (fact.written_at >= priorUnsupersededFact.written_at) {

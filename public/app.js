@@ -7,12 +7,14 @@ const chainViz = document.getElementById("chainViz");
 
 let scenarios = [];
 let abstention = null;
+let connect = null;
 
 async function loadScenarios() {
   const res = await fetch("/demo/scenarios");
   const data = await res.json();
   scenarios = data.scenarios;
   abstention = data.abstention;
+  connect = data.connect;
 
   scenarioSelect.innerHTML = "";
   for (const s of scenarios) {
@@ -25,11 +27,17 @@ async function loadScenarios() {
   abstOpt.value = abstention.id;
   abstOpt.textContent = `${abstention.naturalLanguageQuery} (abstention case)`;
   scenarioSelect.appendChild(abstOpt);
+
+  const connectOpt = document.createElement("option");
+  connectOpt.value = connect.id;
+  connectOpt.textContent = `${connect.naturalLanguageQuery} (cross-entity connect)`;
+  scenarioSelect.appendChild(connectOpt);
 }
 
 function currentScenario() {
   const id = scenarioSelect.value;
   if (id === abstention.id) return { ...abstention, isAbstention: true };
+  if (id === connect.id) return { ...connect, isConnect: true };
   return scenarios.find((s) => s.id === id);
 }
 
@@ -51,11 +59,24 @@ function escapeHtml(str) {
 async function runQuery() {
   const scenario = currentScenario();
   if (!scenario) return;
-  const asOf = asOfTimestamp(scenario);
 
   baselineOutput.textContent = "Loading...";
   letheOutput.textContent = "Loading...";
   chainViz.innerHTML = "";
+
+  if (scenario.isConnect) {
+    asOfSelect.disabled = true;
+    renderConnectBaselineNote();
+    const connectRes = await fetch(
+      `/connect?from=${encodeURIComponent(scenario.from)}&to=${encodeURIComponent(scenario.to)}`,
+    ).then((r) => r.json());
+    renderConnectLethe(connectRes);
+    renderConnectPath(connectRes);
+    return;
+  }
+  asOfSelect.disabled = false;
+
+  const asOf = asOfTimestamp(scenario);
 
   const [baselineRes, letheRes] = await Promise.all([
     fetch(`/baseline/recall?query=${encodeURIComponent(scenario.naturalLanguageQuery)}`).then((r) => r.json()),
@@ -107,6 +128,42 @@ function renderLethe(result, asOf) {
     row.innerHTML = `<div>${escapeHtml(result.answer)}</div><div class="score">as of ${asOf} · fact ${escapeHtml(result.fact.id.slice(0, 8))}</div>`;
   }
   letheOutput.appendChild(row);
+}
+
+function renderConnectBaselineNote() {
+  baselineOutput.innerHTML = "";
+  const row = document.createElement("div");
+  row.className = "row wrong";
+  row.textContent =
+    "N/A -- vector similarity search has no relationship-traversal concept at all. There is no query to run here.";
+  baselineOutput.appendChild(row);
+}
+
+function renderConnectLethe(result) {
+  letheOutput.innerHTML = "";
+  const row = document.createElement("div");
+  row.className = `row ${result.found ? "correct" : "wrong"}`;
+  row.textContent = result.found
+    ? `Path found (${result.path.length} nodes) via algo.SPpaths.`
+    : "No path found.";
+  letheOutput.appendChild(row);
+}
+
+function renderConnectPath(result) {
+  chainViz.innerHTML = "<strong>Path:</strong>";
+  const path = result.path || [];
+  path.forEach((node, i) => {
+    const el = document.createElement("div");
+    el.className = "fact-node";
+    el.textContent = `[${node.label}] ${node.content ?? node.id}`;
+    chainViz.appendChild(el);
+    if (i < path.length - 1) {
+      const arrow = document.createElement("div");
+      arrow.className = "arrow";
+      arrow.textContent = "→";
+      chainViz.appendChild(arrow);
+    }
+  });
 }
 
 function renderChain(chainResult, validFactId) {

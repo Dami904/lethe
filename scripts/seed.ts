@@ -2,7 +2,7 @@
  * Seeds Lethe with the demo's contradiction facts.
  * Run with: pnpm seed  (requires the app server running on PORT, default 3000)
  */
-import { demoScenarios } from "../src/demoScenarios.js";
+import { connectScenario, demoScenarios } from "../src/demoScenarios.js";
 import { seedFacts } from "../src/demoFacts.js";
 
 const BASE_URL = process.env["LETHE_URL"] ?? "http://127.0.0.1:3000";
@@ -36,6 +36,7 @@ async function main(): Promise<void> {
   for (const scenario of demoScenarios) {
     console.log(`  - ${scenario.id} (source: LongMemEval ${scenario.sourceQuestionId})`);
   }
+  console.log(`  - ${connectScenario.id} (cross-entity /connect demo: ${connectScenario.from} -> ${connectScenario.to})`);
   console.log("\nDone.");
 }
 
