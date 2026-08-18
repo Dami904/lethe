@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lethe — temporal agent memory demo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Lethe</h1>
+    <p>Naive vector-memory similarity search vs. graph-based supersession tracking on HydraDB.</p>
+  </header>
+
+  <section class="controls">
+    <label for="scenario">Scenario</label>
+    <select id="scenario"></select>
+
+    <label for="asOf">As of</label>
+    <select id="asOf">
+      <option value="beforeEither">Before either fact was stated</option>
+      <option value="afterFirst">After the first fact, before the update</option>
+      <option value="afterSecond" selected>After the update</option>
+    </select>
+
+    <button id="run">Run query</button>
+  </section>
+
+  <main class="panels">
+    <section class="panel baseline">
+      <h2>Vector memory (naive baseline)</h2>
+      <p class="subtitle">Cosine similarity over raw fact strings. No time awareness, no contradiction handling.</p>
+      <div id="baselineOutput" class="output">Run a query to see results.</div>
+    </section>
+
+    <section class="panel lethe">
+      <h2>Lethe</h2>
+      <p class="subtitle">Point-in-time graph query: filters by <code>written_at</code>, walks <code>SUPERSEDES</code> edges.</p>
+      <div id="letheOutput" class="output">Run a query to see results.</div>
+      <div id="chainViz" class="chain"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

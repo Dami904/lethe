@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.hydradb-data/
+*.log
+.env
+.env.local
+coverage/
+lethe-claude-code-prompt.md
+.claude/scheduled_tasks.lock

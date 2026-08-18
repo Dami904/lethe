@@ -1,0 +1,78 @@
+# Runs lint, typecheck, build, and test as separate jobs so a failure in one
+# doesn't hide a failure in another. `test` additionally brings up a real
+# HydraDB via docker compose first -- the required correctness test
+# (test/recall.test.ts) talks to a live node, not a mock, because the
+# property it guards (supersession-walk correctness) is a graph-shape
+# property.
+
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+env:
+  NODE_VERSION: "20"
+
+jobs:
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: "pnpm"
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm lint
+
+  typecheck:
+    name: Typecheck
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: "pnpm"
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm typecheck
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: "pnpm"
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm build
+
+  test:
+    name: Test (against real HydraDB)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: "pnpm"
+      - run: pnpm install --frozen-lockfile
+      # No live API key or funded wallet needed -- HydraDB runs locally via
+      # docker compose with a fixed dev token, same as local development.
+      - run: bash scripts/hydradb-up.sh
+      - run: pnpm test
+        env:
+          HYDRADB_HTTP_URL: http://127.0.0.1:8443
+          HYDRADB_AUTH_TOKEN: local-development-token-32-bytes
+      - name: HydraDB logs (always, for debugging)
+        if: always()
+        run: docker compose logs hydradb
