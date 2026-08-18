@@ -9,6 +9,12 @@ if [ ! -f .hydradb-data/auth-token ]; then
   printf '%s\n' 'local-development-token-32-bytes' > .hydradb-data/auth-token
 fi
 
+# The container must run as the host user that owns .hydradb-data, or every
+# write query fails with a permission error the /readyz health check won't
+# catch (it only checks the listener, not that writes actually succeed).
+export DOCKER_UID="$(id -u)"
+export DOCKER_GID="$(id -g)"
+
 docker compose up -d hydradb
 
 echo "Waiting for HydraDB readiness on :9090/readyz ..."

@@ -1,0 +1,5 @@
+# Force LF regardless of the cloning machine's core.autocrlf setting.
+# scripts/hydradb-up.sh is a bash script; a CRLF checkout breaks it under
+# bash with a "bad interpreter" error on a Windows clone (this repo was
+# built on Windows+WSL, where that's a real, not hypothetical, gotcha).
+* text=auto eol=lf

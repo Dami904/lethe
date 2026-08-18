@@ -2,6 +2,13 @@ services:
   hydradb:
     image: ghcr.io/hydra-db/hydradb:latest
     container_name: lethe-hydradb
+    # The image runs as UID/GID 10001 by default, but the bind-mounted
+    # .hydradb-data below is owned by whichever host user created it. Without
+    # matching that here, the container can't write its store/cache and every
+    # write query fails with "Permission denied" -- this exactly matches the
+    # HydraDB README's own `docker run --user "$(id -u):$(id -g)"` recipe.
+    # DOCKER_UID/DOCKER_GID are exported by scripts/hydradb-up.sh.
+    user: "${DOCKER_UID:-1000}:${DOCKER_GID:-1000}"
     ports:
       - "7687:7687" # Bolt
       - "8443:8443" # HTTP query API (used by this app)
