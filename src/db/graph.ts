@@ -76,6 +76,15 @@ function pickCurrent<T extends { written_at: string; superseder_id: unknown }>(
  * requests compute the same deterministic Fact id and MERGE the same
  * values onto it, so there is never a duplicate node, regardless of what
  * this flag says. See docs/LIMITATIONS.md.
+ *
+ * The Fact node also carries `entity` as its own property (redundant with
+ * the ABOUT edge's target, immutable once written, same pattern as
+ * `attribute`). This exists purely so a full-graph scan can read entity
+ * name with a plain label scan instead of an edge traversal --
+ * `src/baseline/vectorMemory.ts`'s naive-baseline comparison needs exactly
+ * that, and the edge-traversal version (`MATCH (f:Fact)-[:ABOUT]->(e:Entity)
+ * RETURN ...`) was measured hitting HydraDB's own 30s query timeout
+ * (`query_out_neighbors_scan`) at real data volume. See docs/API_NOTES.md.
  */
 export async function writeFact(input: {
   session_id: string;
@@ -96,7 +105,7 @@ export async function writeFact(input: {
   const wasCreated = existing.rows.length === 0;
 
   await query(
-    `MERGE (f:Fact {id: $fact_id, content: $content, written_at: $timestamp, session_id: $session_id, attribute: $attribute})-[:ABOUT]->(e:Entity {id: $entity_id, name: $entity, kind: "unknown"})`,
+    `MERGE (f:Fact {id: $fact_id, content: $content, written_at: $timestamp, session_id: $session_id, attribute: $attribute, entity: $entity})-[:ABOUT]->(e:Entity {id: $entity_id, name: $entity, kind: "unknown"})`,
     {
       parameters: {
         fact_id: factId,

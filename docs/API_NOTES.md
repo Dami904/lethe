@@ -51,6 +51,76 @@ not attempt to use HydraDB's pinned-snapshot mechanism for point-in-time
 `/recall` correctness; see `docs/LIMITATIONS.md` for the full explanation.
 Our client (`src/db/hydraClient.ts`) never sends `read_epoch`.
 
+## Non-streaming query results are capped at 1024 rows, and cursor continuation is not implemented over HTTP
+
+Confirmed live, not inferred from the schema above. A result over 1024 rows
+comes back truncated to exactly 1024, with `next_cursor` set to a non-null
+integer — the schema promises pagination, and `query()` (`src/db/
+hydraClient.ts`) previously discarded `next_cursor` entirely, so any caller
+reading a result set over 1024 rows was **silently working with an arbitrary
+truncated subset**, not the full result, with no error to signal it.
+
+Attempting to actually continue via a fresh request with `cursor:
+<next_cursor>` fails outright:
+
+```json
+{"error":{"code":"invalid_request","message":"ClientProtocol query is not supported yet: result cursor is unknown or expired"}}
+```
+
+This is a confirmed **upstream gap**, not a client mistake:
+[hydra-db/hydradb#78](https://github.com/hydra-db/hydradb/issues/78) shows
+the server-side cursor-continuation machinery (`continue_server_cursor`,
+`start_server_cursor`) genuinely exists in the engine for other transports,
+but the HTTP `ClientProtocol` layer hasn't wired continuation up yet — hence
+"not supported *yet*."
+
+**The fix that actually works: NDJSON streaming has no such cap.** A single
+`Accept: application/x-ndjson` request streams the entire result over one
+connection with no follow-up request needed, so the 1024-row ceiling doesn't
+apply. Confirmed live: the same query that truncated to 1024 rows over the
+JSON transport returned all 7,283 rows via `queryNdjson` in ~5s.
+`src/baseline/vectorMemory.ts`'s full-graph scan (the only place in this
+repo that reads an unbounded-size result set — every other `query()` call
+here is scoped to a single entity+attribute or session and stays well under
+1024 rows) was switched from `query()` to `queryNdjson()` for exactly this
+reason. **Any future caller that reads an unscoped or large result set over
+the non-streaming transport should be treated as suspect** until verified
+against a result size over 1024 rows.
+
+## An unfiltered edge-traversal scan can hit HydraDB's own 30s query timeout
+
+Also confirmed live, also independent of the row-count cap above.
+`MATCH (f:Fact)-[:ABOUT]->(e:Entity) RETURN ...` — reading every Fact's
+entity name by traversing the `ABOUT` edge, with no scoping — reliably hit:
+
+```json
+{"error":{"code":"query_timeout","message":"query_out_neighbors_scan exceeded query timeout after 30000 ms; limit is 30000 ms"}}
+```
+
+once the graph passed roughly 7,000 facts, reproduced identically over both
+the streaming and non-streaming transports (so this is a query-execution
+cost, not a transport artifact — switching to NDJSON alone does not fix it).
+A **label-only** scan with no edge traversal (`MATCH (f:Fact) RETURN
+f.id, f.attribute`) against the same graph completed in under 5 seconds,
+isolating the edge traversal itself (`query_out_neighbors_scan`) as the
+expensive part, not the row count.
+
+**The fix**: `writeFact` (`src/db/graph.ts`) now also writes `entity` as a
+plain property directly on the `Fact` node — redundant with the `ABOUT`
+edge's target, but read without ever traversing it. `baselineRecall`'s scan
+reads `f.entity` directly instead of walking to `Entity.name`. This is safe
+to backfill onto already-existing Fact nodes because `MERGE` upserts by `id`
+and re-running the (already idempotent) ingest scripts re-`MERGE`s every
+existing node with the new property added.
+
+**Why this matters beyond just fixing a timeout**: this scan is exactly what
+`baselineRecall` (the naive vector-memory comparison baseline, not Lethe's
+own `/recall` path) uses to build its full candidate set on every query, and
+it is *unscoped by dataset* — see "One shared graph across all ingested
+datasets" in `docs/LIMITATIONS.md` for why that made the cost grow with
+every dataset ingested in the same session, not just the one being
+evaluated.
+
 ## NDJSON streaming
 
 Send `Accept: application/x-ndjson` on the same endpoint. The response is a
@@ -232,3 +302,72 @@ the version that satisfies the actual invariant ("`/recall` must never
 return a superseded fact") and matches the schema comment's stated edge
 direction. See `findValidFactAsOf` in `src/db/graph.ts` and
 `test/recall.test.ts`, all passing live against a real node.
+
+# API notes: Gemini (`generativelanguage.googleapis.com`)
+
+Measured live via `src/lib/llm/geminiProvider.ts` and
+`src/lib/llm/fetchWithTimeout.ts`, used for `extractFactsFromSession`
+(LongMemEval ingestion) and `classifyRelation` (conflict detection on every
+write where a prior fact exists and `skip_classifier` isn't set).
+
+## Free-tier quota is 15 requests/minute, and it fails hard, not soft
+
+Confirmed live, both from a 429 response body and from watching it happen:
+firing extraction calls back-to-back for a batch ingest (no pacing) burned
+through the quota in well under a minute, and every call after that failed
+until the window rolled over — 262 total 429s across one ~150-call ingest
+run, 134 of ~150 sessions failing extraction entirely. The 429 body is
+specific and actionable, not a bare status code:
+
+```json
+{
+  "error": {
+    "code": 429,
+    "status": "RESOURCE_EXHAUSTED",
+    "message": "...Please retry in 12.242531463s.",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [{"quotaMetric": "...generate_content_free_tier_requests", "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier", "quotaValue": "15"}]
+      },
+      {"@type": "type.googleapis.com/google.rpc.RetryInfo", "retryDelay": "12s"}
+    ]
+  }
+}
+```
+
+`fetchJsonOrNull` did not originally read any of this — it gave up on the
+first 429. **Fix**: it now retries up to `maxRetries` (default 2), honoring
+whichever of these it finds first: the standard `Retry-After` response
+header, then this JSON body's `error.details[].retryDelay` (`"12s"`-style,
+parsed by `parseGeminiRetryDelaySeconds`), then a 5s fallback if neither is
+present — capped at 20s either way. Re-verified live: re-running the exact
+same LongMemEval ingest that produced 134 failed sessions produced 1 failed
+session with the fix in place.
+
+## A transient network failure is a completely separate failure mode from a 429
+
+Immediately after the 429 fix above, the very next live ingest run hit 256
+`TypeError: fetch failed` / `getaddrinfo ENOTFOUND
+generativelanguage.googleapis.com` errors — zero 429s that run. This
+reproduced consistently across several calls in a short window, then
+resolved on its own (`getent hosts` and a direct `curl` to the API host both
+worked normally minutes later) — consistent with a transient WSL2 DNS
+resolver blip, not a persistent problem with the host or the key. `fetch()`
+*rejecting* rather than resolving with a non-ok response is a different code
+path than the 429 case (caught in `fetchJsonOrNull`'s `catch` block, not the
+`!response.ok` branch), and needed its own retry: a fixed 2s backoff (no
+server-provided hint exists for a DNS failure), same `maxRetries` budget.
+Not currently distinguished from other thrown errors (e.g. `ECONNRESET`,
+`ECONNREFUSED`) — all thrown errors share this retry path, since a bounded
+retry is harmless for a side-effect-free completion call regardless of the
+specific cause.
+
+## Model selection
+
+`gemini-3.7-flash` (the newest listed model when this was first checked)
+returned persistent 503 "high demand" errors that didn't clear on retry;
+`gemini-2.5-flash` returned 404 ("no longer available to new users").
+`gemini-3.1-flash-lite` responds cleanly and is the default
+(`GEMINI_MODEL` env var overrides it). Confirmed against a real key's
+`/v1beta/models` list and real `generateContent` calls, not guessed.

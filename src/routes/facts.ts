@@ -3,6 +3,7 @@ import { writeFact, writeSupersedesEdge } from "../db/graph.js";
 import { idempotencyKeyFor } from "../lib/idempotency.js";
 import { respondToUpstreamFailure } from "../lib/httpErrors.js";
 import { classifyRelation } from "../lib/conflictClassifier.js";
+import { invalidateBaselineCache } from "../baseline/vectorMemory.js";
 import type { IngestFactRequest, IngestFactResponse } from "../types.js";
 
 export const factsRouter = Router();
@@ -63,6 +64,12 @@ factsRouter.post("/facts", async (req, res) => {
       res.status(200).json(response);
       return;
     }
+
+    // A genuinely new Fact node now exists -- the baseline's cached full-graph
+    // scan no longer reflects reality, so it must be busted here, not just on
+    // the eventual SUPERSEDES write below (that write may not happen at all,
+    // e.g. the entity's first-ever fact).
+    invalidateBaselineCache();
 
     let supersededId: string | null = null;
     let supersededByFactId: string | null = null;
