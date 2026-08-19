@@ -139,21 +139,28 @@ to classify `same` / `contradicts` / `unrelated` instead, with the
 exact-string check as a mandatory fallback on any failure. See
 `docs/LIMITATIONS.md` for the honest reliability caveats.
 
-**Automated LongMemEval evaluation**, on a larger, real subset
-(`data/longmemeval/eval_subset.json`, 20 knowledge-update + 3 abstention
-instances) than the hand-curated demo:
+**Automated LongMemEval evaluation**, on real subsets larger than the
+hand-curated demo — a 23-instance starter set
+(`data/longmemeval/eval_subset.json`) and the full 78-instance set
+(`data/longmemeval/eval_subset_full.json`: ALL 72 knowledge-update
+instances in the oracle dataset + all 6 paired abstention instances, not a
+sample):
 ```bash
 pnpm ingest:longmemeval   # extracts + ingests real transcripts via the LLM
 pnpm eval:longmemeval     # scores Lethe's supersession correctness, with N stated
+# Or, against the full 78-instance set:
+LONGMEMEVAL_DATA_PATH=data/longmemeval/eval_subset_full.json pnpm ingest:longmemeval
 ```
-Run for real against all 23 instances (Gemini, `gemini-3.1-flash-lite`):
-**N = 53 auto-extracted update pairs, zero extraction failures. Lethe:
-100% (53/53) correct once enough time has passed for an update to apply —
-the actual invariant. Naive baseline: 0% (0/53).** See `docs/LIMITATIONS.md`
-for exactly what this measures (and deliberately does not), plus a verified
-explanation for the one softer number (85% correct at the *earlier*
-timestamp — a same-session timestamp-tie artifact in the source data, not
-a Lethe bug).
+Run for real against the full 78 instances (Gemini, `gemini-3.1-flash-lite`):
+**N = 183 auto-extracted update pairs (595 facts), zero extraction failures
+across all 78 instances. Lethe: 100% (183/183) correct once enough time has
+passed for an update to apply — the actual invariant. Naive baseline: 2%
+(4/183).** See `docs/LIMITATIONS.md` for exactly what this measures (and
+deliberately does not), plus a verified explanation for the one softer
+number (87% correct at the *earlier* timestamp — a same-session
+timestamp-tie artifact in the source data, not a Lethe bug: confirmed all
+24 misses share that exact characteristic, an exact match, not a
+correlation).
 
 ## Docs
 

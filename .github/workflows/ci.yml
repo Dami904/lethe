@@ -75,4 +75,4 @@ jobs:
           HYDRADB_AUTH_TOKEN: local-development-token-32-bytes
       - name: HydraDB logs (always, for debugging)
         if: always()
-        run: docker compose logs hydradb
+        run: docker compose logs hydradb minio minio-init

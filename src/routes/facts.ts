@@ -69,10 +69,13 @@ factsRouter.post("/facts", async (req, res) => {
     let contentDiffers = false;
 
     if (priorUnsupersededFact) {
+      const skipClassifier = body.skip_classifier === true;
       const relation = await classifyRelation(
         priorUnsupersededFact.content,
         fact.content,
         body.attribute,
+        undefined,
+        skipClassifier,
       );
       // relation === null means no LLM provider is configured, the call
       // failed, timed out, or returned something unparseable -- fall back

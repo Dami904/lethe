@@ -1,7 +1,53 @@
 services:
+  # HydraDB's CLOUD_PROVIDER=local backend (LocalFileSystem) cannot sustain
+  # writes: its manifest update path needs a conditional put
+  # (`put_opts` with `PutMode::Update`), which LocalFileSystem does not
+  # implement -- confirmed live in this project (every write started failing
+  # with "object store error ... NotImplemented", and a container restart
+  # did not recover it) and independently a filed upstream bug,
+  # https://github.com/hydra-db/hydradb/issues/81, whose own suggested fix is
+  # to point CLOUD_PROVIDER at an S3-compatible backend instead. MinIO here
+  # plays that role for local/CI use -- it supports conditional puts, so the
+  # manifest path actually works. See docs/LIMITATIONS.md.
+  minio:
+    image: minio/minio:latest
+    container_name: lethe-minio
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: lethe-minio-admin
+      MINIO_ROOT_PASSWORD: lethe-minio-secret
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    volumes:
+      - ./.minio-data:/data
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://127.0.0.1:9000/minio/health/live"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+      start_period: 5s
+
+  minio-init:
+    image: minio/mc:latest
+    container_name: lethe-minio-init
+    depends_on:
+      minio:
+        condition: service_healthy
+    entrypoint: >
+      /bin/sh -c "
+      mc alias set local http://minio:9000 lethe-minio-admin lethe-minio-secret &&
+      mc mb -p local/lethe-hydradb &&
+      echo bucket-ready
+      "
+    restart: "no"
+
   hydradb:
     image: ghcr.io/hydra-db/hydradb:latest
     container_name: lethe-hydradb
+    depends_on:
+      minio-init:
+        condition: service_completed_successfully
     # The image runs as UID/GID 10001 by default, but the bind-mounted
     # .hydradb-data below is owned by whichever host user created it. Without
     # matching that here, the container can't write its store/cache and every
@@ -16,8 +62,13 @@ services:
     volumes:
       - ./.hydradb-data:/data
     environment:
-      CLOUD_PROVIDER: local
-      LOCAL_PATH: /data/store
+      CLOUD_PROVIDER: aws
+      AWS_BUCKET_NAME: lethe-hydradb
+      AWS_DEFAULT_REGION: us-east-1
+      AWS_ENDPOINT: http://minio:9000
+      AWS_ALLOW_HTTP: "true"
+      AWS_ACCESS_KEY_ID: lethe-minio-admin
+      AWS_SECRET_ACCESS_KEY: lethe-minio-secret
       GRAPH_NAMESPACE: default
       GRAPH_ID: default
       GRAPH_CELL_ID: cell-0

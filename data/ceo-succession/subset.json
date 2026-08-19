@@ -1,0 +1,7682 @@
+[
+  {
+    "subjectId": "Q100869853",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Österreichische Georg Schicht AG is _X_.",
+    "spans": [
+      {
+        "value": "Richard Schicht",
+        "startYear": "1919-01-01"
+      },
+      {
+        "value": "Georg Schicht",
+        "startYear": "1919-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1017062",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Burson is _X_.",
+    "spans": [
+      {
+        "value": "Mark Penn",
+        "startYear": "2006-01-01"
+      },
+      {
+        "value": "Donald A. Baer",
+        "startYear": "2012-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q102673",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Gazprom is _X_.",
+    "spans": [
+      {
+        "value": "Rem Viakhirev",
+        "startYear": "1992-01-01"
+      },
+      {
+        "value": "Alexey Miller",
+        "startYear": "2001-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q102709276",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Cable & Wireless (Holding), Ltd. is _X_.",
+    "spans": [
+      {
+        "value": "Andrew Weir, 1st Baron Inverforth",
+        "startYear": "1929-01-01"
+      },
+      {
+        "value": "John Denison-Pender, 1st Baron Pender",
+        "startYear": "1929-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1041228",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Carl Zeiss Microscopy is _X_.",
+    "spans": [
+      {
+        "value": "Frank Stietz",
+        "startYear": "2012-05-02"
+      },
+      {
+        "value": "Markus Weber",
+        "startYear": "2015-03-27"
+      },
+      {
+        "value": "Justus Felix Wehmer",
+        "startYear": "2015-03-27"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q104426506",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of IDT Media is _X_.",
+    "spans": [
+      {
+        "value": "Arturs Kruze",
+        "startYear": "2013-05-15"
+      },
+      {
+        "value": "Kristaps Rjabovs",
+        "startYear": "2016-02-19"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1046951",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Target Corporation is _X_.",
+    "spans": [
+      {
+        "value": "Bob Ulrich",
+        "startYear": "1994-01-01"
+      },
+      {
+        "value": "Gregg Steinhafel",
+        "startYear": "2008-05-01"
+      },
+      {
+        "value": "Brian Cornell",
+        "startYear": "2014-08-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1048204",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Cassa Depositi e Prestiti is _X_.",
+    "spans": [
+      {
+        "value": "Fabrizio Palermo",
+        "startYear": "2018-07-27"
+      },
+      {
+        "value": "Dario Scannapieco",
+        "startYear": "2021-06-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q104842926",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Ganni is _X_.",
+    "spans": [
+      {
+        "value": "Laura du Rusquec",
+        "startYear": "2024-01-01"
+      },
+      {
+        "value": "Hans Hoegstedt",
+        "startYear": "2026-04-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q104901479",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Madison Square Garden Entertainment is _X_.",
+    "spans": [
+      {
+        "value": "Richard Constable",
+        "startYear": "2018-08-28"
+      },
+      {
+        "value": "James L. Dolan",
+        "startYear": "2022-12-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1050159",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Central Nippon Expressway Company is _X_.",
+    "spans": [
+      {
+        "value": "Takeshi Kondō",
+        "startYear": "2005-01-01"
+      },
+      {
+        "value": "Takekazu Kaneko",
+        "startYear": "2010-01-01"
+      },
+      {
+        "value": "Yoshihito Miyaike",
+        "startYear": "2014-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q105810218",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Saleza is _X_.",
+    "spans": [
+      {
+        "value": "Aleš Hušák",
+        "startYear": "1995-01-01"
+      },
+      {
+        "value": "Zdeněk Ertl",
+        "startYear": "2012-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q106303371",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of KALUZA + SCHMID is _X_.",
+    "spans": [
+      {
+        "value": "Steffen Kaluza",
+        "startYear": "2007-06-04"
+      },
+      {
+        "value": "Martin Schmid",
+        "startYear": "2007-06-04"
+      },
+      {
+        "value": "Rüdiger Koch",
+        "startYear": "2008-12-11"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q106390371",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of The Cameroon Press and Publishing Company is _X_.",
+    "spans": [
+      {
+        "value": "Joseph Charles Doumba",
+        "startYear": "1988-01-01"
+      },
+      {
+        "value": "Marie-Claire Nnana",
+        "startYear": "2002-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q10680526",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Stockholm Independent Bank is _X_.",
+    "spans": [
+      {
+        "value": "André Oscar Wallenberg",
+        "startYear": "1856-01-01"
+      },
+      {
+        "value": "Knut Agathon Wallenberg",
+        "startYear": "1886-01-01"
+      },
+      {
+        "value": "Marcus Wallenberg",
+        "startYear": "1911-01-01"
+      },
+      {
+        "value": "Joseph Nachmanson",
+        "startYear": "1920-01-01"
+      },
+      {
+        "value": "Jacob Wallenberg",
+        "startYear": "1927-01-01"
+      },
+      {
+        "value": "Marcus Wallenberg",
+        "startYear": "1946-01-01"
+      },
+      {
+        "value": "Marc Wallenberg",
+        "startYear": "1958-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q108611430",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Orsero is _X_.",
+    "spans": [
+      {
+        "value": "Matteo Colombini",
+        "startYear": "2017-01-01"
+      },
+      {
+        "value": "Raffaella Orsero",
+        "startYear": "2017-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q108693013",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of MCA atelier is _X_.",
+    "spans": [
+      {
+        "value": "Miroslav Cikán",
+        "startYear": "1996-01-01"
+      },
+      {
+        "value": "Pavla Melková",
+        "startYear": "1996-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1095857",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of C. & J. Clark International Ltd is _X_.",
+    "spans": [
+      {
+        "value": "William Clark",
+        "startYear": "1863-01-01"
+      },
+      {
+        "value": "Francis Clark",
+        "startYear": "1889-01-01"
+      },
+      {
+        "value": "Bancroft Clark",
+        "startYear": "1942-01-01"
+      },
+      {
+        "value": "Peter Clothier",
+        "startYear": "1967-01-01"
+      },
+      {
+        "value": "Daniel Clark",
+        "startYear": "1973-01-01"
+      },
+      {
+        "value": "John Clothier",
+        "startYear": "1986-01-01"
+      },
+      {
+        "value": "Tim Parker",
+        "startYear": "1996-01-01"
+      },
+      {
+        "value": "Peter Bolliger",
+        "startYear": "2002-01-01"
+      },
+      {
+        "value": "Melissa Potter",
+        "startYear": "2010-01-01"
+      },
+      {
+        "value": "Mike Shearwood",
+        "startYear": "2017-01-01"
+      },
+      {
+        "value": "Stella David",
+        "startYear": "2018-06-01"
+      },
+      {
+        "value": "Giorgio Presca",
+        "startYear": "2019-03-11"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q111318110",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Morrow Batteries is _X_.",
+    "spans": [
+      {
+        "value": "Lars Christian Bacher",
+        "startYear": "2022-12-01"
+      },
+      {
+        "value": "Jon Fold von Bülow",
+        "startYear": "2026-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q111387693",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Cerence Inc. is _X_.",
+    "spans": [
+      {
+        "value": "Stefan Ortmanns",
+        "startYear": "2021-12-25"
+      },
+      {
+        "value": "Brian Krzanich",
+        "startYear": "2024-10-07"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q11228089",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Bontonfilm is _X_.",
+    "spans": [
+      {
+        "value": "Martin Kratochvíl",
+        "startYear": "2003-01-01"
+      },
+      {
+        "value": "Zdeněk Kozák",
+        "startYear": "2009-01-01"
+      },
+      {
+        "value": "Martin Palán",
+        "startYear": "2013-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q11251919",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of UK Financial Investments is _X_.",
+    "spans": [
+      {
+        "value": "James Leigh-Pemberton",
+        "startYear": "2013-10-01"
+      },
+      {
+        "value": "Oliver Holbourn",
+        "startYear": "2016-04-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q112776244",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of elimobile is _X_.",
+    "spans": [
+      {
+        "value": "Gianluca Vacchi",
+        "startYear": "2022-01-01"
+      },
+      {
+        "value": "Mario Colabufo",
+        "startYear": "2022-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q11283119",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Generali Česká pojišťovna is _X_.",
+    "spans": [
+      {
+        "value": "Ladislav Bartoníček",
+        "startYear": "1996-01-01"
+      },
+      {
+        "value": "Ivan Kočárník",
+        "startYear": "1997-01-01"
+      },
+      {
+        "value": "Ladislav Bartoníček",
+        "startYear": "2000-01-01"
+      },
+      {
+        "value": "Marek Jankovič",
+        "startYear": "2015-01-01"
+      },
+      {
+        "value": "Roman Juráš",
+        "startYear": "2019-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q11320256",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of DeNA is _X_.",
+    "spans": [
+      {
+        "value": "Tomoko Namba",
+        "startYear": "1999-01-01"
+      },
+      {
+        "value": "Isao Moriyasu",
+        "startYear": "2011-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q113525711",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Batz Group is _X_.",
+    "spans": [
+      {
+        "value": "Ana Camacho",
+        "startYear": "2016-01-01"
+      },
+      {
+        "value": "Carlos Orueta",
+        "startYear": "2021-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1136885",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Sanrio is _X_.",
+    "spans": [
+      {
+        "value": "Shintaro Tsuji",
+        "startYear": "1960-01-01"
+      },
+      {
+        "value": "Tomokuni Tsuji",
+        "startYear": "2020-07-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1140680",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Flex Ltd. is _X_.",
+    "spans": [
+      {
+        "value": "Michael McNamara",
+        "startYear": "2006-01-01"
+      },
+      {
+        "value": "Revathi Advaithi",
+        "startYear": "2019-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1142797",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Schroders is _X_.",
+    "spans": [
+      {
+        "value": "Michael Dobson",
+        "startYear": "2001-11-01"
+      },
+      {
+        "value": "Peter Harrison",
+        "startYear": "2016-04-01"
+      },
+      {
+        "value": "Richard Oldfield",
+        "startYear": "2024-11-08"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q114437297",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Unimer Group is _X_.",
+    "spans": [
+      {
+        "value": "Saïd Alj",
+        "startYear": "1986-09-01"
+      },
+      {
+        "value": "Mehdi Alj",
+        "startYear": "2021-09-23"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q11463",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Adobe is _X_.",
+    "spans": [
+      {
+        "value": "John Warnock",
+        "startYear": "1984-01-01"
+      },
+      {
+        "value": "Bruce Chizen",
+        "startYear": "2000-01-01"
+      },
+      {
+        "value": "Shantanu Narayen",
+        "startYear": "2007-12-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q11506946",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of McDonald's Japan is _X_.",
+    "spans": [
+      {
+        "value": "Sarah L. Casanova",
+        "startYear": "2021-03-26"
+      },
+      {
+        "value": "Tamotsu Hiiro",
+        "startYear": "2021-03-26"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q115256652",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Donnerwetter.de GmbH is _X_.",
+    "spans": [
+      {
+        "value": "Karsten Brandt",
+        "startYear": "2001-01-01"
+      },
+      {
+        "value": "Michael Hoffmüller-Klein",
+        "startYear": "2001-01-01"
+      },
+      {
+        "value": "Karsten Brandt",
+        "startYear": "2001-01-01"
+      },
+      {
+        "value": "Michael Hoffmüller-Klein",
+        "startYear": "2001-01-01"
+      },
+      {
+        "value": "Karsten Brandt",
+        "startYear": "2001-01-01"
+      },
+      {
+        "value": "Michael Hoffmüller-Klein",
+        "startYear": "2001-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1152764",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Lloyds Banking Group is _X_.",
+    "spans": [
+      {
+        "value": "Eric Daniels",
+        "startYear": "2003-06-01"
+      },
+      {
+        "value": "Charlie Nunn",
+        "startYear": "2021-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q11541601",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Rakuten Bank is _X_.",
+    "spans": [
+      {
+        "value": "Atsushi Kunishige",
+        "startYear": "2009-09-29"
+      },
+      {
+        "value": "Hiroyuki Nagai",
+        "startYear": "2014-06-04"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q116452644",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Netflix, Inc. is _X_.",
+    "spans": [
+      {
+        "value": "Reed Hastings",
+        "startYear": "1998-09-01"
+      },
+      {
+        "value": "Ted Sarandos",
+        "startYear": "2020-07-14"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q11686899",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of AtB is _X_.",
+    "spans": [
+      {
+        "value": "Janne Sollie",
+        "startYear": "2013-01-01"
+      },
+      {
+        "value": "Grete Fuglem Tennås",
+        "startYear": "2022-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q11707119",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of TV Nova is _X_.",
+    "spans": [
+      {
+        "value": "Vladimír Železný",
+        "startYear": "1994-01-01"
+      },
+      {
+        "value": "Petr Dvořák",
+        "startYear": "2003-01-01"
+      },
+      {
+        "value": "Jan Andruško",
+        "startYear": "2011-01-01"
+      },
+      {
+        "value": "Christoph Mainusch",
+        "startYear": "2013-01-01"
+      },
+      {
+        "value": "Klára Brachtlová",
+        "startYear": "2019-01-01"
+      },
+      {
+        "value": "Jan Vlček",
+        "startYear": "2019-01-01"
+      },
+      {
+        "value": "Daniel Grunt",
+        "startYear": "2023-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q118725712",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Budapest Water Works is _X_.",
+    "spans": [
+      {
+        "value": "János Wein",
+        "startYear": "1873-01-01"
+      },
+      {
+        "value": "Mihály Kajlinger",
+        "startYear": "1896-01-01"
+      },
+      {
+        "value": "György Hajdu",
+        "startYear": "1962-07-15"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q118728051",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Grimm GmbH is _X_.",
+    "spans": [
+      {
+        "value": "Richard Grimm",
+        "startYear": "2001-11-15"
+      },
+      {
+        "value": "Brigitte Grimm",
+        "startYear": "2001-11-15"
+      },
+      {
+        "value": "Susanne Grimm",
+        "startYear": "2023-04-01"
+      },
+      {
+        "value": "Johannes Grimm",
+        "startYear": "2023-04-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q118728206",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of HOME COMPANY Holding, Handelsagentur & Großhandelsgesellschaft mbH is _X_.",
+    "spans": [
+      {
+        "value": "Johannes Grimm",
+        "startYear": "2006-04-06"
+      },
+      {
+        "value": "Christoph Johannes Engelhardt",
+        "startYear": "2013-02-28"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q11878398",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of UniCredit Bank Czech Republic and Slovakia is _X_.",
+    "spans": [
+      {
+        "value": "Jiří Kunert",
+        "startYear": "1988-01-01"
+      },
+      {
+        "value": "Jakub Dusílek",
+        "startYear": "2019-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q11888546",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Polar is _X_.",
+    "spans": [
+      {
+        "value": "Kauko Rastas",
+        "startYear": "1964-01-01"
+      },
+      {
+        "value": "Harri Hintikka",
+        "startYear": "1983-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q11897629",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Oy Tillander Ab is _X_.",
+    "spans": [
+      {
+        "value": "Herbert Tillander",
+        "startYear": "1943-01-01"
+      },
+      {
+        "value": "Armas Puolimatka",
+        "startYear": "1984-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1190669",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Japan Freight Railway Company is _X_.",
+    "spans": [
+      {
+        "value": "Masashi Hashimoto",
+        "startYear": "1987-01-01"
+      },
+      {
+        "value": "Yasushi Tanahashi",
+        "startYear": "1993-01-01"
+      },
+      {
+        "value": "Yoshio Kaneda",
+        "startYear": "1997-01-01"
+      },
+      {
+        "value": "Naohiko Ito",
+        "startYear": "1999-01-01"
+      },
+      {
+        "value": "Masaaki Kobayashi",
+        "startYear": "2007-01-01"
+      },
+      {
+        "value": "Shuji Tamura",
+        "startYear": "2012-01-01"
+      },
+      {
+        "value": "Koichi Shingai",
+        "startYear": "2018-01-01"
+      },
+      {
+        "value": "Shin Inukai",
+        "startYear": "2022-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1190881",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Reckitt is _X_.",
+    "spans": [
+      {
+        "value": "Laxman Narasimhan",
+        "startYear": "2019-09-01"
+      },
+      {
+        "value": "Nicandro Durante",
+        "startYear": "2022-10-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q119840385",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of BDT & MSD Partners is _X_.",
+    "spans": [
+      {
+        "value": "Byron Trott",
+        "startYear": "2023-01-01"
+      },
+      {
+        "value": "Gregg Lemkau",
+        "startYear": "2023-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1202053",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Vonovia is _X_.",
+    "spans": [
+      {
+        "value": "Rolf Buch",
+        "startYear": "2013-01-01"
+      },
+      {
+        "value": "Luka Mucic",
+        "startYear": "2026-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q12041098",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Chamber of Public Notaries of the Czech Republic is _X_.",
+    "spans": [
+      {
+        "value": "Martin Foukal",
+        "startYear": "1993-01-01"
+      },
+      {
+        "value": "Radim Neubauer",
+        "startYear": "2015-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q120435068",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of TKO Group Holdings is _X_.",
+    "spans": [
+      {
+        "value": "Vince McMahon",
+        "startYear": "2023-01-01"
+      },
+      {
+        "value": "Ari Emanuel",
+        "startYear": "2023-01-01"
+      },
+      {
+        "value": "Vince McMahon",
+        "startYear": "2023-01-01"
+      },
+      {
+        "value": "Ari Emanuel",
+        "startYear": "2023-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q12055715",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Správa letiště Praha is _X_.",
+    "spans": [
+      {
+        "value": "Miroslav Dvořák",
+        "startYear": "2007-01-01"
+      },
+      {
+        "value": "Marcela Hrdá",
+        "startYear": "2009-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q12058450",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Technická správa komunikací hl. m. Prahy is _X_.",
+    "spans": [
+      {
+        "value": "Miroslav Svoboda",
+        "startYear": "2014-01-01"
+      },
+      {
+        "value": "Jozef Sinčák",
+        "startYear": "2019-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q122141",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Vodafone is _X_.",
+    "spans": [
+      {
+        "value": "Arun Sarin",
+        "startYear": "2003-01-01"
+      },
+      {
+        "value": "Nick Read",
+        "startYear": "2018-10-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q123752186",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of SYENSQO is _X_.",
+    "spans": [
+      {
+        "value": "Ilham Kadri",
+        "startYear": "2023-12-01"
+      },
+      {
+        "value": "Mike Radossich",
+        "startYear": "2026-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q124021618",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Parler LLC is _X_.",
+    "spans": [
+      {
+        "value": "John Matze",
+        "startYear": "2018-08-01"
+      },
+      {
+        "value": "Mark Meckler",
+        "startYear": "2021-01-30"
+      },
+      {
+        "value": "George Thomas Stahel Farmer",
+        "startYear": "2021-05-17"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q124457779",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Electric Coin Company is _X_.",
+    "spans": [
+      {
+        "value": "Zooko Wilcox-O'Hearn",
+        "startYear": "2016-01-01"
+      },
+      {
+        "value": "Josh Swihart",
+        "startYear": "2023-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q125081448",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of TEFAL (company) is _X_.",
+    "spans": [
+      {
+        "value": "Patrick Llobrégat",
+        "startYear": "2012-01-01"
+      },
+      {
+        "value": "Pierre-Armand Lemoine",
+        "startYear": "2021-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q125523927",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Audisto is _X_.",
+    "spans": [
+      {
+        "value": "Tobias Schwarz",
+        "startYear": "2013-01-01"
+      },
+      {
+        "value": "Sören Bendig",
+        "startYear": "2018-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q127278673",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of LinkedIn Corporation is _X_.",
+    "spans": [
+      {
+        "value": "Ryan Roslansky",
+        "startYear": "2020-06-01"
+      },
+      {
+        "value": "Jeff Weiner",
+        "startYear": "http://www"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q128738",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Anheuser-Busch InBev is _X_.",
+    "spans": [
+      {
+        "value": "Carlos Brito",
+        "startYear": "2005-01-01"
+      },
+      {
+        "value": "Michel Doukeris",
+        "startYear": "2021-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q13014244",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of GMM Media is _X_.",
+    "spans": [
+      {
+        "value": "Saithip Montrikul na Ayudhaya",
+        "startYear": "2009-02-01"
+      },
+      {
+        "value": "Boosaba Daorueng",
+        "startYear": "2018-04-04"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q130367555",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Ashdod Development Company is _X_.",
+    "spans": [
+      {
+        "value": "Gilad Trodler",
+        "startYear": "1995-01-01"
+      },
+      {
+        "value": "Yehuda Avidan",
+        "startYear": "2010-01-01"
+      },
+      {
+        "value": "Avi Azar",
+        "startYear": "2019-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q13054189",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Ucom is _X_.",
+    "spans": [
+      {
+        "value": "Hayk Yesayan",
+        "startYear": "2009-01-01"
+      },
+      {
+        "value": "Ralph Yirikian",
+        "startYear": "2023-03-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1309851",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Vend Marketplaces is _X_.",
+    "spans": [
+      {
+        "value": "Kristin Skogen Lund",
+        "startYear": "2018-12-01"
+      },
+      {
+        "value": "Christian Printzell Halvorsen",
+        "startYear": "2024-06-07"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1310001",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Erste Group is _X_.",
+    "spans": [
+      {
+        "value": "Andreas Treichl",
+        "startYear": "1997-07-01"
+      },
+      {
+        "value": "Bernhard Spalt",
+        "startYear": "2020-01-01"
+      },
+      {
+        "value": "Willibald Cernko",
+        "startYear": "2022-07-01"
+      },
+      {
+        "value": "Peter Bosek",
+        "startYear": "2024-07-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1318049",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of WPP plc is _X_.",
+    "spans": [
+      {
+        "value": "Martin Sorrell",
+        "startYear": "1985-01-01"
+      },
+      {
+        "value": "Mark Read",
+        "startYear": "2018-09-03"
+      },
+      {
+        "value": "Cindy Rose",
+        "startYear": "2025-09-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q13218598",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of NatWest Group is _X_.",
+    "spans": [
+      {
+        "value": "George Mathewson",
+        "startYear": "1992-01-01"
+      },
+      {
+        "value": "Fred Goodwin",
+        "startYear": "2001-01-01"
+      },
+      {
+        "value": "Stephen Hester",
+        "startYear": "2008-11-21"
+      },
+      {
+        "value": "Ross McEwan",
+        "startYear": "2013-10-01"
+      },
+      {
+        "value": "Alison Rose",
+        "startYear": "2019-11-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q133289342",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of RFE/RL, Inc. is _X_.",
+    "spans": [
+      {
+        "value": "Jeffrey Gedmin",
+        "startYear": "2007-01-01"
+      },
+      {
+        "value": "Jamie Fly",
+        "startYear": "2021-02-16"
+      },
+      {
+        "value": "Steve Capus",
+        "startYear": "2024-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q135914740",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Holywater Tech is _X_.",
+    "spans": [
+      {
+        "value": "Bogdan Nesvit",
+        "startYear": "2020-01-01"
+      },
+      {
+        "value": "Anatolii Kasianov",
+        "startYear": "2025-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q136768409",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of LV digital GmbH is _X_.",
+    "spans": [
+      {
+        "value": "Marco Laukötter",
+        "startYear": "2014-04-09"
+      },
+      {
+        "value": "Matthias Weddeling",
+        "startYear": "2014-04-09"
+      },
+      {
+        "value": "Marco Laukötter",
+        "startYear": "2014-04-09"
+      },
+      {
+        "value": "Matthias Weddeling",
+        "startYear": "2014-04-09"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1372049",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Japan Post Holdings is _X_.",
+    "spans": [
+      {
+        "value": "Masatsugu Nagato",
+        "startYear": "2016-04-01"
+      },
+      {
+        "value": "Hiroya Masuda",
+        "startYear": "2020-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q137440955",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Alsco Berufskleidungs-Service GmbH is _X_.",
+    "spans": [
+      {
+        "value": "Frank G. Steiner",
+        "startYear": "1956-01-01"
+      },
+      {
+        "value": "George C. Hepp",
+        "startYear": "1958-01-01"
+      },
+      {
+        "value": "Robert C. Steiner",
+        "startYear": "1981-01-01"
+      },
+      {
+        "value": "Johann Nepomuk Arend",
+        "startYear": "1983-01-01"
+      },
+      {
+        "value": "Herbert Solbrig",
+        "startYear": "1987-01-01"
+      },
+      {
+        "value": "Horst Nobis",
+        "startYear": "1996-01-01"
+      },
+      {
+        "value": "Martin Swierzy",
+        "startYear": "2006-01-01"
+      },
+      {
+        "value": "Robert C. Steiner",
+        "startYear": "2018-08-07"
+      },
+      {
+        "value": "René Schneider",
+        "startYear": "2018-09-04"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q137910",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of thyssenkrupp AG is _X_.",
+    "spans": [
+      {
+        "value": "Ekkehard Schulz",
+        "startYear": "1999-01-01"
+      },
+      {
+        "value": "Heinrich Hiesinger",
+        "startYear": "2011-01-01"
+      },
+      {
+        "value": "Miguel Ángel López Borrego",
+        "startYear": "2023-06-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q138133",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of RWE is _X_.",
+    "spans": [
+      {
+        "value": "Peter Terium",
+        "startYear": "2012-01-01"
+      },
+      {
+        "value": "Rolf Martin Schmitz",
+        "startYear": "2016-01-01"
+      },
+      {
+        "value": "Markus Krebber",
+        "startYear": "2021-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1390577",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Twitter is _X_.",
+    "spans": [
+      {
+        "value": "Jack Dorsey",
+        "startYear": "2015-10-05"
+      },
+      {
+        "value": "Parag Agrawal",
+        "startYear": "2021-11-01"
+      },
+      {
+        "value": "Elon Musk",
+        "startYear": "2022-10-27"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q139846953",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of artaxo GmbH is _X_.",
+    "spans": [
+      {
+        "value": "Tobias Hein",
+        "startYear": "2021-02-11"
+      },
+      {
+        "value": "Marius Rühland",
+        "startYear": "2021-02-11"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q139997508",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Slavneft-Megionneftegaz is _X_.",
+    "spans": [
+      {
+        "value": "Mikhail Cherevko",
+        "startYear": "2018-07-20"
+      },
+      {
+        "value": "Alexander Alexandrovich Barinov",
+        "startYear": "2024-06-05"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q140235019",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of EmpowerMind is _X_.",
+    "spans": [
+      {
+        "value": "Jørgen Svenstrup",
+        "startYear": "2010-01-01"
+      },
+      {
+        "value": "Mitzi Svenstrup",
+        "startYear": "2010-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q140249054",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Carey Brothers & Company is _X_.",
+    "spans": [
+      {
+        "value": "Hugh L. Carey II",
+        "startYear": "2026-01-01"
+      },
+      {
+        "value": "Donald Carey Jr.",
+        "startYear": "2026-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q141103208",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Brandplan Kft is _X_.",
+    "spans": [
+      {
+        "value": "István Mihály",
+        "startYear": "2017-03-16"
+      },
+      {
+        "value": "Zsolt Weinhandl",
+        "startYear": "2023-05-25"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1418",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Nokia is _X_.",
+    "spans": [
+      {
+        "value": "Björn Westerlund",
+        "startYear": "1967-01-01"
+      },
+      {
+        "value": "Kari Kairamo",
+        "startYear": "1977-01-01"
+      },
+      {
+        "value": "Simo Vuorilehto",
+        "startYear": "1988-01-01"
+      },
+      {
+        "value": "Jorma Ollila",
+        "startYear": "1992-01-01"
+      },
+      {
+        "value": "Olli-Pekka Kallasvuo",
+        "startYear": "2006-01-01"
+      },
+      {
+        "value": "Stephen Elop",
+        "startYear": "2010-01-01"
+      },
+      {
+        "value": "Rajeev Suri",
+        "startYear": "2014-01-01"
+      },
+      {
+        "value": "Pekka Lundmark",
+        "startYear": "2020-08-31"
+      },
+      {
+        "value": "Justin Hotard",
+        "startYear": "2025-04-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1425170",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of HC Sparta Praha is _X_.",
+    "spans": [
+      {
+        "value": "Antonín Charouz",
+        "startYear": "1996-01-01"
+      },
+      {
+        "value": "Viliam Sivek",
+        "startYear": "2007-01-01"
+      },
+      {
+        "value": "Petr Bříza",
+        "startYear": "2011-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1437143",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Läderach is _X_.",
+    "spans": [
+      {
+        "value": "Rudolf Läderach",
+        "startYear": "1962-01-01"
+      },
+      {
+        "value": "Jürg Läderach",
+        "startYear": "1994-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1465005",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Orange Polska is _X_.",
+    "spans": [
+      {
+        "value": "Maciej Witucki",
+        "startYear": "2006-01-01"
+      },
+      {
+        "value": "Bruno Duthoit",
+        "startYear": "2013-01-01"
+      },
+      {
+        "value": "Jean-François Fallacher",
+        "startYear": "2016-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1465461",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of National Grid plc is _X_.",
+    "spans": [
+      {
+        "value": "Steve Holliday",
+        "startYear": "2007-01-01"
+      },
+      {
+        "value": "John Pettigrew",
+        "startYear": "2016-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q14662364",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of AbbVie is _X_.",
+    "spans": [
+      {
+        "value": "Richard A. Gonzalez",
+        "startYear": "2013-01-01"
+      },
+      {
+        "value": "Robert A. Michael",
+        "startYear": "2024-07-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1471161",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Imperial Brands is _X_.",
+    "spans": [
+      {
+        "value": "Alison Cooper",
+        "startYear": "2010-05-01"
+      },
+      {
+        "value": "Stefan Bomhard",
+        "startYear": "2020-07-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1475312",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Vinci is _X_.",
+    "spans": [
+      {
+        "value": "Guy Dejouany",
+        "startYear": "1990-01-01"
+      },
+      {
+        "value": "Jean-Marie Messier",
+        "startYear": "1996-01-01"
+      },
+      {
+        "value": "Antoine Zacharias",
+        "startYear": "1997-01-01"
+      },
+      {
+        "value": "Yves de Silguy",
+        "startYear": "2006-01-01"
+      },
+      {
+        "value": "Xavier Huillard",
+        "startYear": "2010-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1479375",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of MTR Corporation Limited is _X_.",
+    "spans": [
+      {
+        "value": "Jack So",
+        "startYear": "1995-01-01"
+      },
+      {
+        "value": "Chow Chung-kong",
+        "startYear": "2003-12-01"
+      },
+      {
+        "value": "Jay Walder",
+        "startYear": "2012-01-01"
+      },
+      {
+        "value": "Lincoln Leong",
+        "startYear": "2014-08-16"
+      },
+      {
+        "value": "Jacob Kam",
+        "startYear": "2019-04-01"
+      },
+      {
+        "value": "Jeny Yeung",
+        "startYear": "2026-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1520122",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Getty Images is _X_.",
+    "spans": [
+      {
+        "value": "Dawn Airey",
+        "startYear": "2015-09-20"
+      },
+      {
+        "value": "Craig Peters",
+        "startYear": "2019-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q152051",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Bayer is _X_.",
+    "spans": [
+      {
+        "value": "Werner Baumann",
+        "startYear": "2016-01-01"
+      },
+      {
+        "value": "Bill Anderson",
+        "startYear": "2023-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q152057",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of BP is _X_.",
+    "spans": [
+      {
+        "value": "Bob Dudley",
+        "startYear": "2010-10-01"
+      },
+      {
+        "value": "Bernard Looney",
+        "startYear": "2020-02-05"
+      },
+      {
+        "value": "Murray Auchincloss",
+        "startYear": "2024-01-01"
+      },
+      {
+        "value": "Meg O'Neill",
+        "startYear": "2025-12-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q152096",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Sainsbury's is _X_.",
+    "spans": [
+      {
+        "value": "Mike Coupe",
+        "startYear": "2014-07-09"
+      },
+      {
+        "value": "Simon Roberts",
+        "startYear": "2020-06-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q15238661",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of CNH Industrial is _X_.",
+    "spans": [
+      {
+        "value": "Derek Neilson",
+        "startYear": "2018-04-27"
+      },
+      {
+        "value": "Gerrit Marx",
+        "startYear": "2024-07-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1525588",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Michael Becker Orgelbau is _X_.",
+    "spans": [
+      {
+        "value": "Klaus Becker",
+        "startYear": "1955-01-01"
+      },
+      {
+        "value": "Michael Becker",
+        "startYear": "1990-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q15330",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Waymo is _X_.",
+    "spans": [
+      {
+        "value": "John Krafcik",
+        "startYear": "2015-01-01"
+      },
+      {
+        "value": "Dmitri Dolgov",
+        "startYear": "2021-01-01"
+      },
+      {
+        "value": "Tekedra Mawakana",
+        "startYear": "2021-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1541079",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Komerční banka is _X_.",
+    "spans": [
+      {
+        "value": "Richard Salzmann",
+        "startYear": "1991-01-01"
+      },
+      {
+        "value": "Radovan Vávra",
+        "startYear": "2000-01-01"
+      },
+      {
+        "value": "Albert Le Dirac'h",
+        "startYear": "2013-01-01"
+      },
+      {
+        "value": "Jan Juchelka",
+        "startYear": "2017-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1543874",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of The Hertz Corporation is _X_.",
+    "spans": [
+      {
+        "value": "Kathryn V. Marinello",
+        "startYear": "2017-01-03"
+      },
+      {
+        "value": "Paul Stone",
+        "startYear": "2020-05-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q154950",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Shell is _X_.",
+    "spans": [
+      {
+        "value": "Jeroen van der Veer",
+        "startYear": "2005-01-01"
+      },
+      {
+        "value": "Peter Voser",
+        "startYear": "2009-01-01"
+      },
+      {
+        "value": "Ben van Beurden",
+        "startYear": "2014-01-01"
+      },
+      {
+        "value": "Wael Sawan",
+        "startYear": "2023-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1550912",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of GMV Innovating Solutions is _X_.",
+    "spans": [
+      {
+        "value": "Luis Mayo Muñiz",
+        "startYear": "2001-08-01"
+      },
+      {
+        "value": "Jesús Serrano Martínez",
+        "startYear": "2009-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q156238",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of ExxonMobil is _X_.",
+    "spans": [
+      {
+        "value": "Lee Raymond",
+        "startYear": "1999-01-01"
+      },
+      {
+        "value": "Rex Tillerson",
+        "startYear": "2006-01-01"
+      },
+      {
+        "value": "Darren Woods",
+        "startYear": "2017-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1564396",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of MairDumont is _X_.",
+    "spans": [
+      {
+        "value": "Stephanie Mair-Huydts",
+        "startYear": "2010-01-01"
+      },
+      {
+        "value": "Markus Schneider",
+        "startYear": "2020-04-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q156578",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Volkswagen Group is _X_.",
+    "spans": [
+      {
+        "value": "Hermann Münch",
+        "startYear": "1946-06-01"
+      },
+      {
+        "value": "Heinrich Nordhoff",
+        "startYear": "1948-01-01"
+      },
+      {
+        "value": "Kurt Lotz",
+        "startYear": "1968-01-01"
+      },
+      {
+        "value": "Rudolf Leiding",
+        "startYear": "1971-01-01"
+      },
+      {
+        "value": "Toni Schmücker",
+        "startYear": "1975-01-01"
+      },
+      {
+        "value": "Carl Hahn",
+        "startYear": "1982-01-01"
+      },
+      {
+        "value": "Ferdinand Piëch",
+        "startYear": "1993-01-01"
+      },
+      {
+        "value": "Bernd Pischetsrieder",
+        "startYear": "2002-01-01"
+      },
+      {
+        "value": "Martin Winterkorn",
+        "startYear": "2007-01-01"
+      },
+      {
+        "value": "Matthias Müller",
+        "startYear": "2015-09-01"
+      },
+      {
+        "value": "Herbert Diess",
+        "startYear": "2018-04-01"
+      },
+      {
+        "value": "Oliver Blume",
+        "startYear": "2022-09-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q15678788",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Fiat Chrysler Automobiles is _X_.",
+    "spans": [
+      {
+        "value": "Sergio Marchionne",
+        "startYear": "2014-10-12"
+      },
+      {
+        "value": "Michael Manley",
+        "startYear": "2018-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q156829",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Air Berlin is _X_.",
+    "spans": [
+      {
+        "value": "Hartmut Mehdorn",
+        "startYear": "2009-01-01"
+      },
+      {
+        "value": "Wolfgang Prock-Schauer",
+        "startYear": "2013-01-01"
+      },
+      {
+        "value": "Stefan Pichler",
+        "startYear": "2015-02-01"
+      },
+      {
+        "value": "Thomas Winkelmann",
+        "startYear": "2017-02-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q157062",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Unilever is _X_.",
+    "spans": [
+      {
+        "value": "Patrick Cescau",
+        "startYear": "2005-04-01"
+      },
+      {
+        "value": "Paul Polman",
+        "startYear": "2009-01-01"
+      },
+      {
+        "value": "Alan Jope",
+        "startYear": "2019-01-01"
+      },
+      {
+        "value": "Hein Schumacher",
+        "startYear": "2023-07-01"
+      },
+      {
+        "value": "Fernando Fernández",
+        "startYear": "2025-03-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q157617",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Commerzbank AG is _X_.",
+    "spans": [
+      {
+        "value": "Walter Seipp",
+        "startYear": "1981-01-01"
+      },
+      {
+        "value": "Martin Kohlhaussen",
+        "startYear": "1991-01-01"
+      },
+      {
+        "value": "Klaus-Peter Müller",
+        "startYear": "2001-01-01"
+      },
+      {
+        "value": "Martin Blessing",
+        "startYear": "2008-01-01"
+      },
+      {
+        "value": "Martin Zielke",
+        "startYear": "2016-01-01"
+      },
+      {
+        "value": "Manfred Knof",
+        "startYear": "2021-01-01"
+      },
+      {
+        "value": "Bettina Orlopp",
+        "startYear": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q157645",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Deutsche Post AG is _X_.",
+    "spans": [
+      {
+        "value": "Frank Appel",
+        "startYear": "2008-02-18"
+      },
+      {
+        "value": "Tobias Meyer",
+        "startYear": "2023-05-04"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q157675",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Vattenfall is _X_.",
+    "spans": [
+      {
+        "value": "Magnus Hall",
+        "startYear": "2014-01-01"
+      },
+      {
+        "value": "Anna Borg",
+        "startYear": "2020-11-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q157852",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Deutsche Börse is _X_.",
+    "spans": [
+      {
+        "value": "Carsten Kengeter",
+        "startYear": "2015-06-01"
+      },
+      {
+        "value": "Theodor Weimer",
+        "startYear": "2018-01-01"
+      },
+      {
+        "value": "Stephan Leithner",
+        "startYear": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q159433",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of 3M is _X_.",
+    "spans": [
+      {
+        "value": "Mike Roman",
+        "startYear": "2018-07-01"
+      },
+      {
+        "value": "William M. Brown",
+        "startYear": "2024-05-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1603219",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Kongsberg Våpenfabrikk is _X_.",
+    "spans": [
+      {
+        "value": "Poul Steenstrup",
+        "startYear": "1814-01-01"
+      },
+      {
+        "value": "Fredrik Meyn",
+        "startYear": "1824-01-01"
+      },
+      {
+        "value": "Peder Christian Holst",
+        "startYear": "1842-01-01"
+      },
+      {
+        "value": "Jens Landmark",
+        "startYear": "1854-01-01"
+      },
+      {
+        "value": "Ole Herman Johannes Krag",
+        "startYear": "1880-01-01"
+      },
+      {
+        "value": "Bjarne Hurlen",
+        "startYear": "1956-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q160746",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Nestlé is _X_.",
+    "spans": [
+      {
+        "value": "Ulf Mark Schneider",
+        "startYear": "2017-01-01"
+      },
+      {
+        "value": "Philipp Navratil",
+        "startYear": "2025-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q161086",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of JetBlue Airways is _X_.",
+    "spans": [
+      {
+        "value": "David Neeleman",
+        "startYear": "1998-01-01"
+      },
+      {
+        "value": "David Barger",
+        "startYear": "2007-01-01"
+      },
+      {
+        "value": "Robin Hayes",
+        "startYear": "2015-01-01"
+      },
+      {
+        "value": "Joanna Geraghty",
+        "startYear": "2024-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q162472",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of FK Příbram is _X_.",
+    "spans": [
+      {
+        "value": "Jaroslav Starka",
+        "startYear": "2013-01-01"
+      },
+      {
+        "value": "Jan Starka",
+        "startYear": "2015-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q163241",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Continental AG is _X_.",
+    "spans": [
+      {
+        "value": "Karl-Thomas Neumann",
+        "startYear": "2008-01-01"
+      },
+      {
+        "value": "Elmar Degenhart",
+        "startYear": "2009-01-01"
+      },
+      {
+        "value": "Nikolai Setzer",
+        "startYear": "2020-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1636974",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Danske Bank is _X_.",
+    "spans": [
+      {
+        "value": "Peter Straarup",
+        "startYear": "1998-04-01"
+      },
+      {
+        "value": "Eivind Kolding",
+        "startYear": "2012-02-15"
+      },
+      {
+        "value": "Thomas F. Borgen",
+        "startYear": "2013-09-16"
+      },
+      {
+        "value": "Jesper Nielsen",
+        "startYear": "2018-10-01"
+      },
+      {
+        "value": "Chris Vogelzang",
+        "startYear": "2019-06-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q16471828",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Group-IB is _X_.",
+    "spans": [
+      {
+        "value": "Ilya Sachkov",
+        "startYear": "2003-01-01"
+      },
+      {
+        "value": "Dmitry Volkov",
+        "startYear": "2021-09-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1671509",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of onsemi is _X_.",
+    "spans": [
+      {
+        "value": "Keith D. Jackson",
+        "startYear": "2002-01-01"
+      },
+      {
+        "value": "Hassane El-Khoury",
+        "startYear": "2020-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1676085",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Ivchenko-Progress is _X_.",
+    "spans": [
+      {
+        "value": "Oleksandr Ivchenko",
+        "startYear": "1945-01-01"
+      },
+      {
+        "value": "Vladimir Lotariev",
+        "startYear": "1968-01-01"
+      },
+      {
+        "value": "Fyodor Muravchenko",
+        "startYear": "1989-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1681145",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Statkraft AS is _X_.",
+    "spans": [
+      {
+        "value": "Christian Rynning-Tønnesen",
+        "startYear": "2010-01-01"
+      },
+      {
+        "value": "Birgitte Ringstad Vartdal",
+        "startYear": "2024-04-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q168238",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of OMV is _X_.",
+    "spans": [
+      {
+        "value": "Ignaz Köck",
+        "startYear": "1956-01-01"
+      },
+      {
+        "value": "Wolfgang Ruttenstorfer",
+        "startYear": "2001-01-01"
+      },
+      {
+        "value": "Gerhard Roiss",
+        "startYear": "2011-01-01"
+      },
+      {
+        "value": "Rainer Seele",
+        "startYear": "2015-01-01"
+      },
+      {
+        "value": "Alfred Stern",
+        "startYear": "2021-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q169925",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Mozilla Corporation is _X_.",
+    "spans": [
+      {
+        "value": "Mitchell Baker",
+        "startYear": "2005-08-03"
+      },
+      {
+        "value": "John Lilly",
+        "startYear": "2008-01-01"
+      },
+      {
+        "value": "Gary Kovacs",
+        "startYear": "2010-01-01"
+      },
+      {
+        "value": "Brendan Eich",
+        "startYear": "2014-03-24"
+      },
+      {
+        "value": "Chris Beard",
+        "startYear": "2014-04-01"
+      },
+      {
+        "value": "Mitchell Baker",
+        "startYear": "2020-04-08"
+      },
+      {
+        "value": "Laura Chambers",
+        "startYear": "2024-02-01"
+      },
+      {
+        "value": "Anthony Enzor-DeMeo",
+        "startYear": "2025-12-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17021787",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Thomas Agnew & Sons is _X_.",
+    "spans": [
+      {
+        "value": "Richard Norman Kingzett",
+        "startYear": "1955-01-01"
+      },
+      {
+        "value": "Lord Anthony Crichton-Stuart",
+        "startYear": "2013-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q170416",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Koninklijke Philips NV is _X_.",
+    "spans": [
+      {
+        "value": "Frans van Houten",
+        "startYear": "2011-04-01"
+      },
+      {
+        "value": "Roy Jakobs",
+        "startYear": "2022-10-15"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q170614",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Ryanair is _X_.",
+    "spans": [
+      {
+        "value": "Michael O'Leary",
+        "startYear": "1994-01-01"
+      },
+      {
+        "value": "Eddie Wilson",
+        "startYear": "2019-08-30"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q173395",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Cisco is _X_.",
+    "spans": [
+      {
+        "value": "John Morgridge",
+        "startYear": "1988-01-01"
+      },
+      {
+        "value": "John Chambers",
+        "startYear": "1995-01-01"
+      },
+      {
+        "value": "Chuck Robbins",
+        "startYear": "2015-07-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1740534",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Vinmonopolet is _X_.",
+    "spans": [
+      {
+        "value": "Hilde Britt Mellbye",
+        "startYear": "2016-01-01"
+      },
+      {
+        "value": "Elisabeth Hunter",
+        "startYear": "2019-09-19"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q174769",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of United Airlines is _X_.",
+    "spans": [
+      {
+        "value": "William A. Patterson",
+        "startYear": "1934-01-01"
+      },
+      {
+        "value": "Edward Carlson",
+        "startYear": "1971-01-01"
+      },
+      {
+        "value": "Richard J. Ferris",
+        "startYear": "1979-01-01"
+      },
+      {
+        "value": "Stephen M. Wolf",
+        "startYear": "1987-01-01"
+      },
+      {
+        "value": "John W. Creighton, Jr.",
+        "startYear": "2001-01-01"
+      },
+      {
+        "value": "Glenn Tilton",
+        "startYear": "2002-01-01"
+      },
+      {
+        "value": "Jeff Smisek",
+        "startYear": "2012-01-01"
+      },
+      {
+        "value": "Oscar Munoz",
+        "startYear": "2015-09-08"
+      },
+      {
+        "value": "Scott Kirby",
+        "startYear": "2020-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1783168",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Post Office Limited is _X_.",
+    "spans": [
+      {
+        "value": "Paula Vennells",
+        "startYear": "2012-04-01"
+      },
+      {
+        "value": "Nick Read",
+        "startYear": "2019-09-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q181114",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Stellantis North America is _X_.",
+    "spans": [
+      {
+        "value": "Sergio Marchionne",
+        "startYear": "2009-01-01"
+      },
+      {
+        "value": "Michael Manley",
+        "startYear": "2018-07-21"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18224",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Maersk is _X_.",
+    "spans": [
+      {
+        "value": "Nils Smedegaard Andersen",
+        "startYear": "2007-01-01"
+      },
+      {
+        "value": "Søren Skou",
+        "startYear": "2016-01-01"
+      },
+      {
+        "value": "Vincent Clerc",
+        "startYear": "2023-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18325550",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Flytoget AS is _X_.",
+    "spans": [
+      {
+        "value": "Osmund Ueland",
+        "startYear": "1994-01-01"
+      },
+      {
+        "value": "Ottar Remman",
+        "startYear": "1995-05-01"
+      },
+      {
+        "value": "Berit Kjøll",
+        "startYear": "1998-09-15"
+      },
+      {
+        "value": "Thomas Havnegjerde",
+        "startYear": "2002-07-01"
+      },
+      {
+        "value": "Linda Bernander Silseth",
+        "startYear": "2008-01-01"
+      },
+      {
+        "value": "Hans Henrik Kristensen",
+        "startYear": "2016-01-01"
+      },
+      {
+        "value": "Philipp Engedal",
+        "startYear": "2017-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18543",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Major League Soccer is _X_.",
+    "spans": [
+      {
+        "value": "Doug Logan",
+        "startYear": "1995-01-01"
+      },
+      {
+        "value": "Don Garber",
+        "startYear": "1999-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q188217",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of SEAT is _X_.",
+    "spans": [
+      {
+        "value": "Luca de Meo",
+        "startYear": "2015-01-01"
+      },
+      {
+        "value": "Carsten Isensee",
+        "startYear": "2020-01-01"
+      },
+      {
+        "value": "Wayne Griffiths",
+        "startYear": "2020-10-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1885456",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of VK is _X_.",
+    "spans": [
+      {
+        "value": "Boris Dobrodeyev",
+        "startYear": "2016-01-01"
+      },
+      {
+        "value": "Vladimir Kiriyenko",
+        "startYear": "2021-12-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q188920",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Delta Air Lines is _X_.",
+    "spans": [
+      {
+        "value": "Collett E. Woolman",
+        "startYear": "1965-01-01"
+      },
+      {
+        "value": "Charles H. Dolson",
+        "startYear": "1970-01-01"
+      },
+      {
+        "value": "W.T. Beebe",
+        "startYear": "1971-01-01"
+      },
+      {
+        "value": "David C. Garrett, Jr.",
+        "startYear": "1978-01-01"
+      },
+      {
+        "value": "Ronald W. Allen",
+        "startYear": "1987-01-01"
+      },
+      {
+        "value": "Leo F. Mullin",
+        "startYear": "1997-01-01"
+      },
+      {
+        "value": "Gerald Grinstein",
+        "startYear": "2004-01-01"
+      },
+      {
+        "value": "Richard H. Anderson",
+        "startYear": "2007-01-01"
+      },
+      {
+        "value": "Ed Bastian",
+        "startYear": "2016-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q190238",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Norwegian Broadcasting Corporation is _X_.",
+    "spans": [
+      {
+        "value": "Olav Midttun",
+        "startYear": "1934-01-01"
+      },
+      {
+        "value": "Toralv Øksnevad",
+        "startYear": "1940-01-01"
+      },
+      {
+        "value": "Kaare Fostervoll",
+        "startYear": "1948-01-01"
+      },
+      {
+        "value": "Hans Jacob Ustvedt",
+        "startYear": "1962-01-01"
+      },
+      {
+        "value": "Torolf Elster",
+        "startYear": "1972-01-01"
+      },
+      {
+        "value": "Bjartmar Gjerde",
+        "startYear": "1981-01-01"
+      },
+      {
+        "value": "Einar Førde",
+        "startYear": "1989-01-01"
+      },
+      {
+        "value": "John G. Bernander",
+        "startYear": "2001-01-01"
+      },
+      {
+        "value": "Hans-Tore Bjerkaas",
+        "startYear": "2007-01-01"
+      },
+      {
+        "value": "Thor Gjermund Eriksen",
+        "startYear": "2013-01-01"
+      },
+      {
+        "value": "Vibeke Fürst Haugen",
+        "startYear": "2022-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q190464",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of HSBC is _X_.",
+    "spans": [
+      {
+        "value": "William Purves",
+        "startYear": "1986-01-01"
+      },
+      {
+        "value": "John Bond",
+        "startYear": "1993-01-01"
+      },
+      {
+        "value": "Keith Whitson",
+        "startYear": "1998-01-01"
+      },
+      {
+        "value": "Stephen Green, Baron Green of Hurstpierpoint",
+        "startYear": "2003-01-01"
+      },
+      {
+        "value": "Michael Geoghegan",
+        "startYear": "2006-01-01"
+      },
+      {
+        "value": "Stuart Gulliver",
+        "startYear": "2011-01-01"
+      },
+      {
+        "value": "John Flint",
+        "startYear": "2018-02-01"
+      },
+      {
+        "value": "Noel Quinn",
+        "startYear": "2020-03-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q191551",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of easyJet is _X_.",
+    "spans": [
+      {
+        "value": "Carolyn McCall",
+        "startYear": "2010-01-01"
+      },
+      {
+        "value": "Johan Lundgren",
+        "startYear": "2017-12-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1916402",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Pearson plc is _X_.",
+    "spans": [
+      {
+        "value": "Marjorie Scardino",
+        "startYear": "1997-01-01"
+      },
+      {
+        "value": "John Fallon",
+        "startYear": "2013-01-01"
+      },
+      {
+        "value": "Andy Bird",
+        "startYear": "2020-10-19"
+      },
+      {
+        "value": "Omar Abbosh",
+        "startYear": "2024-01-08"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q192653",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Czech Airlines is _X_.",
+    "spans": [
+      {
+        "value": "Miroslav Kůla",
+        "startYear": "1999-01-01"
+      },
+      {
+        "value": "Jaroslav Tvrdík",
+        "startYear": "2004-01-01"
+      },
+      {
+        "value": "Radomír Lašák",
+        "startYear": "2006-01-01"
+      },
+      {
+        "value": "Miroslav Dvořák",
+        "startYear": "2009-01-01"
+      },
+      {
+        "value": "Philippe Moreels",
+        "startYear": "2011-01-01"
+      },
+      {
+        "value": "Jozef Sinčák",
+        "startYear": "2014-01-01"
+      },
+      {
+        "value": "Petr Kudela",
+        "startYear": "2018-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q193326",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Goldman Sachs is _X_.",
+    "spans": [
+      {
+        "value": "Lloyd Blankfein",
+        "startYear": "2006-05-01"
+      },
+      {
+        "value": "David M. Solomon",
+        "startYear": "2018-10-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q19383161",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Nordea Liv is _X_.",
+    "spans": [
+      {
+        "value": "Jørund Vandvik",
+        "startYear": "2002-01-01"
+      },
+      {
+        "value": "Randi Marjamaa",
+        "startYear": "2016-01-01"
+      },
+      {
+        "value": "Hans-Erik Lind",
+        "startYear": "2020-10-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q194360",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of American Express is _X_.",
+    "spans": [
+      {
+        "value": "Harvey Golub",
+        "startYear": "1993-01-01"
+      },
+      {
+        "value": "Stephen Squeri",
+        "startYear": "2018-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q19753941",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Fullbeauty Brands is _X_.",
+    "spans": [
+      {
+        "value": "Paul Tarvin",
+        "startYear": "2013-01-01"
+      },
+      {
+        "value": "Emilie Arel",
+        "startYear": "2017-11-07"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q19923099",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Hewlett Packard Enterprise is _X_.",
+    "spans": [
+      {
+        "value": "Meg Whitman",
+        "startYear": "2011-09-22"
+      },
+      {
+        "value": "Antonio Neri",
+        "startYear": "2018-02-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q2005282",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Proximus is _X_.",
+    "spans": [
+      {
+        "value": "Dominique Leroy",
+        "startYear": "2014-01-09"
+      },
+      {
+        "value": "Sandrine Dufour",
+        "startYear": "2019-09-01"
+      },
+      {
+        "value": "Guillaume Boutin",
+        "startYear": "2019-11-01"
+      },
+      {
+        "value": "Stijn Bijnens",
+        "startYear": "2025-09-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q20056888",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of AB - Credit is _X_.",
+    "spans": [
+      {
+        "value": "Jan Blaško",
+        "startYear": "2003-01-01"
+      },
+      {
+        "value": "Karel Pražák",
+        "startYear": "2005-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q20165",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Nissan is _X_.",
+    "spans": [
+      {
+        "value": "Yoshikazu Hanawa",
+        "startYear": "1996-01-01"
+      },
+      {
+        "value": "Carlos Ghosn",
+        "startYear": "2001-01-01"
+      },
+      {
+        "value": "Hiroto Saikawa",
+        "startYear": "2017-01-01"
+      },
+      {
+        "value": "Makoto Uchida",
+        "startYear": "2019-10-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q2031726",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Westpac is _X_.",
+    "spans": [
+      {
+        "value": "Brian Hartzer",
+        "startYear": "2015-02-02"
+      },
+      {
+        "value": "Peter King",
+        "startYear": "2019-12-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q204296",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Air New Zealand is _X_.",
+    "spans": [
+      {
+        "value": "Ralph Norris",
+        "startYear": "2002-02-18"
+      },
+      {
+        "value": "Rob Fyfe",
+        "startYear": "2005-01-01"
+      },
+      {
+        "value": "Christopher Luxon",
+        "startYear": "2012-12-01"
+      },
+      {
+        "value": "Greg Foran",
+        "startYear": "2020-02-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q206921",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Pfizer is _X_.",
+    "spans": [
+      {
+        "value": "Ian Read",
+        "startYear": "2010-12-05"
+      },
+      {
+        "value": "Albert Bourla",
+        "startYear": "2019-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q20718",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Samsung Electronics is _X_.",
+    "spans": [
+      {
+        "value": "Kwon Oh-hyun",
+        "startYear": "2012-01-01"
+      },
+      {
+        "value": "Lee Jae-yong",
+        "startYear": "2022-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q2071905",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of BBC Worldwide is _X_.",
+    "spans": [
+      {
+        "value": "John Smith",
+        "startYear": "2004-01-01"
+      },
+      {
+        "value": "Tim Davie",
+        "startYear": "2013-11-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q207983",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Monsanto is _X_.",
+    "spans": [
+      {
+        "value": "Edgar Monsanto Queeny",
+        "startYear": "1928-01-01"
+      },
+      {
+        "value": "Charles Allen Thomas",
+        "startYear": "1960-01-01"
+      },
+      {
+        "value": "Robert B. Shapiro",
+        "startYear": "1995-01-01"
+      },
+      {
+        "value": "Hugh Grant",
+        "startYear": "2003-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q20800404",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Alphabet Inc. is _X_.",
+    "spans": [
+      {
+        "value": "Larry Page",
+        "startYear": "2015-08-10"
+      },
+      {
+        "value": "Sundar Pichai",
+        "startYear": "2019-12-03"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q20858163",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Norfolk Southern Corporation is _X_.",
+    "spans": [
+      {
+        "value": "Robert B. Claytor",
+        "startYear": "1982-01-01"
+      },
+      {
+        "value": "Arnold B. McKinnon",
+        "startYear": "1987-01-01"
+      },
+      {
+        "value": "David R. Goode",
+        "startYear": "1992-09-01"
+      },
+      {
+        "value": "Charles Moorman",
+        "startYear": "2004-01-01"
+      },
+      {
+        "value": "Alan H. Shaw",
+        "startYear": "2013-11-01"
+      },
+      {
+        "value": "James A. Squires",
+        "startYear": "2015-06-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q212322",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of GSK is _X_.",
+    "spans": [
+      {
+        "value": "Jean-Pierre Garnier",
+        "startYear": "2000-12-01"
+      },
+      {
+        "value": "Andrew Witty",
+        "startYear": "2008-05-21"
+      },
+      {
+        "value": "Emma Walmsley",
+        "startYear": "2017-04-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q213140",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Japan Airlines is _X_.",
+    "spans": [
+      {
+        "value": "Kazuo Inamori",
+        "startYear": "2010-01-19"
+      },
+      {
+        "value": "Mitsuko Tottori",
+        "startYear": "2024-04-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q215293",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Volvo Cars is _X_.",
+    "spans": [
+      {
+        "value": "Håkan Samuelsson",
+        "startYear": "2012-01-01"
+      },
+      {
+        "value": "Jim Rowan",
+        "startYear": "2022-01-01"
+      },
+      {
+        "value": "Håkan Samuelsson",
+        "startYear": "2025-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q215363",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Sveriges Television is _X_.",
+    "spans": [
+      {
+        "value": "Magnus Faxén",
+        "startYear": "1979-01-01"
+      },
+      {
+        "value": "Sam Nilsson",
+        "startYear": "1981-01-01"
+      },
+      {
+        "value": "Maria Curman",
+        "startYear": "2000-01-01"
+      },
+      {
+        "value": "Kjell Kullberg",
+        "startYear": "2001-05-21"
+      },
+      {
+        "value": "Christina Jutterström",
+        "startYear": "2001-08-15"
+      },
+      {
+        "value": "Eva Hamilton",
+        "startYear": "2006-01-01"
+      },
+      {
+        "value": "Hanna Stjärne",
+        "startYear": "2015-01-15"
+      },
+      {
+        "value": "Anne Lagercrantz",
+        "startYear": "2024-11-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q217493",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Paradox Interactive is _X_.",
+    "spans": [
+      {
+        "value": "Fredrik Wester",
+        "startYear": "2009-04-02"
+      },
+      {
+        "value": "Ebba Ljungerud",
+        "startYear": "2018-08-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q21950804",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of REC Silicon is _X_.",
+    "spans": [
+      {
+        "value": "Erik Thorsen",
+        "startYear": "2005-01-01"
+      },
+      {
+        "value": "Ole Enger",
+        "startYear": "2009-01-01"
+      },
+      {
+        "value": "Tore Torvund",
+        "startYear": "2013-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q22132500",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of metaphacts is _X_.",
+    "spans": [
+      {
+        "value": "Peter Haase",
+        "startYear": "2014-10-02"
+      },
+      {
+        "value": "Sebastian Schmidt",
+        "startYear": "2020-06-25"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q223127",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Logitech is _X_.",
+    "spans": [
+      {
+        "value": "Guerrino De Luca",
+        "startYear": "1998-01-01"
+      },
+      {
+        "value": "Gerald Quindlen",
+        "startYear": "2008-01-01"
+      },
+      {
+        "value": "Guerrino De Luca",
+        "startYear": "2011-07-27"
+      },
+      {
+        "value": "Bracken Darrell",
+        "startYear": "2013-01-01"
+      },
+      {
+        "value": "Guy Gecht",
+        "startYear": "2023-06-01"
+      },
+      {
+        "value": "Hanneke Faber",
+        "startYear": "2023-12-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q2283",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Microsoft is _X_.",
+    "spans": [
+      {
+        "value": "Bill Gates",
+        "startYear": "1975-04-01"
+      },
+      {
+        "value": "Steve Ballmer",
+        "startYear": "2000-01-01"
+      },
+      {
+        "value": "Satya Nadella",
+        "startYear": "2014-02-04"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q2295406",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Smiths Group is _X_.",
+    "spans": [
+      {
+        "value": "Andrew Reynolds Smith",
+        "startYear": "2015-09-01"
+      },
+      {
+        "value": "Paul Keel, 3M's president of Skin & Wound Care. Interview by Chimere G Holmes",
+        "startYear": "2021-05-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q2298325",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Boston Dynamics is _X_.",
+    "spans": [
+      {
+        "value": "Marc Raibert",
+        "startYear": "1992-11-06"
+      },
+      {
+        "value": "Robert Playter",
+        "startYear": "2021-01-23"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q2303478",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Synopsys is _X_.",
+    "spans": [
+      {
+        "value": "Aart de Geus",
+        "startYear": "1986-01-01"
+      },
+      {
+        "value": "Harvey C. Jones",
+        "startYear": "1987-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q2311",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Airbus is _X_.",
+    "spans": [
+      {
+        "value": "Louis Gallois",
+        "startYear": "2006-07-01"
+      },
+      {
+        "value": "Tom Enders",
+        "startYear": "2012-06-01"
+      },
+      {
+        "value": "Guillaume Faury",
+        "startYear": "2019-04-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q23317",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Audi AG is _X_.",
+    "spans": [
+      {
+        "value": "Wolfgang R. Habbel",
+        "startYear": "1979-01-01"
+      },
+      {
+        "value": "Ferdinand Piëch",
+        "startYear": "1988-01-01"
+      },
+      {
+        "value": "Franz-Josef Kortüm",
+        "startYear": "1993-01-01"
+      },
+      {
+        "value": "Herbert Demel",
+        "startYear": "1994-01-01"
+      },
+      {
+        "value": "Franz-Josef Paefgen",
+        "startYear": "1998-01-01"
+      },
+      {
+        "value": "Martin Winterkorn",
+        "startYear": "2002-03-01"
+      },
+      {
+        "value": "Rupert Stadler",
+        "startYear": "2006-12-06"
+      },
+      {
+        "value": "Abraham Schot",
+        "startYear": "2018-10-02"
+      },
+      {
+        "value": "Markus Duesmann",
+        "startYear": "2020-04-01"
+      },
+      {
+        "value": "Gernot Döllner",
+        "startYear": "2023-09-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q234021",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Robert Bosch is _X_.",
+    "spans": [
+      {
+        "value": "Franz Fehrenbach",
+        "startYear": "2003-01-01"
+      },
+      {
+        "value": "Volkmar Denner",
+        "startYear": "2012-01-01"
+      },
+      {
+        "value": "Stefan Hartung",
+        "startYear": "2022-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q2405791",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of O2 Czech Republic is _X_.",
+    "spans": [
+      {
+        "value": "Tomáš Budník",
+        "startYear": "2014-01-01"
+      },
+      {
+        "value": "Jindřich Fremuth",
+        "startYear": "2018-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q243278",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Rolls-Royce is _X_.",
+    "spans": [
+      {
+        "value": "Warren East",
+        "startYear": "2015-07-03"
+      },
+      {
+        "value": "Tufan Erginbilgiç",
+        "startYear": "2023-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q245343",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Barclays is _X_.",
+    "spans": [
+      {
+        "value": "Jes Staley",
+        "startYear": "2015-12-01"
+      },
+      {
+        "value": "C. S. Venkatakrishnan",
+        "startYear": "2021-11-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q2464046",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Tönnies Holding is _X_.",
+    "spans": [
+      {
+        "value": "Bernd Tönnies",
+        "startYear": "1971-01-01"
+      },
+      {
+        "value": "Clemens Tönnies",
+        "startYear": "1994-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q246655",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Next plc is _X_.",
+    "spans": [
+      {
+        "value": "David Jones",
+        "startYear": "1988-01-01"
+      },
+      {
+        "value": "Simon Wolfson",
+        "startYear": "2001-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q247489",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Merck & Co. is _X_.",
+    "spans": [
+      {
+        "value": "Kenneth Frazier",
+        "startYear": "2011-01-01"
+      },
+      {
+        "value": "Rob Davis",
+        "startYear": "2021-07-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q248",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Intel is _X_.",
+    "spans": [
+      {
+        "value": "Robert Noyce",
+        "startYear": "1968-01-01"
+      },
+      {
+        "value": "Gordon Moore",
+        "startYear": "1975-01-01"
+      },
+      {
+        "value": "Andrew Grove",
+        "startYear": "1987-01-01"
+      },
+      {
+        "value": "Craig R. Barrett",
+        "startYear": "1998-01-01"
+      },
+      {
+        "value": "Paul Otellini",
+        "startYear": "2005-05-18"
+      },
+      {
+        "value": "Brian Krzanich",
+        "startYear": "2013-05-16"
+      },
+      {
+        "value": "Bob Swan",
+        "startYear": "2018-06-21"
+      },
+      {
+        "value": "Pat Gelsinger",
+        "startYear": "2021-02-15"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q24939514",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Open Fiber is _X_.",
+    "spans": [
+      {
+        "value": "Elisabetta Ripa",
+        "startYear": "2018-01-01"
+      },
+      {
+        "value": "Francesca Romana Napolitano",
+        "startYear": "2021-08-01"
+      },
+      {
+        "value": "Mario Rossetti",
+        "startYear": "2021-12-01"
+      },
+      {
+        "value": "Giuseppe Gola",
+        "startYear": "2023-09-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q24965506",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Aquarelle.com Group is _X_.",
+    "spans": [
+      {
+        "value": "François de Maublanc",
+        "startYear": "1997-01-01"
+      },
+      {
+        "value": "Henri de Maublanc",
+        "startYear": "1997-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q25103691",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Entain is _X_.",
+    "spans": [
+      {
+        "value": "Kenny Alexander",
+        "startYear": "2007-03-01"
+      },
+      {
+        "value": "Shay Segev",
+        "startYear": "2020-07-01"
+      },
+      {
+        "value": "Jette Nygaard-Andersen",
+        "startYear": "2021-01-01"
+      },
+      {
+        "value": "Gavin Isaacs",
+        "startYear": "2024-09-01"
+      },
+      {
+        "value": "Stella David",
+        "startYear": "2025-04-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q25499288",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Northway Biotech is _X_.",
+    "spans": [
+      {
+        "value": "Giedrius Žunda",
+        "startYear": "2018-12-03"
+      },
+      {
+        "value": "Vladas Algirdas Bumelis",
+        "startYear": "2020-12-07"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q2586181",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Wissenschaft im Dialog is _X_.",
+    "spans": [
+      {
+        "value": "Markus Weißkopf",
+        "startYear": "2012-01-01"
+      },
+      {
+        "value": "Christian Kleinert",
+        "startYear": "2022-10-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q259013",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Centrica is _X_.",
+    "spans": [
+      {
+        "value": "Iain Conn",
+        "startYear": "2015-01-01"
+      },
+      {
+        "value": "Chris O'Shea",
+        "startYear": "2020-03-16"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q26389854",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Yell is _X_.",
+    "spans": [
+      {
+        "value": "Mark Clisby",
+        "startYear": "2023-01-01"
+      },
+      {
+        "value": "Luke Taylor",
+        "startYear": "2023-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q266423",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Bristol-Myers Squibb is _X_.",
+    "spans": [
+      {
+        "value": "Lamberto Andreotti",
+        "startYear": "2010-05-01"
+      },
+      {
+        "value": "Giovanni Caforio",
+        "startYear": "2015-05-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q2666775",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Bank Hapoalim B.M. is _X_.",
+    "spans": [
+      {
+        "value": "Zvi Ziv",
+        "startYear": "2003-08-01"
+      },
+      {
+        "value": "Zion Kenan",
+        "startYear": "2009-08-01"
+      },
+      {
+        "value": "Dov Kotler",
+        "startYear": "2019-10-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q26966",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Mercedes-AMG is _X_.",
+    "spans": [
+      {
+        "value": "Wolfgang Bernhard",
+        "startYear": "1999-01-01"
+      },
+      {
+        "value": "Hubertus Troska",
+        "startYear": "2003-10-01"
+      },
+      {
+        "value": "Ola Källenius",
+        "startYear": "2010-04-01"
+      },
+      {
+        "value": "Tobias Moers",
+        "startYear": "2010-10-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q26989",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Infosys limited is _X_.",
+    "spans": [
+      {
+        "value": "Vishal Sikka",
+        "startYear": "2014-06-12"
+      },
+      {
+        "value": "Salil Parekh",
+        "startYear": "2018-01-02"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q27074",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Aston Martin Lagonda is _X_.",
+    "spans": [
+      {
+        "value": "Ulrich Bez",
+        "startYear": "2000-07-01"
+      },
+      {
+        "value": "Andy Palmer",
+        "startYear": "2014-01-01"
+      },
+      {
+        "value": "Tobias Moers",
+        "startYear": "2020-01-01"
+      },
+      {
+        "value": "Amedeo Felisa",
+        "startYear": "2022-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q274372",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Evoke plc is _X_.",
+    "spans": [
+      {
+        "value": "John Anderson",
+        "startYear": "2000-01-01"
+      },
+      {
+        "value": "Gigi Levy-Weiss",
+        "startYear": "2007-01-01"
+      },
+      {
+        "value": "Brian Mattingley",
+        "startYear": "2012-01-01"
+      },
+      {
+        "value": "Itai Frieberger",
+        "startYear": "2016-01-01"
+      },
+      {
+        "value": "Itai Pazner",
+        "startYear": "2019-01-01"
+      },
+      {
+        "value": "Per Widerström",
+        "startYear": "2023-10-16"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q27530",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Mercedes-Benz Group is _X_.",
+    "spans": [
+      {
+        "value": "Edzard Reuter",
+        "startYear": "1987-07-01"
+      },
+      {
+        "value": "Jürgen E. Schrempp",
+        "startYear": "1995-05-01"
+      },
+      {
+        "value": "Robert James Eaton",
+        "startYear": "1998-11-01"
+      },
+      {
+        "value": "Dieter Zetsche",
+        "startYear": "2006-01-01"
+      },
+      {
+        "value": "Ola Källenius",
+        "startYear": "2019-05-22"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q27585",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of AOL is _X_.",
+    "spans": [
+      {
+        "value": "Randy Falco",
+        "startYear": "2006-11-01"
+      },
+      {
+        "value": "Tim Armstrong",
+        "startYear": "2009-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q27778959",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Mattoni 1873 is _X_.",
+    "spans": [
+      {
+        "value": "Antonio Pasquale",
+        "startYear": "1997-01-01"
+      },
+      {
+        "value": "Alessandro Pasquale",
+        "startYear": "2014-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q278810",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Pennon Group is _X_.",
+    "spans": [
+      {
+        "value": "Christopher Loughlin",
+        "startYear": "2016-01-01"
+      },
+      {
+        "value": "Susan Davy",
+        "startYear": "2020-07-31"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q27969046",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Promet Group is _X_.",
+    "spans": [
+      {
+        "value": "René Matera",
+        "startYear": "2001-01-01"
+      },
+      {
+        "value": "Hana Materová",
+        "startYear": "2022-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q28119223",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Wind Tre is _X_.",
+    "spans": [
+      {
+        "value": "Maximo Ibarra",
+        "startYear": "2016-12-31"
+      },
+      {
+        "value": "Jeffrey Hedberg",
+        "startYear": "2017-06-23"
+      },
+      {
+        "value": "Benoit Hanssen",
+        "startYear": "2022-04-01"
+      },
+      {
+        "value": "Gianluca Corti",
+        "startYear": "2022-04-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q28135888",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Yoast BV is _X_.",
+    "spans": [
+      {
+        "value": "Joost de Valk",
+        "startYear": "2010-05-01"
+      },
+      {
+        "value": "Marieke van de Rakt",
+        "startYear": "2019-01-24"
+      },
+      {
+        "value": "Thijs de Valk",
+        "startYear": "2021-11-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q283852",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Turkcell is _X_.",
+    "spans": [
+      {
+        "value": "Kaan Terzioğlu",
+        "startYear": "2015-04-01"
+      },
+      {
+        "value": "Murat Erkan",
+        "startYear": "2019-03-15"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q284672",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Bilfinger SE is _X_.",
+    "spans": [
+      {
+        "value": "Roland Koch",
+        "startYear": "2011-07-01"
+      },
+      {
+        "value": "Per Utnegaard",
+        "startYear": "2015-06-01"
+      },
+      {
+        "value": "Thomas Schulz",
+        "startYear": "2022-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q285328",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Commonwealth Bank is _X_.",
+    "spans": [
+      {
+        "value": "Donald Neil Sanders",
+        "startYear": "1991-01-01"
+      },
+      {
+        "value": "David Murray",
+        "startYear": "1992-06-01"
+      },
+      {
+        "value": "Ralph Norris",
+        "startYear": "2005-09-01"
+      },
+      {
+        "value": "Ian Narev",
+        "startYear": "2011-12-01"
+      },
+      {
+        "value": "Matt Comyn",
+        "startYear": "2018-04-09"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q287471",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of ABN AMRO is _X_.",
+    "spans": [
+      {
+        "value": "Kees van Dijkhuizen",
+        "startYear": "2017-01-01"
+      },
+      {
+        "value": "Robert Swaak",
+        "startYear": "2020-04-23"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q2899153",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Berry Brothers & Rudd is _X_.",
+    "spans": [
+      {
+        "value": "Emma Fox",
+        "startYear": "2020-01-01"
+      },
+      {
+        "value": "Rob Symington",
+        "startYear": "2026-01-01"
+      },
+      {
+        "value": "Emily Rae",
+        "startYear": "2026-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q29637",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Škoda Auto is _X_.",
+    "spans": [
+      {
+        "value": "Reinhard Jung",
+        "startYear": "2007-01-01"
+      },
+      {
+        "value": "Winfried Vahland",
+        "startYear": "2010-09-01"
+      },
+      {
+        "value": "Bernhard Maier",
+        "startYear": "2015-11-01"
+      },
+      {
+        "value": "Thomas Schäfer",
+        "startYear": "2020-08-03"
+      },
+      {
+        "value": "Klaus Zellmer",
+        "startYear": "2022-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q30284383",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Optum is _X_.",
+    "spans": [
+      {
+        "value": "Andrew Witty",
+        "startYear": "2021-02-04"
+      },
+      {
+        "value": "Stephen J. Hemsley",
+        "startYear": "2025-05-14"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q30338585",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Thermo Fisher Scientific Baltics, UAB is _X_.",
+    "spans": [
+      {
+        "value": "Viktoras Butkus",
+        "startYear": "1995-01-01"
+      },
+      {
+        "value": "Algimantas Markauskas",
+        "startYear": "2008-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q304944",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of České dráhy is _X_.",
+    "spans": [
+      {
+        "value": "Josef Bazala",
+        "startYear": "2005-05-11"
+      },
+      {
+        "value": "Petr Žaluda",
+        "startYear": "2008-02-01"
+      },
+      {
+        "value": "Dalibor Zelený",
+        "startYear": "2013-07-31"
+      },
+      {
+        "value": "Pavel Krtek",
+        "startYear": "2014-01-01"
+      },
+      {
+        "value": "Daniel Kurucz",
+        "startYear": "2014-02-21"
+      },
+      {
+        "value": "Miroslav Kupec",
+        "startYear": "2018-01-01"
+      },
+      {
+        "value": "Václav Nebeský",
+        "startYear": "2019-10-01"
+      },
+      {
+        "value": "Ivan Bednárik",
+        "startYear": "2020-12-04"
+      },
+      {
+        "value": "Michal Krapinec",
+        "startYear": "2022-04-04"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q306764",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Abbott Laboratories is _X_.",
+    "spans": [
+      {
+        "value": "Miles D. White",
+        "startYear": "1999-01-01"
+      },
+      {
+        "value": "Robert B. Ford",
+        "startYear": "2020-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q311394",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Infineon Technologies is _X_.",
+    "spans": [
+      {
+        "value": "Reinhard Ploss",
+        "startYear": "2012-10-01"
+      },
+      {
+        "value": "Jochen Hanebeck",
+        "startYear": "2022-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q3126763",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Generali Italia is _X_.",
+    "spans": [
+      {
+        "value": "Marco Sesana",
+        "startYear": "2016-05-01"
+      },
+      {
+        "value": "Giancarlo Fancel",
+        "startYear": "2022-09-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q3140604",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of ITV plc is _X_.",
+    "spans": [
+      {
+        "value": "Charles Allen",
+        "startYear": "2004-01-01"
+      },
+      {
+        "value": "Adam Crozier",
+        "startYear": "2010-04-01"
+      },
+      {
+        "value": "Carolyn McCall",
+        "startYear": "2018-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q3181430",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of PostNord is _X_.",
+    "spans": [
+      {
+        "value": "Håkan Ericsson",
+        "startYear": "2012-12-01"
+      },
+      {
+        "value": "Annemarie Gardshol",
+        "startYear": "2019-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q3210329",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of La Maison Simons is _X_.",
+    "spans": [
+      {
+        "value": "Gordon Donald Simons",
+        "startYear": "1952-01-01"
+      },
+      {
+        "value": "Peter Simons",
+        "startYear": "1996-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q32491",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Qantas Airways is _X_.",
+    "spans": [
+      {
+        "value": "James Strong",
+        "startYear": "1993-01-01"
+      },
+      {
+        "value": "Geoff Dixon",
+        "startYear": "2001-03-01"
+      },
+      {
+        "value": "Alan Joyce",
+        "startYear": "2008-11-01"
+      },
+      {
+        "value": "Vanessa Hudson",
+        "startYear": "2023-09-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q327429",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Wärtsilä is _X_.",
+    "spans": [
+      {
+        "value": "Björn Rosengren",
+        "startYear": "2011-01-01"
+      },
+      {
+        "value": "Jaakko Eskola",
+        "startYear": "2015-01-01"
+      },
+      {
+        "value": "Håkan Agnevall",
+        "startYear": "2021-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q328840",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Visa Inc. is _X_.",
+    "spans": [
+      {
+        "value": "Alfred F. Kelly Jr.",
+        "startYear": "2019-01-01"
+      },
+      {
+        "value": "Ryan McInerney",
+        "startYear": "2023-02-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q3295867",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of The Coca-Cola Company is _X_.",
+    "spans": [
+      {
+        "value": "E. Neville Isdell",
+        "startYear": "2004-01-01"
+      },
+      {
+        "value": "Muhtar Kent",
+        "startYear": "2008-01-01"
+      },
+      {
+        "value": "James Quincey",
+        "startYear": "2018-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q3327046",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of OYSHO is _X_.",
+    "spans": [
+      {
+        "value": "Sergio Bucher",
+        "startYear": "2001-01-01"
+      },
+      {
+        "value": "Carmen Sevillano",
+        "startYear": "2002-12-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q333498",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Bombardier is _X_.",
+    "spans": [
+      {
+        "value": "Alain Bellemare",
+        "startYear": "2015-02-13"
+      },
+      {
+        "value": "Éric Martel",
+        "startYear": "2020-04-06"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q333718",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Johnson & Johnson is _X_.",
+    "spans": [
+      {
+        "value": "Alex Gorsky",
+        "startYear": "2012-04-26"
+      },
+      {
+        "value": "Joaquin Duato",
+        "startYear": "2022-01-03"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q3339193",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of RMC BFM is _X_.",
+    "spans": [
+      {
+        "value": "Alain Weill",
+        "startYear": "2000-11-01"
+      },
+      {
+        "value": "Nicolas de Tavernost",
+        "startYear": "2024-07-02"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q334800",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of PepsiCo is _X_.",
+    "spans": [
+      {
+        "value": "D. Wayne Calloway",
+        "startYear": "1986-01-01"
+      },
+      {
+        "value": "Roger Enrico",
+        "startYear": "1996-01-01"
+      },
+      {
+        "value": "Steven Reinemund",
+        "startYear": "2001-01-01"
+      },
+      {
+        "value": "Indra Nooyi",
+        "startYear": "2006-01-01"
+      },
+      {
+        "value": "Ramon Laguarta",
+        "startYear": "2018-10-03"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q336717",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of ČD Cargo is _X_.",
+    "spans": [
+      {
+        "value": "Josef Bazala",
+        "startYear": "2007-01-01"
+      },
+      {
+        "value": "Jiří Vodička",
+        "startYear": "2010-01-01"
+      },
+      {
+        "value": "Petr Žaluda",
+        "startYear": "2010-06-01"
+      },
+      {
+        "value": "Gustáv Slamečka",
+        "startYear": "2011-01-01"
+      },
+      {
+        "value": "Petr Žaluda",
+        "startYear": "2012-01-01"
+      },
+      {
+        "value": "Ivan Bednárik",
+        "startYear": "2014-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q340135",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Československá obchodní banka is _X_.",
+    "spans": [
+      {
+        "value": "Svatopluk Potáč",
+        "startYear": "1970-01-01"
+      },
+      {
+        "value": "Pavel Kavánek",
+        "startYear": "1993-01-01"
+      },
+      {
+        "value": "John Arthur Hollows",
+        "startYear": "2014-01-01"
+      },
+      {
+        "value": "Aleš Blažek",
+        "startYear": "2022-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q341090",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Česká pošta is _X_.",
+    "spans": [
+      {
+        "value": "Marcela Hrdá",
+        "startYear": "2010-01-01"
+      },
+      {
+        "value": "Petr Zatloukal",
+        "startYear": "2011-01-01"
+      },
+      {
+        "value": "Martin Elkán",
+        "startYear": "2014-01-01"
+      },
+      {
+        "value": "Roman Knap",
+        "startYear": "2018-01-01"
+      },
+      {
+        "value": "Miroslav Štěpán",
+        "startYear": "2023-02-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q341100",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Česká spořitelna is _X_.",
+    "spans": [
+      {
+        "value": "Pavel Kysilka",
+        "startYear": "2011-01-01"
+      },
+      {
+        "value": "Tomáš Salomon",
+        "startYear": "2016-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q341118",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Czech News Agency is _X_.",
+    "spans": [
+      {
+        "value": "Jiří Majstr",
+        "startYear": "2011-06-10"
+      },
+      {
+        "value": "Jaroslav Kábele",
+        "startYear": "2023-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q3486990",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Vodafone Czech Republic is _X_.",
+    "spans": [
+      {
+        "value": "Muriel Anton",
+        "startYear": "2009-01-01"
+      },
+      {
+        "value": "Balesh Sharma",
+        "startYear": "2014-01-01"
+      },
+      {
+        "value": "Petr Dvořák",
+        "startYear": "2018-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q3490485",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Seznam.cz is _X_.",
+    "spans": [
+      {
+        "value": "Ivo Lukačovič",
+        "startYear": "2000-01-01"
+      },
+      {
+        "value": "Pavel Zima",
+        "startYear": "2015-03-01"
+      },
+      {
+        "value": "Ivo Lukačovič",
+        "startYear": "2015-06-01"
+      },
+      {
+        "value": "Pavel Zima",
+        "startYear": "2019-02-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q3500487",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of TV4 AB is _X_.",
+    "spans": [
+      {
+        "value": "Gunnar Bergvall",
+        "startYear": "1987-01-01"
+      },
+      {
+        "value": "Ingemar Leijonborg",
+        "startYear": "1989-01-01"
+      },
+      {
+        "value": "Björn Nordstrand",
+        "startYear": "1992-01-01"
+      },
+      {
+        "value": "Claes Thorson",
+        "startYear": "1992-01-01"
+      },
+      {
+        "value": "Lars Weiss",
+        "startYear": "1994-01-01"
+      },
+      {
+        "value": "Christer Forsström",
+        "startYear": "1995-01-01"
+      },
+      {
+        "value": "Thorbjörn Larsson",
+        "startYear": "1998-01-01"
+      },
+      {
+        "value": "Jan Scherman",
+        "startYear": "2001-01-01"
+      },
+      {
+        "value": "Casten Almqvist",
+        "startYear": "2011-01-01"
+      },
+      {
+        "value": "Mathias Berg",
+        "startYear": "2022-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q3511885",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of T-Mobile US is _X_.",
+    "spans": [
+      {
+        "value": "John Legere",
+        "startYear": "2012-01-01"
+      },
+      {
+        "value": "Mike Sievert",
+        "startYear": "2020-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q372657",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Credit Suisse is _X_.",
+    "spans": [
+      {
+        "value": "Tidjane Thiam",
+        "startYear": "2015-01-01"
+      },
+      {
+        "value": "Thomas Gottstein",
+        "startYear": "2020-02-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q3759654",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Genertel is _X_.",
+    "spans": [
+      {
+        "value": "Maurizio Pescarini",
+        "startYear": "2019-09-01"
+      },
+      {
+        "value": "Giacomo Trovato",
+        "startYear": "2024-05-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q38076",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of McDonald's is _X_.",
+    "spans": [
+      {
+        "value": "Ray Kroc",
+        "startYear": "1955-01-01"
+      },
+      {
+        "value": "Fred L. Turner",
+        "startYear": "1974-01-01"
+      },
+      {
+        "value": "Michael R. Quinlan",
+        "startYear": "1987-01-01"
+      },
+      {
+        "value": "Jack M. Greenberg",
+        "startYear": "1998-01-01"
+      },
+      {
+        "value": "Jim Cantalupo",
+        "startYear": "2002-01-01"
+      },
+      {
+        "value": "Jim Skinner",
+        "startYear": "2004-01-01"
+      },
+      {
+        "value": "Charlie Bell",
+        "startYear": "2004-04-01"
+      },
+      {
+        "value": "Don Thompson",
+        "startYear": "2012-07-01"
+      },
+      {
+        "value": "Steve Easterbrook",
+        "startYear": "2015-03-01"
+      },
+      {
+        "value": "Chris Kempczinski",
+        "startYear": "2019-11-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q381100",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Prague Public Transit Company is _X_.",
+    "spans": [
+      {
+        "value": "Milan Křístek",
+        "startYear": "2012-01-01"
+      },
+      {
+        "value": "Martin Gillar",
+        "startYear": "2016-01-01"
+      },
+      {
+        "value": "Petr Witowski",
+        "startYear": "2018-01-01"
+      },
+      {
+        "value": "Ladislav Urbánek",
+        "startYear": "2024-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q385426",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Babcock International is _X_.",
+    "spans": [
+      {
+        "value": "Peter Rogers",
+        "startYear": "2003-08-01"
+      },
+      {
+        "value": "Archie Bethel",
+        "startYear": "2016-08-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q3884",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Amazon is _X_.",
+    "spans": [
+      {
+        "value": "Jeff Bezos",
+        "startYear": "1996-05-01"
+      },
+      {
+        "value": "Andy Jassy",
+        "startYear": "2021-07-06"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q38903",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Universal Music Group is _X_.",
+    "spans": [
+      {
+        "value": "Doug Morris",
+        "startYear": "1995-01-01"
+      },
+      {
+        "value": "Lucian Grainge",
+        "startYear": "2011-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q406643",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of AirAsia is _X_.",
+    "spans": [
+      {
+        "value": "Aireen Omar",
+        "startYear": "2012-07-01"
+      },
+      {
+        "value": "Riad Asmat",
+        "startYear": "2017-12-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q407448",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Air Liquide is _X_.",
+    "spans": [
+      {
+        "value": "Paul Delorme",
+        "startYear": "1902-01-01"
+      },
+      {
+        "value": "Jean Delorme",
+        "startYear": "1945-01-01"
+      },
+      {
+        "value": "Édouard de Royère",
+        "startYear": "1985-01-01"
+      },
+      {
+        "value": "Alain Joly",
+        "startYear": "1995-01-01"
+      },
+      {
+        "value": "Benoît Potier",
+        "startYear": "2006-01-01"
+      },
+      {
+        "value": "François Jackow",
+        "startYear": "2022-06-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q40993",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Porsche is _X_.",
+    "spans": [
+      {
+        "value": "Ferry Porsche",
+        "startYear": "1944-01-01"
+      },
+      {
+        "value": "Ernst Fuhrmann",
+        "startYear": "1972-01-01"
+      },
+      {
+        "value": "Peter Schutz",
+        "startYear": "1981-01-01"
+      },
+      {
+        "value": "Heinz Branitzki",
+        "startYear": "1988-01-01"
+      },
+      {
+        "value": "Arno Bohn",
+        "startYear": "1990-01-01"
+      },
+      {
+        "value": "Wendelin Wiedeking",
+        "startYear": "1993-08-01"
+      },
+      {
+        "value": "Michael Macht",
+        "startYear": "2009-01-01"
+      },
+      {
+        "value": "Matthias Müller",
+        "startYear": "2010-10-01"
+      },
+      {
+        "value": "Oliver Blume",
+        "startYear": "2015-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q42825991",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of EWE Netz is _X_.",
+    "spans": [
+      {
+        "value": "Torsten Maus",
+        "startYear": "2006-01-01"
+      },
+      {
+        "value": "Heiko Fastje",
+        "startYear": "2009-01-01"
+      },
+      {
+        "value": "Hans-Joachim Iken",
+        "startYear": "2011-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q43028378",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Carl Zeiss NTS is _X_.",
+    "spans": [
+      {
+        "value": "Dirk Stenkamp",
+        "startYear": "2008-11-25"
+      },
+      {
+        "value": "Frank Stietz",
+        "startYear": "2010-02-11"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q43452713",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of On AG is _X_.",
+    "spans": [
+      {
+        "value": "Marc Maurer",
+        "startYear": "2021-01-01"
+      },
+      {
+        "value": "Martin Hoffmann",
+        "startYear": "2021-01-01"
+      },
+      {
+        "value": "Marc Maurer",
+        "startYear": "2021-01-01"
+      },
+      {
+        "value": "Martin Hoffmann",
+        "startYear": "2021-01-01"
+      },
+      {
+        "value": "Marc Maurer",
+        "startYear": "2021-01-01"
+      },
+      {
+        "value": "Martin Hoffmann",
+        "startYear": "2021-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q4402290",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Borregaard is _X_.",
+    "spans": [
+      {
+        "value": "Hjalmar Wessel",
+        "startYear": "1918-01-01"
+      },
+      {
+        "value": "Arne Meidell",
+        "startYear": "1933-01-01"
+      },
+      {
+        "value": "Rein Henriksen",
+        "startYear": "1960-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q44294",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Ford Motor Company is _X_.",
+    "spans": [
+      {
+        "value": "John S. Gray",
+        "startYear": "1903-01-01"
+      },
+      {
+        "value": "Henry Ford",
+        "startYear": "1906-01-01"
+      },
+      {
+        "value": "Henry Ford II",
+        "startYear": "1945-09-01"
+      },
+      {
+        "value": "Philip Caldwell",
+        "startYear": "1979-10-01"
+      },
+      {
+        "value": "Donald Petersen",
+        "startYear": "1985-02-01"
+      },
+      {
+        "value": "Harold Arthur Poling",
+        "startYear": "1990-03-01"
+      },
+      {
+        "value": "Alexander Trotman, Baron Trotman",
+        "startYear": "1993-11-01"
+      },
+      {
+        "value": "Jacques Nasser",
+        "startYear": "1999-01-01"
+      },
+      {
+        "value": "William Clay Ford",
+        "startYear": "2001-10-01"
+      },
+      {
+        "value": "Alan Mulally",
+        "startYear": "2006-09-01"
+      },
+      {
+        "value": "Mark Fields",
+        "startYear": "2014-07-01"
+      },
+      {
+        "value": "James Hackett",
+        "startYear": "2017-05-01"
+      },
+      {
+        "value": "Jim Farley",
+        "startYear": "2020-10-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q456402",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Münchner Verkehrsgesellschaft mbH (MVG) is _X_.",
+    "spans": [
+      {
+        "value": "Herbert König",
+        "startYear": "2002-01-01"
+      },
+      {
+        "value": "Ingo Wortmann",
+        "startYear": "2016-11-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q458944",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Magyar Telekom is _X_.",
+    "spans": [
+      {
+        "value": "Elek Straub",
+        "startYear": "1995-01-01"
+      },
+      {
+        "value": "Christopher Mattheisen",
+        "startYear": "2006-01-01"
+      },
+      {
+        "value": "Tibor Rékasi",
+        "startYear": "2018-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q459965",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Caterpillar Inc. is _X_.",
+    "spans": [
+      {
+        "value": "Jim Umpleby",
+        "startYear": "2017-01-01"
+      },
+      {
+        "value": "Joseph E. Creed",
+        "startYear": "2025-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q4648219",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of A. O. Smith is _X_.",
+    "spans": [
+      {
+        "value": "Ajita G. Rajendra",
+        "startYear": "2013-01-01"
+      },
+      {
+        "value": "Kevin J. Wheeler",
+        "startYear": "2018-09-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q467480",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of HELVETAS Swiss Intercooperation is _X_.",
+    "spans": [
+      {
+        "value": "Peter Arbenz",
+        "startYear": "1969-01-01"
+      },
+      {
+        "value": "Melchior Lengsfeld",
+        "startYear": "2011-07-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q467752",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Verizon is _X_.",
+    "spans": [
+      {
+        "value": "Lowell McAdam",
+        "startYear": "2011-08-01"
+      },
+      {
+        "value": "Hans Vestberg",
+        "startYear": "2018-08-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q4732492",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Alliant Energy is _X_.",
+    "spans": [
+      {
+        "value": "John O. Larsen",
+        "startYear": "2019-07-01"
+      },
+      {
+        "value": "Lisa M. Barton",
+        "startYear": "2024-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q47498532",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Epiroc is _X_.",
+    "spans": [
+      {
+        "value": "Per Lindberg",
+        "startYear": "2018-01-01"
+      },
+      {
+        "value": "Helena Hedblom",
+        "startYear": "2020-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q477016",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Creative Technology is _X_.",
+    "spans": [
+      {
+        "value": "Freddy Sim",
+        "startYear": "2025-05-16"
+      },
+      {
+        "value": "Tan Jok Tin",
+        "startYear": "2025-06-30"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q478214",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Tesla is _X_.",
+    "spans": [
+      {
+        "value": "Martin Eberhard",
+        "startYear": "2002-01-01"
+      },
+      {
+        "value": "Ze'ev Drori",
+        "startYear": "2002-12-01"
+      },
+      {
+        "value": "Elon Musk",
+        "startYear": "2008-10-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q483915",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Nike is _X_.",
+    "spans": [
+      {
+        "value": "Mark Parker",
+        "startYear": "2006-01-01"
+      },
+      {
+        "value": "John Donahoe",
+        "startYear": "2020-01-13"
+      },
+      {
+        "value": "Elliott Hill",
+        "startYear": "2024-10-14"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q48451697",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Kongresové centrum Praha is _X_.",
+    "spans": [
+      {
+        "value": "Jan Bürgermeister",
+        "startYear": "2004-01-01"
+      },
+      {
+        "value": "Milan Richter",
+        "startYear": "2008-01-01"
+      },
+      {
+        "value": "Zdeněk Hrubý",
+        "startYear": "2012-01-01"
+      },
+      {
+        "value": "Václav Novotný",
+        "startYear": "2013-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q485593",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Red Hat is _X_.",
+    "spans": [
+      {
+        "value": "Matthew Szulik",
+        "startYear": "1999-01-01"
+      },
+      {
+        "value": "Jim Whitehurst",
+        "startYear": "2007-12-01"
+      },
+      {
+        "value": "Paul Cormier",
+        "startYear": "2020-04-06"
+      },
+      {
+        "value": "Matt Hicks",
+        "startYear": "2022-07-12"
+      },
+      {
+        "value": "Bob Young",
+        "startYear": "http://www"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q489080",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Automatic Data Processing is _X_.",
+    "spans": [
+      {
+        "value": "Henry Taub",
+        "startYear": "1949-01-01"
+      },
+      {
+        "value": "Frank Lautenberg",
+        "startYear": "1975-01-01"
+      },
+      {
+        "value": "Josh S. Weston",
+        "startYear": "1982-01-01"
+      },
+      {
+        "value": "Art Weinbach",
+        "startYear": "1996-01-01"
+      },
+      {
+        "value": "Gary C. Butler",
+        "startYear": "2006-08-31"
+      },
+      {
+        "value": "Carlos Rodriguez",
+        "startYear": "2011-11-08"
+      },
+      {
+        "value": "Maria Black",
+        "startYear": "2023-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q496302",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Deere & Company is _X_.",
+    "spans": [
+      {
+        "value": "Charles Deere Wiman",
+        "startYear": "1928-01-01"
+      },
+      {
+        "value": "John May",
+        "startYear": "2019-11-04"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q498366",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Kyushu Railway Company is _X_.",
+    "spans": [
+      {
+        "value": "Yoshitaka Ishii",
+        "startYear": "1987-01-01"
+      },
+      {
+        "value": "Kōji Tanaka",
+        "startYear": "1997-01-01"
+      },
+      {
+        "value": "Susumu Ishihara",
+        "startYear": "2002-01-01"
+      },
+      {
+        "value": "Kōji Karaike",
+        "startYear": "2009-01-01"
+      },
+      {
+        "value": "Toshihiko Aoyagi",
+        "startYear": "2014-01-01"
+      },
+      {
+        "value": "Yōji Furumiya",
+        "startYear": "2022-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q499071",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of East Japan Railway Company is _X_.",
+    "spans": [
+      {
+        "value": "Shōji Sumita",
+        "startYear": "1987-01-01"
+      },
+      {
+        "value": "Masatake Matsuda",
+        "startYear": "1993-01-01"
+      },
+      {
+        "value": "Mutsutake Ōtsuka",
+        "startYear": "2000-01-01"
+      },
+      {
+        "value": "Satoshi Seino",
+        "startYear": "2006-01-01"
+      },
+      {
+        "value": "Tetsurō Tomita",
+        "startYear": "2012-01-01"
+      },
+      {
+        "value": "Yūji Fukasawa",
+        "startYear": "2018-01-01"
+      },
+      {
+        "value": "Yōichi Kise",
+        "startYear": "2024-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q5010371",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of CESNET is _X_.",
+    "spans": [
+      {
+        "value": "Jan Gruntorád",
+        "startYear": "1996-01-01"
+      },
+      {
+        "value": "Jakub Papírník",
+        "startYear": "2021-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q502125",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of West Japan Railway Company is _X_.",
+    "spans": [
+      {
+        "value": "Tatsuo Tsunoda",
+        "startYear": "1987-01-01"
+      },
+      {
+        "value": "Masataka Ide",
+        "startYear": "1992-01-01"
+      },
+      {
+        "value": "Shōjirō Nan'ya",
+        "startYear": "1997-01-01"
+      },
+      {
+        "value": "Takeshi Kakiuchi",
+        "startYear": "2003-01-01"
+      },
+      {
+        "value": "Masao Yamazaki",
+        "startYear": "2006-01-01"
+      },
+      {
+        "value": "Takayuki Sasaki",
+        "startYear": "2009-01-01"
+      },
+      {
+        "value": "Seiji Manabe",
+        "startYear": "2012-01-01"
+      },
+      {
+        "value": "Tatsuo Kijima",
+        "startYear": "2016-01-01"
+      },
+      {
+        "value": "Kazuaki Hasegawa",
+        "startYear": "2019-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q502509",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Smith & Nephew is _X_.",
+    "spans": [
+      {
+        "value": "Namal Nawana",
+        "startYear": "2018-05-01"
+      },
+      {
+        "value": "Roland Diggelmann",
+        "startYear": "2019-11-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q503038",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of United Utilities is _X_.",
+    "spans": [
+      {
+        "value": "Philip Nevill Green",
+        "startYear": "2006-01-01"
+      },
+      {
+        "value": "Steve Mogford",
+        "startYear": "2011-01-01"
+      },
+      {
+        "value": "Louise Beardmore",
+        "startYear": "2023-04-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q503308",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Southwest Airlines is _X_.",
+    "spans": [
+      {
+        "value": "Gary C. Kelly",
+        "startYear": "2004-07-01"
+      },
+      {
+        "value": "Bob Jordan",
+        "startYear": "2022-02-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q5039561",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Carillion is _X_.",
+    "spans": [
+      {
+        "value": "Richard Howson",
+        "startYear": "2011-12-01"
+      },
+      {
+        "value": "Keith Cochrane",
+        "startYear": "2017-07-10"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q507154",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Novartis is _X_.",
+    "spans": [
+      {
+        "value": "Joseph Jimenez",
+        "startYear": "2010-01-01"
+      },
+      {
+        "value": "Vasant Narasimhan",
+        "startYear": "2017-09-05"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q5072394",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Channel Four Television Corporation is _X_.",
+    "spans": [
+      {
+        "value": "Jeremy Isaacs",
+        "startYear": "1981-01-01"
+      },
+      {
+        "value": "Michael Grade",
+        "startYear": "1988-01-01"
+      },
+      {
+        "value": "Michael Jackson",
+        "startYear": "1997-01-01"
+      },
+      {
+        "value": "Mark Thompson",
+        "startYear": "2002-03-01"
+      },
+      {
+        "value": "Andy Duncan",
+        "startYear": "2004-07-01"
+      },
+      {
+        "value": "Anne Bulford",
+        "startYear": "2009-11-01"
+      },
+      {
+        "value": "David Abraham",
+        "startYear": "2010-01-01"
+      },
+      {
+        "value": "Alex Mahon",
+        "startYear": "2017-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q511031",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Norsk Hydro is _X_.",
+    "spans": [
+      {
+        "value": "Hilde Merete Aasheim",
+        "startYear": "2018-01-01"
+      },
+      {
+        "value": "Eivind Kallevik",
+        "startYear": "2023-05-13"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q51844714",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of About You is _X_.",
+    "spans": [
+      {
+        "value": "Hannes Wiese",
+        "startYear": "2013-01-01"
+      },
+      {
+        "value": "Sebastian Betz",
+        "startYear": "2013-01-01"
+      },
+      {
+        "value": "Hannes Wiese",
+        "startYear": "2013-01-01"
+      },
+      {
+        "value": "Sebastian Betz",
+        "startYear": "2013-01-01"
+      },
+      {
+        "value": "Tarek Müller",
+        "startYear": "2014-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q52825",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of ABB Group is _X_.",
+    "spans": [
+      {
+        "value": "Björn Rosengren",
+        "startYear": "2019-04-17"
+      },
+      {
+        "value": "Morten Wierod",
+        "startYear": "2024-08-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q53268",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Toyota is _X_.",
+    "spans": [
+      {
+        "value": "Katsuaki Watanabe",
+        "startYear": "2005-01-01"
+      },
+      {
+        "value": "Akio Toyoda",
+        "startYear": "2009-01-01"
+      },
+      {
+        "value": "Kōji Satō",
+        "startYear": "2023-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q5374450",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Agrofert is _X_.",
+    "spans": [
+      {
+        "value": "Andrej Babiš",
+        "startYear": "2000-01-01"
+      },
+      {
+        "value": "Zbyněk Průša",
+        "startYear": "2014-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q5375992",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Endeavour Mining is _X_.",
+    "spans": [
+      {
+        "value": "Sébastien de Montessus",
+        "startYear": "2016-01-01"
+      },
+      {
+        "value": "Ian Cockerill",
+        "startYear": "2024-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q54075",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of SSAB is _X_.",
+    "spans": [
+      {
+        "value": "Olof Faxander",
+        "startYear": "2006-01-01"
+      },
+      {
+        "value": "Martin Lindqvist",
+        "startYear": "2011-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q541477",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Daimler-Benz AG is _X_.",
+    "spans": [
+      {
+        "value": "Wilhelm Kissel",
+        "startYear": "1926-06-01"
+      },
+      {
+        "value": "Wilhelm Haspel",
+        "startYear": "1942-08-01"
+      },
+      {
+        "value": "Heinrich Wagner",
+        "startYear": "1952-04-01"
+      },
+      {
+        "value": "Fritz Koenecke",
+        "startYear": "1953-02-01"
+      },
+      {
+        "value": "Walter Hitzinger",
+        "startYear": "1961-02-01"
+      },
+      {
+        "value": "Joachim Zahn",
+        "startYear": "1971-01-01"
+      },
+      {
+        "value": "Gerhard Prinz",
+        "startYear": "1980-01-01"
+      },
+      {
+        "value": "Werner Breitschwerdt",
+        "startYear": "1983-12-01"
+      },
+      {
+        "value": "Edzard Reuter",
+        "startYear": "1987-09-01"
+      },
+      {
+        "value": "Jürgen E. Schrempp",
+        "startYear": "1995-05-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q54173",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of General Electric is _X_.",
+    "spans": [
+      {
+        "value": "Owen D. Young",
+        "startYear": "1919-01-01"
+      },
+      {
+        "value": "Philip D. Reed",
+        "startYear": "1940-01-01"
+      },
+      {
+        "value": "Ralph J. Cordiner",
+        "startYear": "1950-01-01"
+      },
+      {
+        "value": "Fred J. Borch",
+        "startYear": "1967-01-01"
+      },
+      {
+        "value": "Reginald H. Jones",
+        "startYear": "1972-01-01"
+      },
+      {
+        "value": "Jack Welch",
+        "startYear": "1981-01-01"
+      },
+      {
+        "value": "Jeff Immelt",
+        "startYear": "2001-01-01"
+      },
+      {
+        "value": "John L. Flannery",
+        "startYear": "2017-08-01"
+      },
+      {
+        "value": "H. Lawrence Culp Jr.",
+        "startYear": "2018-10-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q544847",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Qualcomm is _X_.",
+    "spans": [
+      {
+        "value": "Steve Mollenkopf",
+        "startYear": "2013-12-01"
+      },
+      {
+        "value": "Cristiano Amon",
+        "startYear": "2021-06-30"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q54718",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Yle is _X_.",
+    "spans": [
+      {
+        "value": "Lauri Kivinen",
+        "startYear": "2010-05-01"
+      },
+      {
+        "value": "Merja Ylä-Anttila",
+        "startYear": "2018-09-01"
+      },
+      {
+        "value": "Marit af Björkesten",
+        "startYear": "2025-10-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q55103384",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Avast Limited is _X_.",
+    "spans": [
+      {
+        "value": "Vincent Steckler",
+        "startYear": "2010-01-01"
+      },
+      {
+        "value": "Ondřej Vlček",
+        "startYear": "2019-07-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q552581",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of SAP is _X_.",
+    "spans": [
+      {
+        "value": "Jennifer Morgan",
+        "startYear": "2019-10-01"
+      },
+      {
+        "value": "Christian Klein",
+        "startYear": "2019-10-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q56400574",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Lapinniemi cotton mill is _X_.",
+    "spans": [
+      {
+        "value": "Arthur Sommer",
+        "startYear": "1897-01-01"
+      },
+      {
+        "value": "Lennart Gripenberg",
+        "startYear": "1908-05-23"
+      },
+      {
+        "value": "Magnus Lavonius",
+        "startYear": "1909-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q56452688",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Škoda Investment is _X_.",
+    "spans": [
+      {
+        "value": "Tomáš Krsek",
+        "startYear": "2009-01-01"
+      },
+      {
+        "value": "Josef Brož",
+        "startYear": "2011-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q573103",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of TUI Group is _X_.",
+    "spans": [
+      {
+        "value": "Friedrich Joussen",
+        "startYear": "2013-01-01"
+      },
+      {
+        "value": "Sebastian Ebel",
+        "startYear": "2022-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q58035402",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Radio Corporation of America is _X_.",
+    "spans": [
+      {
+        "value": "James Harbord",
+        "startYear": "1922-01-01"
+      },
+      {
+        "value": "David Sarnoff",
+        "startYear": "1930-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q58230523",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Six Nations Rugby Ltd is _X_.",
+    "spans": [
+      {
+        "value": "Benjamin Morel",
+        "startYear": "2018-11-05"
+      },
+      {
+        "value": "Tom Harrison",
+        "startYear": "2023-04-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q58707",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Aeroflot is _X_.",
+    "spans": [
+      {
+        "value": "Mikhail Poluboyarinov",
+        "startYear": "2020-01-01"
+      },
+      {
+        "value": "Sergei Alexandrovsky",
+        "startYear": "2022-04-08"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q587325",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Wirecard is _X_.",
+    "spans": [
+      {
+        "value": "James H. Freis, Jr.",
+        "startYear": "2020-06-19"
+      },
+      {
+        "value": "Markus Braun",
+        "startYear": "http://www"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q5881409",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of VanMoof is _X_.",
+    "spans": [
+      {
+        "value": "Taco Carlier",
+        "startYear": "2009-01-01"
+      },
+      {
+        "value": "Ties Carlier",
+        "startYear": "2009-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q593786",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of BT Group is _X_.",
+    "spans": [
+      {
+        "value": "Ian Livingstone",
+        "startYear": "2008-06-01"
+      },
+      {
+        "value": "Gavin Patterson",
+        "startYear": "2013-08-01"
+      },
+      {
+        "value": "Philip Jansen",
+        "startYear": "2019-02-01"
+      },
+      {
+        "value": "Allison Kirkby",
+        "startYear": "2024-02-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q59580617",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Vernalis plc is _X_.",
+    "spans": [
+      {
+        "value": "Simon J. Sturge",
+        "startYear": "2003-01-01"
+      },
+      {
+        "value": "Ian R. Garland",
+        "startYear": "2008-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q602621",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Statnett is _X_.",
+    "spans": [
+      {
+        "value": "Auke Lont",
+        "startYear": "2009-01-01"
+      },
+      {
+        "value": "Hilde Tonne",
+        "startYear": "2021-03-15"
+      },
+      {
+        "value": "Elisabeth Vike Vardheim",
+        "startYear": "2024-06-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q6047302",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Intermediate Capital Group is _X_.",
+    "spans": [
+      {
+        "value": "Christophe Evain",
+        "startYear": "2010-01-01"
+      },
+      {
+        "value": "Benoît Durteste",
+        "startYear": "2017-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q604924",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of SRI International is _X_.",
+    "spans": [
+      {
+        "value": "William F. Talbot",
+        "startYear": "1947-01-01"
+      },
+      {
+        "value": "Jesse E. Hobson",
+        "startYear": "1948-01-01"
+      },
+      {
+        "value": "E. Finley Carter",
+        "startYear": "1955-01-01"
+      },
+      {
+        "value": "Karl August Folkers",
+        "startYear": "1963-01-01"
+      },
+      {
+        "value": "Charles Anderson",
+        "startYear": "1968-01-01"
+      },
+      {
+        "value": "William F. Miller",
+        "startYear": "1979-01-01"
+      },
+      {
+        "value": "James J. Tietjen",
+        "startYear": "1990-01-01"
+      },
+      {
+        "value": "William P. Sommers",
+        "startYear": "1994-01-01"
+      },
+      {
+        "value": "Curtis Carlson",
+        "startYear": "1998-01-01"
+      },
+      {
+        "value": "William Jeffrey",
+        "startYear": "2014-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q61041648",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Česká asociace dul is _X_.",
+    "spans": [
+      {
+        "value": "Míla Kastner Martínková",
+        "startYear": "2020-09-01"
+      },
+      {
+        "value": "Vlasta Jirásková",
+        "startYear": "http://www"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q613116",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Patria is _X_.",
+    "spans": [
+      {
+        "value": "Heikki Allonen",
+        "startYear": "2008-08-01"
+      },
+      {
+        "value": "Olli Isotalo",
+        "startYear": "2016-08-01"
+      },
+      {
+        "value": "Ville Jaakonsalo",
+        "startYear": "2019-01-04"
+      },
+      {
+        "value": "Esa Rautalinko",
+        "startYear": "2019-07-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q61412379",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Barrandov Televizní Studio is _X_.",
+    "spans": [
+      {
+        "value": "Václav Marhoul",
+        "startYear": "1991-01-01"
+      },
+      {
+        "value": "Jaromír Soukup",
+        "startYear": "2013-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q619121",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Apollo Global Management is _X_.",
+    "spans": [
+      {
+        "value": "Leon Black",
+        "startYear": "1990-01-01"
+      },
+      {
+        "value": "Marc Rowan",
+        "startYear": "2021-03-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q61957954",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Z-Group is _X_.",
+    "spans": [
+      {
+        "value": "Zdeněk Zemek",
+        "startYear": "2014-01-01"
+      },
+      {
+        "value": "Zdeněk Zemek",
+        "startYear": "2018-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q621231",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Apple Corps is _X_.",
+    "spans": [
+      {
+        "value": "Neil Aspinall",
+        "startYear": "1970-01-01"
+      },
+      {
+        "value": "Jeff Jones",
+        "startYear": "2007-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q624375",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of CVS Health is _X_.",
+    "spans": [
+      {
+        "value": "Larry Merlo",
+        "startYear": "2011-01-01"
+      },
+      {
+        "value": "David Joyner",
+        "startYear": "2024-10-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q625713",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of BHP Group is _X_.",
+    "spans": [
+      {
+        "value": "Andrew Mackenzie",
+        "startYear": "2013-05-10"
+      },
+      {
+        "value": "Mike Henry",
+        "startYear": "2020-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q627039",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of MITRE Corporation is _X_.",
+    "spans": [
+      {
+        "value": "Robert Everett",
+        "startYear": "1969-01-01"
+      },
+      {
+        "value": "Charles A. Zraket",
+        "startYear": "1986-01-01"
+      },
+      {
+        "value": "Barry Horowitz",
+        "startYear": "1990-01-01"
+      },
+      {
+        "value": "Martin C. Faga",
+        "startYear": "2000-01-01"
+      },
+      {
+        "value": "Jason Providakes",
+        "startYear": "2017-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q632240",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Eli Lilly and Company is _X_.",
+    "spans": [
+      {
+        "value": "Randall L. Tobias",
+        "startYear": "1993-01-01"
+      },
+      {
+        "value": "Sidney Taurel",
+        "startYear": "1998-07-01"
+      },
+      {
+        "value": "John C. Lechleiter",
+        "startYear": "2008-04-01"
+      },
+      {
+        "value": "David A. Ricks",
+        "startYear": "2017-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q638098",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Royal Mail is _X_.",
+    "spans": [
+      {
+        "value": "Adam Crozier",
+        "startYear": "2003-02-01"
+      },
+      {
+        "value": "Moya Greene",
+        "startYear": "2010-01-01"
+      },
+      {
+        "value": "Rico Back",
+        "startYear": "2018-06-01"
+      },
+      {
+        "value": "Stuart Simpson",
+        "startYear": "2020-05-01"
+      },
+      {
+        "value": "Simon Thompson",
+        "startYear": "2021-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q642189",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Medtronic plc is _X_.",
+    "spans": [
+      {
+        "value": "William A. Hawkins",
+        "startYear": "2008-01-01"
+      },
+      {
+        "value": "Omar Ishrak",
+        "startYear": "2011-06-01"
+      },
+      {
+        "value": "Geoffrey S Martha",
+        "startYear": "2020-04-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q6449839",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Kværner is _X_.",
+    "spans": [
+      {
+        "value": "Erik Tønseth",
+        "startYear": "1989-01-01"
+      },
+      {
+        "value": "Kjell Almskog",
+        "startYear": "1999-01-01"
+      },
+      {
+        "value": "Karl-Petter Løken",
+        "startYear": "2018-05-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q650467",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Wind Telecomunicazioni is _X_.",
+    "spans": [
+      {
+        "value": "Tommaso Pompei",
+        "startYear": "1997-01-01"
+      },
+      {
+        "value": "Paolo Dal Pino",
+        "startYear": "2006-01-01"
+      },
+      {
+        "value": "Maximo Ibarra",
+        "startYear": "2008-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q652431",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Bridgewater Associates is _X_.",
+    "spans": [
+      {
+        "value": "Mark T. Bertolini",
+        "startYear": "2022-01-03"
+      },
+      {
+        "value": "Nir Bar Dea",
+        "startYear": "2023-03-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q654073",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Disney Entertainment Television is _X_.",
+    "spans": [
+      {
+        "value": "Ben Sherwood",
+        "startYear": "2015-01-01"
+      },
+      {
+        "value": "Peter Rice",
+        "startYear": "2019-03-20"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q66",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Boeing is _X_.",
+    "spans": [
+      {
+        "value": "William McPherson Allen",
+        "startYear": "1945-01-01"
+      },
+      {
+        "value": "Thornton Wilson",
+        "startYear": "1969-01-01"
+      },
+      {
+        "value": "Frank Shrontz",
+        "startYear": "1986-01-01"
+      },
+      {
+        "value": "Philip M. Condit",
+        "startYear": "1996-01-01"
+      },
+      {
+        "value": "Harry Stonecipher",
+        "startYear": "2003-01-01"
+      },
+      {
+        "value": "James McNerney",
+        "startYear": "2005-01-01"
+      },
+      {
+        "value": "James A. Bell",
+        "startYear": "2005-01-01"
+      },
+      {
+        "value": "Dennis Muilenburg",
+        "startYear": "2015-07-01"
+      },
+      {
+        "value": "Dave Calhoun",
+        "startYear": "2020-01-13"
+      },
+      {
+        "value": "Kelly Ortberg",
+        "startYear": "2024-08-08"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q668737",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Yum! Brands is _X_.",
+    "spans": [
+      {
+        "value": "David C. Novak",
+        "startYear": "1999-01-01"
+      },
+      {
+        "value": "Greg Creed",
+        "startYear": "2015-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q67",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Airbus Commercial Aircraft is _X_.",
+    "spans": [
+      {
+        "value": "Tom Enders",
+        "startYear": "2012-01-01"
+      },
+      {
+        "value": "Guillaume Faury",
+        "startYear": "2019-04-10"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q677488",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Elevance Health, Inc. is _X_.",
+    "spans": [
+      {
+        "value": "Joe Swedish",
+        "startYear": "2013-01-01"
+      },
+      {
+        "value": "Gail Boudreaux",
+        "startYear": "2017-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q679322",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Saudi Aramco is _X_.",
+    "spans": [
+      {
+        "value": "Khalid A. Al-Falih",
+        "startYear": "2009-01-01"
+      },
+      {
+        "value": "Amin H. Al-Nasser",
+        "startYear": "2015-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q6823260",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Metaswitch is _X_.",
+    "spans": [
+      {
+        "value": "Ian S Ferguson",
+        "startYear": "1981-08-10"
+      },
+      {
+        "value": "John Lazar",
+        "startYear": "2009-04-01"
+      },
+      {
+        "value": "Kevin DeNuccio",
+        "startYear": "2010-02-04"
+      },
+      {
+        "value": "John Lazar",
+        "startYear": "2012-06-13"
+      },
+      {
+        "value": "Martin Lund",
+        "startYear": "2015-09-02"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q687934",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Weleda is _X_.",
+    "spans": [
+      {
+        "value": "Andreas Sommer",
+        "startYear": "2012-01-01"
+      },
+      {
+        "value": "Michael Brenner",
+        "startYear": "2014-01-01"
+      },
+      {
+        "value": "Aldo Ammendola",
+        "startYear": "2016-10-01"
+      },
+      {
+        "value": "Alois Mayer",
+        "startYear": "2018-07-01"
+      },
+      {
+        "value": "Nataliya Yarmolenko",
+        "startYear": "2020-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q694107",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of The Swatch Group is _X_.",
+    "spans": [
+      {
+        "value": "Nicolas Hayek",
+        "startYear": "1986-01-01"
+      },
+      {
+        "value": "Nick Hayek",
+        "startYear": "2003-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q705417",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of DBS Bank is _X_.",
+    "spans": [
+      {
+        "value": "Piyush Gupta",
+        "startYear": "2009-11-01"
+      },
+      {
+        "value": "Tan Su Shan",
+        "startYear": "2025-03-28"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q7096543",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Openreach is _X_.",
+    "spans": [
+      {
+        "value": "Clive Selley",
+        "startYear": "2016-01-01"
+      },
+      {
+        "value": "Katie Milligan",
+        "startYear": "2026-04-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q715583",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Costco is _X_.",
+    "spans": [
+      {
+        "value": "W. Craig Jelinek",
+        "startYear": "2012-01-01"
+      },
+      {
+        "value": "Ron Vachris",
+        "startYear": "2023-12-31"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q721162",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Telstra is _X_.",
+    "spans": [
+      {
+        "value": "David Thodey",
+        "startYear": "2010-01-01"
+      },
+      {
+        "value": "Andy Penn",
+        "startYear": "2015-05-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q7243481",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Primerica is _X_.",
+    "spans": [
+      {
+        "value": "John A. Addison Jr.",
+        "startYear": "1999-01-01"
+      },
+      {
+        "value": "Glenn J. Williams",
+        "startYear": "2015-04-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q72539",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of U.S. Steel is _X_.",
+    "spans": [
+      {
+        "value": "Thomas Usher",
+        "startYear": "1995-07-01"
+      },
+      {
+        "value": "John P. Surma",
+        "startYear": "2004-10-01"
+      },
+      {
+        "value": "Mario Longhi",
+        "startYear": "2013-09-01"
+      },
+      {
+        "value": "David Burritt",
+        "startYear": "2017-05-10"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q726572",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Tessellis is _X_.",
+    "spans": [
+      {
+        "value": "Renato Soru",
+        "startYear": "1998-01-01"
+      },
+      {
+        "value": "Tommaso Pompei",
+        "startYear": "2006-01-01"
+      },
+      {
+        "value": "Renato Soru",
+        "startYear": "2009-01-01"
+      },
+      {
+        "value": "Riccardo Ruggiero",
+        "startYear": "2016-01-01"
+      },
+      {
+        "value": "Renato Soru",
+        "startYear": "2019-01-01"
+      },
+      {
+        "value": "Davide Rota",
+        "startYear": "2022-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q7333751",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Rightmove is _X_.",
+    "spans": [
+      {
+        "value": "Ed Williams",
+        "startYear": "2000-11-01"
+      },
+      {
+        "value": "Peter Brooks-Johnson",
+        "startYear": "2013-04-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q737477",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Cameroon radio television is _X_.",
+    "spans": [
+      {
+        "value": "Florent Etoga Eily",
+        "startYear": "1985-12-23"
+      },
+      {
+        "value": "Gervais Mendo Ze",
+        "startYear": "1988-10-26"
+      },
+      {
+        "value": "Amadou Vamoulké",
+        "startYear": "2005-01-26"
+      },
+      {
+        "value": "Charles Ndongo",
+        "startYear": "2016-06-29"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q739084",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of U.S. Bancorp is _X_.",
+    "spans": [
+      {
+        "value": "Andrew J. Cecere",
+        "startYear": "2017-01-01"
+      },
+      {
+        "value": "Gunjan Kedia",
+        "startYear": "2025-04-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q7414",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of The Walt Disney Company is _X_.",
+    "spans": [
+      {
+        "value": "Walt Disney",
+        "startYear": "1923-10-16"
+      },
+      {
+        "value": "Roy O. Disney",
+        "startYear": "1966-01-01"
+      },
+      {
+        "value": "Donn Tatum",
+        "startYear": "1971-01-01"
+      },
+      {
+        "value": "Card Walker",
+        "startYear": "1980-01-01"
+      },
+      {
+        "value": "Michael Eisner",
+        "startYear": "1984-01-01"
+      },
+      {
+        "value": "Raymond Watson",
+        "startYear": "1984-01-01"
+      },
+      {
+        "value": "Michael Eisner",
+        "startYear": "1984-01-01"
+      },
+      {
+        "value": "Raymond Watson",
+        "startYear": "1984-01-01"
+      },
+      {
+        "value": "Bob Iger",
+        "startYear": "2005-01-01"
+      },
+      {
+        "value": "Bob Chapek",
+        "startYear": "2020-01-01"
+      },
+      {
+        "value": "Bob Iger",
+        "startYear": "2022-01-01"
+      },
+      {
+        "value": "Josh D'Amaro",
+        "startYear": "2026-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q7552943",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Société de Microélectronique et d'Horlogerie is _X_.",
+    "spans": [
+      {
+        "value": "Ernst Thomke",
+        "startYear": "1984-01-01"
+      },
+      {
+        "value": "Nicolas Hayek",
+        "startYear": "1991-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q757164",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Atlas Copco is _X_.",
+    "spans": [
+      {
+        "value": "Edvard Fränckel",
+        "startYear": "1873-01-01"
+      },
+      {
+        "value": "Oscar Lamm",
+        "startYear": "1887-01-01"
+      },
+      {
+        "value": "Gunnar Jacobsson",
+        "startYear": "1909-01-01"
+      },
+      {
+        "value": "Walter Wehtje",
+        "startYear": "1940-01-01"
+      },
+      {
+        "value": "Kurt-Allan Belfrage",
+        "startYear": "1957-01-01"
+      },
+      {
+        "value": "Erik Johnsson",
+        "startYear": "1970-01-01"
+      },
+      {
+        "value": "Tom Wachtmeister",
+        "startYear": "1975-01-01"
+      },
+      {
+        "value": "Michael Treschow",
+        "startYear": "1991-01-01"
+      },
+      {
+        "value": "Giulio Mazzalupi",
+        "startYear": "1997-01-01"
+      },
+      {
+        "value": "Gunnar Brock",
+        "startYear": "2002-07-01"
+      },
+      {
+        "value": "Ronnie Leten",
+        "startYear": "2009-05-31"
+      },
+      {
+        "value": "Mats Rahmström",
+        "startYear": "2017-04-27"
+      },
+      {
+        "value": "Vagner Rego",
+        "startYear": "2024-05-16"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q7588412",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of St. James's Place Wealth Management Group is _X_.",
+    "spans": [
+      {
+        "value": "Mike Wilson",
+        "startYear": "1991-01-01"
+      },
+      {
+        "value": "Andrew Croft",
+        "startYear": "2018-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q780442",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Uber is _X_.",
+    "spans": [
+      {
+        "value": "Travis Kalanick",
+        "startYear": "2011-01-01"
+      },
+      {
+        "value": "Dara Khosrowshahi",
+        "startYear": "2017-08-28"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q7894055",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Universal Robots is _X_.",
+    "spans": [
+      {
+        "value": "Enrico Krog Iversen",
+        "startYear": "2008-01-01"
+      },
+      {
+        "value": "Jürgen von Hollen",
+        "startYear": "2016-01-01"
+      },
+      {
+        "value": "Kim Povlsen",
+        "startYear": "2021-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q791285",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Avon Products Inc. is _X_.",
+    "spans": [
+      {
+        "value": "Andrea Jung",
+        "startYear": "1998-01-01"
+      },
+      {
+        "value": "Sheri McCoy",
+        "startYear": "2012-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q795474",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Cevital is _X_.",
+    "spans": [
+      {
+        "value": "Issad Rebrab",
+        "startYear": "1998-01-01"
+      },
+      {
+        "value": "Malik Rebrab",
+        "startYear": "2022-06-30"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q8024771",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Windstream Holdings is _X_.",
+    "spans": [
+      {
+        "value": "Jeffery R. Gardner",
+        "startYear": "2006-01-01"
+      },
+      {
+        "value": "Anthony W. Thomas",
+        "startYear": "2014-01-01"
+      },
+      {
+        "value": "Paul H. Sunu",
+        "startYear": "2023-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q8074134",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of ZoomInfo is _X_.",
+    "spans": [
+      {
+        "value": "Yonatan Stern",
+        "startYear": "2000-01-01"
+      },
+      {
+        "value": "Henry Schuck",
+        "startYear": "2019-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q80788",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of DNB Bank is _X_.",
+    "spans": [
+      {
+        "value": "Rune Bjerke",
+        "startYear": "2007-01-01"
+      },
+      {
+        "value": "Kjerstin Braathen",
+        "startYear": "2019-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q8085893",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Expedia Group is _X_.",
+    "spans": [
+      {
+        "value": "Dara Khosrowshahi",
+        "startYear": "2004-12-01"
+      },
+      {
+        "value": "Ariane Gorin",
+        "startYear": "2024-05-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q8093",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Nintendo is _X_.",
+    "spans": [
+      {
+        "value": "Fusajirō Yamauchi",
+        "startYear": "1889-09-23"
+      },
+      {
+        "value": "Sekiryo Kaneda",
+        "startYear": "1929-01-01"
+      },
+      {
+        "value": "Hiroshi Yamauchi",
+        "startYear": "1949-09-01"
+      },
+      {
+        "value": "Satoru Iwata",
+        "startYear": "2002-05-24"
+      },
+      {
+        "value": "Tatsumi Kimishima",
+        "startYear": "2015-09-16"
+      },
+      {
+        "value": "Shuntaro Furukawa",
+        "startYear": "2018-06-28"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q81230",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Siemens is _X_.",
+    "spans": [
+      {
+        "value": "Karlheinz Kaske",
+        "startYear": "1981-01-28"
+      },
+      {
+        "value": "Heinrich von Pierer",
+        "startYear": "1992-01-01"
+      },
+      {
+        "value": "Klaus Kleinfeld",
+        "startYear": "2005-01-01"
+      },
+      {
+        "value": "Peter Löscher",
+        "startYear": "2007-07-01"
+      },
+      {
+        "value": "Roland Busch",
+        "startYear": "2021-02-03"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q814989",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Bekaert is _X_.",
+    "spans": [
+      {
+        "value": "Bert De Graeve",
+        "startYear": "2014-01-01"
+      },
+      {
+        "value": "Jürgen Tinggren",
+        "startYear": "2019-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q81965",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of General Motors is _X_.",
+    "spans": [
+      {
+        "value": "Alfred P. Sloan",
+        "startYear": "1923-01-01"
+      },
+      {
+        "value": "Roger Smith",
+        "startYear": "1981-01-01"
+      },
+      {
+        "value": "Mary Barra",
+        "startYear": "2014-01-15"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q823010",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Nyrstar is _X_.",
+    "spans": [
+      {
+        "value": "Roland Junck",
+        "startYear": "2007-01-01"
+      },
+      {
+        "value": "Heinz Eigner",
+        "startYear": "2014-01-01"
+      },
+      {
+        "value": "Bill Scotting",
+        "startYear": "2015-01-01"
+      },
+      {
+        "value": "Hilmar Rode",
+        "startYear": "2016-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q83825",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Vy is _X_.",
+    "spans": [
+      {
+        "value": "Osmund Ueland",
+        "startYear": "1996-12-01"
+      },
+      {
+        "value": "Arne Wam",
+        "startYear": "2000-07-03"
+      },
+      {
+        "value": "Einar Enger",
+        "startYear": "2001-03-01"
+      },
+      {
+        "value": "Arne Fosen",
+        "startYear": "2011-05-13"
+      },
+      {
+        "value": "Geir Isaksen",
+        "startYear": "2011-09-01"
+      },
+      {
+        "value": "Gro Bakstad",
+        "startYear": "2020-09-14"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q838716",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Repsol Oil & Gas Canada is _X_.",
+    "spans": [
+      {
+        "value": "James Buckee",
+        "startYear": "1993-01-01"
+      },
+      {
+        "value": "John Manzoni",
+        "startYear": "2007-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q848336",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Eutelsat is _X_.",
+    "spans": [
+      {
+        "value": "Eva Berneke",
+        "startYear": "2022-01-01"
+      },
+      {
+        "value": "Jean-François Fallacher",
+        "startYear": "2025-06-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q85727717",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of One Medical is _X_.",
+    "spans": [
+      {
+        "value": "Tom X. Lee",
+        "startYear": "2007-01-01"
+      },
+      {
+        "value": "Amir Dan Rubin",
+        "startYear": "2017-07-19"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q864338",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Biogen is _X_.",
+    "spans": [
+      {
+        "value": "George Scangos",
+        "startYear": "2010-07-01"
+      },
+      {
+        "value": "Michel Vounatsos",
+        "startYear": "2017-01-06"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q864407",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of The Home Depot is _X_.",
+    "spans": [
+      {
+        "value": "Frank Blake",
+        "startYear": "2007-01-02"
+      },
+      {
+        "value": "Craig Menear",
+        "startYear": "2014-11-01"
+      },
+      {
+        "value": "Ted Decker",
+        "startYear": "2022-03-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q864923",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Singtel is _X_.",
+    "spans": [
+      {
+        "value": "Chua Sock Koong",
+        "startYear": "2007-04-01"
+      },
+      {
+        "value": "Yuen Kuan Moon",
+        "startYear": "2021-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q86495804",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Palmrothin kenkätehdas is _X_.",
+    "spans": [
+      {
+        "value": "Pentti Palmroth",
+        "startYear": "1928-01-01"
+      },
+      {
+        "value": "Juhani Palmroth",
+        "startYear": "1968-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q8766",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of British Airways is _X_.",
+    "spans": [
+      {
+        "value": "Ross Stainton",
+        "startYear": "1977-01-01"
+      },
+      {
+        "value": "Roy Thomas Watts",
+        "startYear": "1979-01-01"
+      },
+      {
+        "value": "Colin Marshall, Baron Marshall of Knightsbridge",
+        "startYear": "1983-01-01"
+      },
+      {
+        "value": "Robert Ayling",
+        "startYear": "1996-01-01"
+      },
+      {
+        "value": "Rod Eddington",
+        "startYear": "2000-01-01"
+      },
+      {
+        "value": "Willie Walsh",
+        "startYear": "2005-01-01"
+      },
+      {
+        "value": "Keith Williams",
+        "startYear": "2011-01-01"
+      },
+      {
+        "value": "Álex Cruz",
+        "startYear": "2016-01-01"
+      },
+      {
+        "value": "Sean Doyle",
+        "startYear": "2020-10-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q877189",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of FEV is _X_.",
+    "spans": [
+      {
+        "value": "Franz Pischinger",
+        "startYear": "1978-01-01"
+      },
+      {
+        "value": "Stefan Pischinger",
+        "startYear": "2003-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q8774",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of International Airlines Group is _X_.",
+    "spans": [
+      {
+        "value": "Willie Walsh",
+        "startYear": "2011-01-24"
+      },
+      {
+        "value": "Luis Gallego",
+        "startYear": "2020-09-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q8793",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Boeing Commercial Airplanes is _X_.",
+    "spans": [
+      {
+        "value": "Ray Connor",
+        "startYear": "2012-06-01"
+      },
+      {
+        "value": "Kevin G. McAllister",
+        "startYear": "2016-11-01"
+      },
+      {
+        "value": "Stanley A. Deal",
+        "startYear": "2019-10-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q88959995",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of PPF investiční holding is _X_.",
+    "spans": [
+      {
+        "value": "Přemysl Voráč",
+        "startYear": "1991-01-01"
+      },
+      {
+        "value": "Libor Táborský",
+        "startYear": "1993-01-01"
+      },
+      {
+        "value": "Ladislav Bartoníček",
+        "startYear": "1993-05-01"
+      },
+      {
+        "value": "Ivo Nesrovnal",
+        "startYear": "1995-01-01"
+      },
+      {
+        "value": "Aleš Minx",
+        "startYear": "1997-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q890353",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Bofors is _X_.",
+    "spans": [
+      {
+        "value": "Martin Ardbo",
+        "startYear": "1985-01-01"
+      },
+      {
+        "value": "Per Ove Morberg",
+        "startYear": "1987-01-01"
+      },
+      {
+        "value": "Egon Linderoth",
+        "startYear": "1988-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q892206",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Glory is _X_.",
+    "spans": [
+      {
+        "value": "Jon J. Franklin",
+        "startYear": "2014-01-01"
+      },
+      {
+        "value": "Marshall Zelaznik",
+        "startYear": "2018-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q898208",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Honeywell is _X_.",
+    "spans": [
+      {
+        "value": "Darius Adamczyk",
+        "startYear": "2017-03-01"
+      },
+      {
+        "value": "Vimal Kapur",
+        "startYear": "2023-06-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q905049",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Shire plc is _X_.",
+    "spans": [
+      {
+        "value": "Rolf Stahel",
+        "startYear": "1994-03-01"
+      },
+      {
+        "value": "Matthew Emmens",
+        "startYear": "2003-03-01"
+      },
+      {
+        "value": "Angus Russell",
+        "startYear": "2008-01-01"
+      },
+      {
+        "value": "Flemming Ørnskov",
+        "startYear": "2013-04-30"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q916196",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Citrix Systems is _X_.",
+    "spans": [
+      {
+        "value": "Kirill Tatarinov",
+        "startYear": "2016-01-01"
+      },
+      {
+        "value": "David J. Henshall",
+        "startYear": "2017-07-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q919646",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of British Land is _X_.",
+    "spans": [
+      {
+        "value": "Stephen Hester",
+        "startYear": "2004-01-01"
+      },
+      {
+        "value": "Chris Grigg",
+        "startYear": "2009-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q931207",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Kering is _X_.",
+    "spans": [
+      {
+        "value": "François-Henri Pinault",
+        "startYear": "2005-01-01"
+      },
+      {
+        "value": "Luca de Meo",
+        "startYear": "2025-09-15"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q9325",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Lufthansa is _X_.",
+    "spans": [
+      {
+        "value": "Wolfgang Mayrhuber",
+        "startYear": "2003-06-18"
+      },
+      {
+        "value": "Christoph Franz",
+        "startYear": "2011-01-01"
+      },
+      {
+        "value": "Carsten Spohr",
+        "startYear": "2014-05-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q933787",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Škoda Transportation is _X_.",
+    "spans": [
+      {
+        "value": "Tomáš Krsek",
+        "startYear": "2009-01-01"
+      },
+      {
+        "value": "Josef Bernard",
+        "startYear": "2010-01-01"
+      },
+      {
+        "value": "Tomáš Ignačák",
+        "startYear": "2016-01-01"
+      },
+      {
+        "value": "Petr Brzezina",
+        "startYear": "2018-01-01"
+      },
+      {
+        "value": "Didier Pfleger",
+        "startYear": "2022-01-01"
+      },
+      {
+        "value": "Petr Novotný",
+        "startYear": "2023-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q9396",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Deutsche Telekom is _X_.",
+    "spans": [
+      {
+        "value": "Ron Sommer",
+        "startYear": "1995-05-16"
+      },
+      {
+        "value": "Kai-Uwe Ricke",
+        "startYear": "2002-11-15"
+      },
+      {
+        "value": "René Obermann",
+        "startYear": "2006-11-13"
+      },
+      {
+        "value": "Timotheus Höttges",
+        "startYear": "2014-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q949610",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Shimano is _X_.",
+    "spans": [
+      {
+        "value": "Shozaburo Shimano",
+        "startYear": "1921-01-01"
+      },
+      {
+        "value": "Shozo Shimano",
+        "startYear": "1959-01-01"
+      },
+      {
+        "value": "Keizo Shimano",
+        "startYear": "1992-01-01"
+      },
+      {
+        "value": "Yōzō Shimano",
+        "startYear": "1995-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q95",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Google is _X_.",
+    "spans": [
+      {
+        "value": "Larry Page",
+        "startYear": "1998-01-01"
+      },
+      {
+        "value": "Eric Schmidt",
+        "startYear": "2001-08-01"
+      },
+      {
+        "value": "Larry Page",
+        "startYear": "2011-04-04"
+      },
+      {
+        "value": "Sundar Pichai",
+        "startYear": "2015-08-10"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q97052945",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Wedaverken is _X_.",
+    "spans": [
+      {
+        "value": "Dan Bergman",
+        "startYear": "1919-01-01"
+      },
+      {
+        "value": "Sven Lind",
+        "startYear": "1943-01-01"
+      },
+      {
+        "value": "Karl Wilhelmson",
+        "startYear": "1966-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q971649",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Orlen is _X_.",
+    "spans": [
+      {
+        "value": "Andrzej Modrzejewski",
+        "startYear": "1999-04-16"
+      },
+      {
+        "value": "Zbigniew Wróbel",
+        "startYear": "2002-02-08"
+      },
+      {
+        "value": "Jacek Walczykowski",
+        "startYear": "2004-07-28"
+      },
+      {
+        "value": "Igor Chalupec",
+        "startYear": "2004-09-21"
+      },
+      {
+        "value": "Piotr Kownacki",
+        "startYear": "2007-01-18"
+      },
+      {
+        "value": "Wojciech Heydel",
+        "startYear": "2008-04-30"
+      },
+      {
+        "value": "Dariusz Jacek Krawiec",
+        "startYear": "2008-09-18"
+      },
+      {
+        "value": "Wojciech Jasiński",
+        "startYear": "2015-12-16"
+      },
+      {
+        "value": "Daniel Obajtek",
+        "startYear": "2018-02-05"
+      },
+      {
+        "value": "Ireneusz Fąfara",
+        "startYear": "2024-04-11"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q97439162",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Stellantis is _X_.",
+    "spans": [
+      {
+        "value": "Carlos Tavares",
+        "startYear": "2021-01-16"
+      },
+      {
+        "value": "Antonio Filosa",
+        "startYear": "2025-05-28"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q98081129",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of Twitch Interactive is _X_.",
+    "spans": [
+      {
+        "value": "Michael Seibel",
+        "startYear": "2006-01-01"
+      },
+      {
+        "value": "Emmett Shear",
+        "startYear": "2011-08-01"
+      },
+      {
+        "value": "Dan Clancy",
+        "startYear": "2023-03-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q99769550",
+    "relation": "chief_executive_officer",
+    "queryTemplate": "The chief executive officer of GA Investiční AG is _X_.",
+    "spans": [
+      {
+        "value": "Karel Obluk",
+        "startYear": "2020-04-01"
+      },
+      {
+        "value": "Jiří Nepala",
+        "startYear": "2020-09-01"
+      }
+    ]
+  }
+]

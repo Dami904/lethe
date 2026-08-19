@@ -28,7 +28,19 @@ export async function classifyRelation(
   newContent: string,
   attribute: string,
   provider: LlmProvider | null = getLlmProvider(),
+  skip = false,
 ): Promise<ConflictRelation | null> {
+  // Opt-in escape hatch (see POST /facts's `skip_classifier` body flag) for
+  // bulk-ingesting structured datasets whose spans are already deduplicated
+  // to distinct consecutive values by their prep script (e.g.
+  // scripts/ingest-temporal-facts.ts) -- every transition IS a real change
+  // by construction, so the LLM's semantic judgment adds no correctness
+  // value there, only per-write latency. Returning null here routes
+  // straight to the exact-string-diff fallback (see below), which is
+  // exactly as correct for this data shape. NOT used for LongMemEval
+  // ingestion, where extracted facts can genuinely paraphrase the same
+  // underlying value and the semantic classifier matters.
+  if (skip) return null;
   if (!provider) return null;
   if (priorContent.trim() === newContent.trim()) return "same";
 

@@ -1,14 +1,22 @@
 # PowerShell equivalent of scripts/hydradb-up.sh, for judges on native
 # Windows with Docker Desktop and no bash (no WSL, no Git Bash). Creates the
-# host-mounted store/cache dirs and a dev auth token, then starts HydraDB
-# via docker compose. Safe to re-run.
+# host-mounted cache dir and a dev auth token, then starts MinIO (+ its
+# one-shot bucket-init) and HydraDB via docker compose. Safe to re-run.
+#
+# HydraDB runs against MinIO here, not CLOUD_PROVIDER=local -- confirmed
+# live in this project that the local/LocalFileSystem backend cannot
+# sustain writes (its manifest update needs a conditional put that
+# LocalFileSystem doesn't implement; every write eventually starts failing
+# and a container restart does not recover it). This is a filed upstream
+# bug, https://github.com/hydra-db/hydradb/issues/81, whose own suggested
+# fix is exactly this: point CLOUD_PROVIDER at an S3-compatible backend.
+# See docs/LIMITATIONS.md for the full account.
 #
 # Usage: powershell -ExecutionPolicy Bypass -File scripts/hydradb-up.ps1
 
 $ErrorActionPreference = "Stop"
 Set-Location (Join-Path $PSScriptRoot "..")
 
-New-Item -ItemType Directory -Force -Path ".hydradb-data/store" | Out-Null
 New-Item -ItemType Directory -Force -Path ".hydradb-data/cache" | Out-Null
 
 $tokenPath = ".hydradb-data/auth-token"
@@ -28,7 +36,7 @@ if (-not (Test-Path $tokenPath)) {
 # native Linux Docker host does (that's what scripts/hydradb-up.sh's
 # UID/GID export works around; see docker-compose.yml). The compose file's
 # default fallback (1000:1000) is fine here.
-docker compose up -d hydradb
+docker compose up -d minio minio-init hydradb
 
 Write-Host "Waiting for HydraDB readiness on :9090/readyz ..."
 $ready = $false

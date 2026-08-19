@@ -1,31 +1,53 @@
 :root {
   color-scheme: light dark;
   --bg: #ffffff;
+  --panel-bg: #fafafa;
   --fg: #1a1a1a;
   --muted: #666666;
   --border: #d8d8d8;
+  --accent: #3b5bdb;
   --wrong-bg: #fdeeee;
   --wrong-border: #d99;
+  --wrong-fg: #a33;
   --right-bg: #eef7ee;
-  --right-border: #9c9;
+  --right-border: #4c9a4c;
+  --right-fg: #2f7a2f;
+  --node-bg: #ffffff;
+  --node-current-border: #2f7a2f;
+  --node-current-glow: rgba(47, 122, 47, 0.25);
   --mono: ui-monospace, "SF Mono", Consolas, monospace;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: #14161a;
+    --panel-bg: #191c21;
     --fg: #e8e8e8;
     --muted: #999999;
     --border: #33363c;
+    --accent: #7b93ff;
     --wrong-bg: #3a2222;
     --wrong-border: #7a3b3b;
+    --wrong-fg: #ff8080;
     --right-bg: #1f3323;
-    --right-border: #3f7a4d;
+    --right-border: #4c9a4c;
+    --right-fg: #7fd97f;
+    --node-bg: #1e2126;
+    --node-current-border: #4c9a4c;
+    --node-current-glow: rgba(76, 154, 76, 0.35);
   }
 }
 
 * {
   box-sizing: border-box;
+}
+
+/* .controls sets display:flex, which otherwise overrides the browser's
+   default [hidden] { display: none } rule since author styles win over the
+   UA stylesheet -- without this, sliderSection.hidden = true silently had
+   no visual effect. */
+[hidden] {
+  display: none !important;
 }
 
 body {
@@ -40,13 +62,56 @@ body {
 
 header h1 {
   margin: 0 0 0.25rem 0;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
+  letter-spacing: -0.01em;
 }
 
 header p {
   margin: 0 0 1.25rem 0;
   color: var(--muted);
   font-size: 0.9rem;
+}
+
+.legend {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1.25rem;
+  background: var(--panel-bg);
+}
+
+.legend svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.legend-node rect {
+  fill: var(--node-bg);
+  stroke: var(--border);
+  stroke-width: 1.5;
+}
+
+.legend-node text {
+  fill: var(--fg);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.legend-edge {
+  stroke: var(--muted);
+  stroke-width: 1.5;
+  fill: none;
+}
+
+.edge-label {
+  fill: var(--muted);
+  font-size: 10px;
+  font-family: var(--mono);
+}
+
+.arrow-head {
+  fill: var(--muted);
 }
 
 .controls {
@@ -56,8 +121,8 @@ header p {
   gap: 0.5rem 1rem;
   padding: 0.75rem;
   border: 1px solid var(--border);
-  border-radius: 6px;
-  margin-bottom: 1.25rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
 }
 
 .controls label {
@@ -68,8 +133,8 @@ header p {
 .controls select,
 .controls button {
   font: inherit;
-  padding: 0.35rem 0.5rem;
-  border-radius: 4px;
+  padding: 0.4rem 0.6rem;
+  border-radius: 6px;
   border: 1px solid var(--border);
   background: var(--bg);
   color: var(--fg);
@@ -78,6 +143,61 @@ header p {
 .controls button {
   cursor: pointer;
   font-weight: 600;
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.slider-controls {
+  flex-direction: column;
+  align-items: stretch;
+  margin-bottom: 1.25rem;
+}
+
+.slider-controls label {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--mono);
+}
+
+#asOfLabel {
+  color: var(--fg);
+  font-weight: 600;
+}
+
+#asOfSlider {
+  width: 100%;
+  margin: 0.5rem 0;
+  accent-color: var(--accent);
+}
+
+.slider-hint {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.72rem;
+  color: var(--muted);
+  position: relative;
+  height: 1.2rem;
+}
+
+#flipMarkerLabel {
+  position: absolute;
+  top: 0.65rem;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+#flipMarkerLabel::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: -0.55rem;
+  transform: translateX(-50%);
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 6px solid var(--accent);
 }
 
 .panels {
@@ -94,8 +214,9 @@ header p {
 
 .panel {
   border: 1px solid var(--border);
-  border-radius: 6px;
+  border-radius: 8px;
   padding: 1rem;
+  background: var(--panel-bg);
 }
 
 .panel h2 {
@@ -110,54 +231,128 @@ header p {
 }
 
 .output {
-  font-family: var(--mono);
-  font-size: 0.85rem;
-  white-space: pre-wrap;
-  overflow-wrap: anywhere;
+  font-size: 0.9rem;
   min-height: 4rem;
 }
 
 .output .row {
-  padding: 0.5rem;
-  border-radius: 4px;
-  margin-bottom: 0.4rem;
-  border: 1px solid var(--border);
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  padding: 0.6rem 0.7rem;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+  border: 1.5px solid var(--border);
+  background: var(--bg);
+}
+
+.output .row-marker {
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.4;
+  flex-shrink: 0;
+  width: 1.2rem;
+  text-align: center;
+}
+
+.output .row-body {
+  overflow-wrap: anywhere;
+  min-width: 0;
 }
 
 .output .row.correct {
   background: var(--right-bg);
   border-color: var(--right-border);
+  border-width: 2px;
+}
+.output .row.correct .row-marker {
+  color: var(--right-fg);
 }
 
 .output .row.wrong {
   background: var(--wrong-bg);
   border-color: var(--wrong-border);
 }
+.output .row.wrong .row-marker {
+  color: var(--wrong-fg);
+}
+
+.output .row.muted {
+  opacity: 0.55;
+}
+.output .row.muted .row-marker {
+  visibility: hidden;
+}
 
 .output .score {
   color: var(--muted);
   font-size: 0.75rem;
+  font-family: var(--mono);
+  margin-top: 0.15rem;
 }
 
 .chain {
   margin-top: 1rem;
-  font-family: var(--mono);
-  font-size: 0.8rem;
 }
 
-.chain .fact-node {
-  padding: 0.4rem 0.5rem;
-  border: 1px solid var(--border);
-  border-radius: 4px;
-  margin-bottom: 0.25rem;
+.chain-svg {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
-.chain .arrow {
+.chain-edge {
+  stroke: var(--muted);
+  stroke-width: 1.5;
+}
+
+.fact-node rect {
+  fill: var(--node-bg);
+  stroke: var(--border);
+  stroke-width: 1.5;
+}
+
+.fact-node.current rect {
+  stroke: var(--node-current-border);
+  stroke-width: 3;
+  filter: drop-shadow(0 0 6px var(--node-current-glow));
+}
+
+.fact-node.superseded rect {
+  stroke-dasharray: 4 3;
+}
+
+.fact-node.superseded .node-content {
+  opacity: 0.6;
+}
+
+.node-content {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.node-text {
+  font-size: 0.82rem;
+  line-height: 1.25;
+  color: var(--fg);
+}
+
+.node-text.small {
+  font-size: 0.72rem;
+}
+
+.node-meta {
+  font-size: 0.68rem;
   color: var(--muted);
-  padding-left: 0.75rem;
+  font-family: var(--mono);
+  margin-top: 0.15rem;
 }
 
-.chain .fact-node.superseded {
-  opacity: 0.55;
-  text-decoration: line-through;
+.path-node .node-meta {
+  font-weight: 700;
+  color: var(--accent);
 }

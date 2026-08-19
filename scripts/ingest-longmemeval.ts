@@ -1,15 +1,21 @@
 /**
- * Automated extraction + ingestion for a real subset of LongMemEval (see
- * data/longmemeval/eval_subset.json: 20 knowledge-update instances + 3
- * paired abstention instances, the oracle setting -- pre-identified
- * evidence sessions, isolating memory-reasoning correctness from retrieval
- * quality, per the paper's own recommended mode for this kind of
- * comparison). Requires ANTHROPIC_API_KEY, OPENAI_API_KEY, or
- * GEMINI_API_KEY set (see src/lib/llm/index.ts) -- with none set, every
- * session's extraction returns null and nothing is ingested; this script
- * will say so plainly rather than silently doing nothing.
+ * Automated extraction + ingestion for a real subset of LongMemEval, the
+ * oracle setting -- pre-identified evidence sessions, isolating
+ * memory-reasoning correctness from retrieval quality, per the paper's own
+ * recommended mode for this kind of comparison. Requires ANTHROPIC_API_KEY,
+ * OPENAI_API_KEY, or GEMINI_API_KEY set (see src/lib/llm/index.ts) -- with
+ * none set, every session's extraction returns null and nothing is
+ * ingested; this script will say so plainly rather than silently doing
+ * nothing.
+ *
+ * Data source defaults to data/longmemeval/eval_subset.json (23 instances:
+ * 20 knowledge-update + 3 paired abstention) -- override with
+ * LONGMEMEVAL_DATA_PATH, e.g. to point at
+ * data/longmemeval/eval_subset_full.json (78 instances: all 72
+ * knowledge-update + all 6 paired abstention in the oracle dataset).
  *
  * Run with: pnpm ingest:longmemeval
+ * Or:       LONGMEMEVAL_DATA_PATH=data/longmemeval/eval_subset_full.json LONGMEMEVAL_LIMIT=50 pnpm ingest:longmemeval
  */
 import "../src/loadEnv.js";
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
@@ -20,7 +26,10 @@ import { parseLongMemEvalDate } from "../src/ingest/parseLongMemEvalDate.js";
 import { getLlmProvider } from "../src/lib/llm/index.js";
 
 const BASE_URL = process.env["LETHE_URL"] ?? "http://127.0.0.1:3000";
-const DATA_PATH = path.resolve(process.cwd(), "data/longmemeval/eval_subset.json");
+const DATA_PATH = path.resolve(
+  process.cwd(),
+  process.env["LONGMEMEVAL_DATA_PATH"] ?? "data/longmemeval/eval_subset.json",
+);
 const OUTPUT_PATH = path.resolve(process.cwd(), ".cache/ingested-longmemeval.json");
 
 interface LongMemEvalInstance {

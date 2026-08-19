@@ -1,0 +1,6026 @@
+[
+  {
+    "subjectId": "Q101478952",
+    "relation": "location",
+    "queryTemplate": "Marsyas I is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Brautgasse",
+        "startYear": "2001-01-01"
+      },
+      {
+        "value": "Kunstmuseum Bayreuth",
+        "startYear": "2019-01-01"
+      },
+      {
+        "value": "Brautgasse",
+        "startYear": "2020-10-06"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q101623545",
+    "relation": "location",
+    "queryTemplate": "Vliegend is currently held in _X_.",
+    "spans": [
+      {
+        "value": "De Olijftak",
+        "startYear": "1956-01-01"
+      },
+      {
+        "value": "Singelkerk",
+        "startYear": "1996-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q10301958",
+    "relation": "location",
+    "queryTemplate": "Independence or Death is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Academy of Fine Arts, Florence",
+        "startYear": "1888-01-01"
+      },
+      {
+        "value": "Ipiranga Museum",
+        "startYear": "1895-09-07"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q105045295",
+    "relation": "location",
+    "queryTemplate": "Allegory of war science is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Ruhmeshalle Berlin",
+        "startYear": "1887-01-01"
+      },
+      {
+        "value": "Nikolaiviertel",
+        "startYear": "1987-01-01"
+      },
+      {
+        "value": "Zeughaus",
+        "startYear": "2009-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q106796545",
+    "relation": "location",
+    "queryTemplate": "Quasi is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Christchurch Art Gallery",
+        "startYear": "2016-06-09"
+      },
+      {
+        "value": "City Gallery Wellington",
+        "startYear": "2019-08-19"
+      },
+      {
+        "value": "The Henry Jones Art Hotel",
+        "startYear": "2025-06-03"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q107334199",
+    "relation": "location",
+    "queryTemplate": "Orpheus and Apollo is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Lincoln Center for the Performing Arts",
+        "startYear": "1962-01-01"
+      },
+      {
+        "value": "LaGuardia Airport",
+        "startYear": "2021-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q107425214",
+    "relation": "location",
+    "queryTemplate": "Clara-Zetkin monument is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Neu-Hohenschönhausen",
+        "startYear": "1986-01-01"
+      },
+      {
+        "value": "Clara-Zetkin-Park",
+        "startYear": "1999-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q107689884",
+    "relation": "location",
+    "queryTemplate": "Helion is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Downtown Crossing",
+        "startYear": "1975-01-01"
+      },
+      {
+        "value": "Roxbury",
+        "startYear": "2000-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1092638",
+    "relation": "location",
+    "queryTemplate": "Madonna di Senigallia is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Galleria Nazionale delle Marche",
+        "startYear": "1917-01-01"
+      },
+      {
+        "value": "Locarno",
+        "startYear": "1975-02-06"
+      },
+      {
+        "value": "Galleria Nazionale delle Marche",
+        "startYear": "1975-03-22"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1109340",
+    "relation": "location",
+    "queryTemplate": "Fortitude is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Tribunale della Mercanzia",
+        "startYear": "1470-01-01"
+      },
+      {
+        "value": "Uffizi Gallery",
+        "startYear": "1777-08-07"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1113938",
+    "relation": "location",
+    "queryTemplate": "The Ideal City - Urbino is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Nunnery of Saint Clare",
+        "startYear": "1482-01-01"
+      },
+      {
+        "value": "Galleria Nazionale delle Marche",
+        "startYear": "1861-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q112513391",
+    "relation": "location",
+    "queryTemplate": "Floating Head is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Glasgow Garden Festival",
+        "startYear": "1988-04-26"
+      },
+      {
+        "value": "Govan",
+        "startYear": "2021-09-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q113856611",
+    "relation": "location",
+    "queryTemplate": "König-Friedrich-August-Denkmal is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Wilhelm-Leuschner-Platz",
+        "startYear": "1780-01-01"
+      },
+      {
+        "value": "Gohliser Schlösschen",
+        "startYear": "1937-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q115652503",
+    "relation": "location",
+    "queryTemplate": "Wrestler is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Schillerpark",
+        "startYear": "1920-01-01"
+      },
+      {
+        "value": "Volkspark Rehberge",
+        "startYear": "1935-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q11695673",
+    "relation": "location",
+    "queryTemplate": "Portrait of a Girl Dressed in Blue is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Augusteum",
+        "startYear": "1876-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1928-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q117352679",
+    "relation": "location",
+    "queryTemplate": "Horse Tamer, southern part is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Berlin Palace",
+        "startYear": "1844-01-01"
+      },
+      {
+        "value": "Heinrich-von-Kleist-Park",
+        "startYear": "1945-01-01"
+      },
+      {
+        "value": "Kammergericht",
+        "startYear": "1945-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q118129609",
+    "relation": "location",
+    "queryTemplate": "Herma Heinrich von Kleist (Leibniz-Schule) is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Viktoriapark",
+        "startYear": "1898-01-01"
+      },
+      {
+        "value": "Leibniz School",
+        "startYear": "1990-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q118233632",
+    "relation": "location",
+    "queryTemplate": "Laocoon and his sons is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Villa Welgelegen",
+        "startYear": "1780-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "2013-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q11826275",
+    "relation": "location",
+    "queryTemplate": "The siesta (after Millet) is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Galerie nationale du Jeu de Paume",
+        "startYear": "1963-01-01"
+      },
+      {
+        "value": "Musée d'Orsay",
+        "startYear": "1986-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q11826533",
+    "relation": "location",
+    "queryTemplate": "Corner of a Studio is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Hamburger Kunsthalle",
+        "startYear": "1943-01-01"
+      },
+      {
+        "value": "Louvre Museum",
+        "startYear": "1950-01-01"
+      },
+      {
+        "value": "Galerie nationale du Jeu de Paume",
+        "startYear": "1952-01-01"
+      },
+      {
+        "value": "Musée d'Orsay",
+        "startYear": "1986-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q11827829",
+    "relation": "location",
+    "queryTemplate": "An Old Woman Reading, Probably the Prophetess Hannah is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Augusteum",
+        "startYear": "1876-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1928-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q11837891",
+    "relation": "location",
+    "queryTemplate": "The Assumption of the Virgin is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Monastery of Saint Dominic of Silos",
+        "startYear": "1577-01-01"
+      },
+      {
+        "value": "Art Institute of Chicago",
+        "startYear": "1906-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q11860192",
+    "relation": "location",
+    "queryTemplate": "Futura – The Unknown is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Rotuaari",
+        "startYear": "1987-07-18"
+      },
+      {
+        "value": "Oulu Bus Station",
+        "startYear": "1988-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q11918714",
+    "relation": "location",
+    "queryTemplate": "Portrait of Pope Julius II is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Santa Maria del Popolo",
+        "startYear": "1511-01-01"
+      },
+      {
+        "value": "National Gallery",
+        "startYear": "1824-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q12015473",
+    "relation": "location",
+    "queryTemplate": "Le Lit is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Louvre Museum",
+        "startYear": "1937-01-01"
+      },
+      {
+        "value": "Galerie nationale du Jeu de Paume",
+        "startYear": "1947-01-01"
+      },
+      {
+        "value": "Louvre Museum",
+        "startYear": "1954-01-01"
+      },
+      {
+        "value": "Galerie nationale du Jeu de Paume",
+        "startYear": "1967-01-01"
+      },
+      {
+        "value": "Musée d'Orsay",
+        "startYear": "1986-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q121363498",
+    "relation": "location",
+    "queryTemplate": "Knabe is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Wandsbek",
+        "startYear": "1958-01-01"
+      },
+      {
+        "value": "Harburg",
+        "startYear": "2021-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q121461514",
+    "relation": "location",
+    "queryTemplate": "Gérôme exécutant Les Gladiateurs. Monument à Gérôme is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Fort Mont-Valérien",
+        "startYear": "1971-01-01"
+      },
+      {
+        "value": "Musée d'Orsay",
+        "startYear": "1980-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q122166024",
+    "relation": "location",
+    "queryTemplate": "Sappho is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Auckland Art Gallery",
+        "startYear": "1973-01-01"
+      },
+      {
+        "value": "Queen Street",
+        "startYear": "2011-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q122208829",
+    "relation": "location",
+    "queryTemplate": "Keep is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Auckland Botanic Gardens",
+        "startYear": "2015-01-01"
+      },
+      {
+        "value": "Massey University - Albany Campus",
+        "startYear": "2017-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q122223990",
+    "relation": "location",
+    "queryTemplate": "Bijenkorfsteen is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Bijenkorf DC",
+        "startYear": "1975-01-01"
+      },
+      {
+        "value": "Coolsingel",
+        "startYear": "2024-09-14"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1231009",
+    "relation": "location",
+    "queryTemplate": "The Coronation of Napoleon is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Sacre Hall",
+        "startYear": "1837-01-01"
+      },
+      {
+        "value": "Room 702",
+        "startYear": "1889-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q123353064",
+    "relation": "location",
+    "queryTemplate": "Allegory of strength is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Ruhmeshalle Berlin",
+        "startYear": "1887-01-01"
+      },
+      {
+        "value": "Nikolaiviertel",
+        "startYear": "1987-01-01"
+      },
+      {
+        "value": "Zeughaus",
+        "startYear": "2011-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q124213690",
+    "relation": "location",
+    "queryTemplate": "Puerta Saturnina is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Mexican Federal Highway 45",
+        "startYear": "1998-01-01"
+      },
+      {
+        "value": "Corredor Tres Centurias",
+        "startYear": "2015-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q124435226",
+    "relation": "location",
+    "queryTemplate": "Our Lady of the Waters is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Church of the Santísima Trinidad",
+        "startYear": "1835-01-01"
+      },
+      {
+        "value": "Episcopal palace of Segovia",
+        "startYear": "1928-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q125379172",
+    "relation": "location",
+    "queryTemplate": "Clara-Clara is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Tuileries Garden",
+        "startYear": "1983-01-01"
+      },
+      {
+        "value": "parc de Choisy",
+        "startYear": "1985-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q125531076",
+    "relation": "location",
+    "queryTemplate": "Crouching tiger is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Jenfeld",
+        "startYear": "2004-01-01"
+      },
+      {
+        "value": "Helmut Schmidt University",
+        "startYear": "2004-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q125973499",
+    "relation": "location",
+    "queryTemplate": "Fanfare is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Heimplatz",
+        "startYear": "1977-01-01"
+      },
+      {
+        "value": "Langenthal",
+        "startYear": "2010-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q126489743",
+    "relation": "location",
+    "queryTemplate": "Lenin monument from Eisleben is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Pushkin",
+        "startYear": "1926-01-01"
+      },
+      {
+        "value": "Eisleben",
+        "startYear": "1943-01-01"
+      },
+      {
+        "value": "Deutsches Historisches Museum",
+        "startYear": "1991-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q126728598",
+    "relation": "location",
+    "queryTemplate": "Escola Industrial. Escultura Jove atleta is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Recinte Mundet",
+        "startYear": "1957-01-01"
+      },
+      {
+        "value": "Escola Industrial",
+        "startYear": "2023-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q126845309",
+    "relation": "location",
+    "queryTemplate": "Minerva and the Bell Ringers is currently held in _X_.",
+    "spans": [
+      {
+        "value": "New York Herald Building",
+        "startYear": "1895-01-01"
+      },
+      {
+        "value": "New York University",
+        "startYear": "1921-01-01"
+      },
+      {
+        "value": "Herald Square",
+        "startYear": "1940-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1282840",
+    "relation": "location",
+    "queryTemplate": "Napoleon I on his Imperial Throne is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Louvre Museum",
+        "startYear": "1815-01-01"
+      },
+      {
+        "value": "Musée de l'Armée",
+        "startYear": "1832-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1283024",
+    "relation": "location",
+    "queryTemplate": "The Birth of Venus is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Luxembourg Museum",
+        "startYear": "1879-01-01"
+      },
+      {
+        "value": "Nantes Museum of Arts",
+        "startYear": "1920-01-01"
+      },
+      {
+        "value": "Musée d'Orsay",
+        "startYear": "1986-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q12900049",
+    "relation": "location",
+    "queryTemplate": "Portrait of Georges Clemenceau is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Louvre Museum",
+        "startYear": "1927-01-01"
+      },
+      {
+        "value": "Galerie nationale du Jeu de Paume",
+        "startYear": "1947-01-01"
+      },
+      {
+        "value": "Musée d'Orsay",
+        "startYear": "1986-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1298116",
+    "relation": "location",
+    "queryTemplate": "Innsbrucker Riesenrundgemälde is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Panorama-Rotunde, Innsbruck",
+        "startYear": "1906-01-01"
+      },
+      {
+        "value": "Tyrol Panorama Museum",
+        "startYear": "2010-09-11"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q135615525",
+    "relation": "location",
+    "queryTemplate": "Julius Solway is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Binnenstad",
+        "startYear": "1982-12-23"
+      },
+      {
+        "value": "Kommelkwartier",
+        "startYear": "2009-03-10"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q136159564",
+    "relation": "location",
+    "queryTemplate": "bear figure is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Franckepark",
+        "startYear": "1984-01-01"
+      },
+      {
+        "value": "Bosepark",
+        "startYear": "1984-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q136818180",
+    "relation": "location",
+    "queryTemplate": "Spring and Summer is currently held in _X_.",
+    "spans": [
+      {
+        "value": "The Brighton Aquarium And Attached Walls And Piers And Railings And Lamps",
+        "startYear": "1874-01-01"
+      },
+      {
+        "value": "Preston Park",
+        "startYear": "1928-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q136827940",
+    "relation": "location",
+    "queryTemplate": "The Helix is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Legermuseum",
+        "startYear": "1990-01-01"
+      },
+      {
+        "value": "Park of De Ploeg",
+        "startYear": "2021-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q136933515",
+    "relation": "location",
+    "queryTemplate": "The Lion of Scotland (Rae) is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Holyrood Park",
+        "startYear": "2006-01-01"
+      },
+      {
+        "value": "St Andrew Square",
+        "startYear": "2010-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q137534418",
+    "relation": "location",
+    "queryTemplate": "The Drummer is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Lemon Quay",
+        "startYear": "2011-01-01"
+      },
+      {
+        "value": "Eden Project",
+        "startYear": "2018-09-01"
+      },
+      {
+        "value": "Lemon Quay",
+        "startYear": "2021-11-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q138014152",
+    "relation": "location",
+    "queryTemplate": "monument to Empress Auguste Viktoria, Queen of Prussia is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Rosengarten",
+        "startYear": "1912-01-01"
+      },
+      {
+        "value": "Vivantes Auguste-Viktoria-Klinikum",
+        "startYear": "2000-06-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q14127232",
+    "relation": "location",
+    "queryTemplate": "Ploughing in the Nivernais is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Luxembourg Museum",
+        "startYear": "1849-01-01"
+      },
+      {
+        "value": "Louvre Museum",
+        "startYear": "1920-02-21"
+      },
+      {
+        "value": "Palace of Fontainebleau",
+        "startYear": "1923-01-01"
+      },
+      {
+        "value": "Musée d'Orsay",
+        "startYear": "1986-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q14159615",
+    "relation": "location",
+    "queryTemplate": "Irma Brunner is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Louvre Museum",
+        "startYear": "1914-01-01"
+      },
+      {
+        "value": "Musée d'Orsay",
+        "startYear": "1986-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q14734192",
+    "relation": "location",
+    "queryTemplate": "Soleil couchant à Ivry is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Louvre Museum",
+        "startYear": "1951-01-01"
+      },
+      {
+        "value": "Galerie nationale du Jeu de Paume",
+        "startYear": "1957-01-01"
+      },
+      {
+        "value": "Musée d'Orsay",
+        "startYear": "1986-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q14855249",
+    "relation": "location",
+    "queryTemplate": "Rolla is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Luxembourg Museum",
+        "startYear": "1926-10-01"
+      },
+      {
+        "value": "Musée des Beaux-Arts de Bordeaux",
+        "startYear": "1933-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q151047",
+    "relation": "location",
+    "queryTemplate": "The Birth of Venus is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Bedroom of Lorenzo il Magnifico of Palazzo Medici",
+        "startYear": "1479-01-01"
+      },
+      {
+        "value": "Villa Castello",
+        "startYear": "1568-01-01"
+      },
+      {
+        "value": "Uffizi Gallery",
+        "startYear": "1919-01-01"
+      },
+      {
+        "value": "Uffizi Gallery - Room 11-12, Botticelli's, Florence, Italy",
+        "startYear": "1919-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q1569622",
+    "relation": "location",
+    "queryTemplate": "Madonna and Child Enthroned with Angels and Prophets. ˋSanta Trinità Maestà´ is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Basilica of the Holy Trinity",
+        "startYear": "1295-01-01"
+      },
+      {
+        "value": "Galleria dell'Accademia",
+        "startYear": "1810-01-01"
+      },
+      {
+        "value": "Room A4 Giotto — Cimabue",
+        "startYear": "1910-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q15876329",
+    "relation": "location",
+    "queryTemplate": "L'Ambulance improvisée is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Galerie nationale du Jeu de Paume",
+        "startYear": "1967-01-01"
+      },
+      {
+        "value": "Musée d'Orsay",
+        "startYear": "1986-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q15879053",
+    "relation": "location",
+    "queryTemplate": "Manda Lamétrie, fermière is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Luxembourg Museum",
+        "startYear": "1889-01-01"
+      },
+      {
+        "value": "Louvre Museum",
+        "startYear": "1929-01-01"
+      },
+      {
+        "value": "Musée d'Orsay",
+        "startYear": "1980-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q16154306",
+    "relation": "location",
+    "queryTemplate": "The Nativity is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Parish Church of St John the Evangelist",
+        "startYear": "1888-01-01"
+      },
+      {
+        "value": "Carnegie Museum of Art",
+        "startYear": "1997-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q16164893",
+    "relation": "location",
+    "queryTemplate": "The Last Supper is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Palazzo della Ragione",
+        "startYear": "1798-01-01"
+      },
+      {
+        "value": "Astino Monastery",
+        "startYear": "2020-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q16409389",
+    "relation": "location",
+    "queryTemplate": "Adam and Eve is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Kumu",
+        "startYear": "2007-01-01"
+      },
+      {
+        "value": "Tallinn Botanic Garden",
+        "startYear": "2016-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q16621909",
+    "relation": "location",
+    "queryTemplate": "Saint Bernard is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Monastery of Saint Dominic of Silos",
+        "startYear": "1577-01-01"
+      },
+      {
+        "value": "Hermitage Museum",
+        "startYear": "2000-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q16712379",
+    "relation": "location",
+    "queryTemplate": "Portrait of Anthonie van Leeuwenhoek, Natural Philosopher and Zoologist in Delft is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1879-01-01"
+      },
+      {
+        "value": "Museum Boerhaave",
+        "startYear": "1950-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17123291",
+    "relation": "location",
+    "queryTemplate": "The Garden Terrace is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Prinzessinnenpalais",
+        "startYear": "1812-01-01"
+      },
+      {
+        "value": "Berlin Palace",
+        "startYear": "1906-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17275748",
+    "relation": "location",
+    "queryTemplate": "Judah and Tamar is currently held in _X_.",
+    "spans": [
+      {
+        "value": "National Gallery",
+        "startYear": "1992-01-01"
+      },
+      {
+        "value": "Dordrechts Museum",
+        "startYear": "2021-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17275886",
+    "relation": "location",
+    "queryTemplate": "The Hay Wagon is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Louvre Museum",
+        "startYear": "1795-01-01"
+      },
+      {
+        "value": "Gallery Prince Willem V",
+        "startYear": "1815-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17275887",
+    "relation": "location",
+    "queryTemplate": "Army Camp is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Stadhouderlijk Hof",
+        "startYear": "1763-01-01"
+      },
+      {
+        "value": "Gallery Prince Willem V",
+        "startYear": "1774-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17319634",
+    "relation": "location",
+    "queryTemplate": "The Threatened Swan is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Huis ten Bosch",
+        "startYear": "1800-01-01"
+      },
+      {
+        "value": "Gallery Prince Willem V",
+        "startYear": "1805-01-01"
+      },
+      {
+        "value": "Royal Palace of Amsterdam",
+        "startYear": "1808-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1885-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17319655",
+    "relation": "location",
+    "queryTemplate": "Dutch ships in the roads of Texel; in the middle the 'Gouden Leeuw,' the flagship of Cornelis Tromp is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1805-01-01"
+      },
+      {
+        "value": "Amsterdam Museum",
+        "startYear": "2018-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "2020-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17319662",
+    "relation": "location",
+    "queryTemplate": "Portrait of Cornelis de Witt (1623-72), Burgomaster of Dordrecht and lord lieutenant of Putten is currently held in _X_.",
+    "spans": [
+      {
+        "value": "National Art Gallery of the Netherlands",
+        "startYear": "1805-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1885-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17319678",
+    "relation": "location",
+    "queryTemplate": "The city wall of Haarlem in the winter is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1809-01-01"
+      },
+      {
+        "value": "Frans Hals Museum",
+        "startYear": "1925-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17319775",
+    "relation": "location",
+    "queryTemplate": "Girl with an Oil Lamp at a Window is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Royal Palace of Amsterdam",
+        "startYear": "1809-01-01"
+      },
+      {
+        "value": "Trippenhuis",
+        "startYear": "1817-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1885-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17319776",
+    "relation": "location",
+    "queryTemplate": "Portrait of a Couple in a Landscape is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1885-01-01"
+      },
+      {
+        "value": "Museum De Lakenhal",
+        "startYear": "2004-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17319828",
+    "relation": "location",
+    "queryTemplate": "The Fall of Man is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Prinsenhof",
+        "startYear": "1592-01-01"
+      },
+      {
+        "value": "National Art Gallery of the Netherlands",
+        "startYear": "1804-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17319875",
+    "relation": "location",
+    "queryTemplate": "Portrait of Desiderius Erasmus (1469?-1536) is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1803-07-06"
+      },
+      {
+        "value": "Museum Catharijneconvent",
+        "startYear": "1978-12-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17319886",
+    "relation": "location",
+    "queryTemplate": "Portrait of Willem II (1626-50), Prince of Orange is currently held in _X_.",
+    "spans": [
+      {
+        "value": "National Art Gallery of the Netherlands",
+        "startYear": "1800-01-01"
+      },
+      {
+        "value": "Trippenhuis",
+        "startYear": "1808-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1885-01-01"
+      },
+      {
+        "value": "Geschiedkundige Vereniging Oranje-Nassau",
+        "startYear": "1926-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1932-01-01"
+      },
+      {
+        "value": "National Museum Paleis het Loo",
+        "startYear": "1978-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17320361",
+    "relation": "location",
+    "queryTemplate": "Portrait of Pieter Cornelis Hooft (1581-1647), High bailiff of Muiden, historian and poet is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1818-01-01"
+      },
+      {
+        "value": "Amsterdam Museum",
+        "startYear": "1975-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17320369",
+    "relation": "location",
+    "queryTemplate": "Mary Magdalene is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Janskerk",
+        "startYear": "1572-01-01"
+      },
+      {
+        "value": "Prinsenhof",
+        "startYear": "1625-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17320385",
+    "relation": "location",
+    "queryTemplate": "The Quack is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Gallery Prince Willem V",
+        "startYear": "1763-01-01"
+      },
+      {
+        "value": "Trippenhuis",
+        "startYear": "1808-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17322014",
+    "relation": "location",
+    "queryTemplate": "Landscape with Bathsheba is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1879-01-01"
+      },
+      {
+        "value": "Centraal Museum",
+        "startYear": "2004-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "2010-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17323597",
+    "relation": "location",
+    "queryTemplate": "Portrait of Jacobus Rolandus (1562-1632) is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1878-01-01"
+      },
+      {
+        "value": "Museum Catharijneconvent",
+        "startYear": "1977-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17323841",
+    "relation": "location",
+    "queryTemplate": "A January Evening in the Woods of The Hague is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Rijksmuseum main building",
+        "startYear": "1875-01-01"
+      },
+      {
+        "value": "Villa Welgelegen",
+        "startYear": "1875-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17323920",
+    "relation": "location",
+    "queryTemplate": "Armaments dealer of Amsterdam and Dordrecht is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1885-01-01"
+      },
+      {
+        "value": "Amsterdam Museum",
+        "startYear": "1977-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17323936",
+    "relation": "location",
+    "queryTemplate": "Portrait of Harmen Hendrik van de Poll, Burgomaster of Amsterdam is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1885-01-01"
+      },
+      {
+        "value": "Amsterdam Museum",
+        "startYear": "1975-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17323937",
+    "relation": "location",
+    "queryTemplate": "Portrait of Margaretha Trip, Wife of Hendrik van de Poll is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1885-01-01"
+      },
+      {
+        "value": "Amsterdam Museum",
+        "startYear": "1977-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17324060",
+    "relation": "location",
+    "queryTemplate": "The Anglo-Dutch Fleet in the Bay of Algiers Backing up the Ultimatum to Release the Christian Slaves, 26 August 1816 is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Villa Welgelegen",
+        "startYear": "1848-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1885-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17324061",
+    "relation": "location",
+    "queryTemplate": "The fire on the Wharves of Algiers, shortly after the commencement of the Bombardment by the Anglo-Dutch Fleet, 27 August 1816 is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Villa Welgelegen",
+        "startYear": "1848-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1885-01-01"
+      },
+      {
+        "value": "Fries Museum",
+        "startYear": "2000-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17324063",
+    "relation": "location",
+    "queryTemplate": "Council of War on board the 'Queen Charlotte', commanded by Lord Exmouth, prior to the Bombardment of Algiers, 26 August 1816 is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Villa Welgelegen",
+        "startYear": "1848-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1885-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17324065",
+    "relation": "location",
+    "queryTemplate": "The Anglo-Dutch Fleet under Lord Exmouth and Vice Admiral Jonkheer Theodorus Frederik van Capellen putting out the Algerian Strongholds, 27 August 1816 is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Villa Welgelegen",
+        "startYear": "1848-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1885-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17324091",
+    "relation": "location",
+    "queryTemplate": "Portrait of Jacob Cornelisz van Oostsanen is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1887-01-01"
+      },
+      {
+        "value": "Amsterdam Museum",
+        "startYear": "2004-01-01"
+      },
+      {
+        "value": "hall 0.6",
+        "startYear": "2013-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17324103",
+    "relation": "location",
+    "queryTemplate": "Portrait of Cornelis Pietersz Hooft (1547-1626) is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1887-01-01"
+      },
+      {
+        "value": "Amsterdam Museum",
+        "startYear": "1972-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17324358",
+    "relation": "location",
+    "queryTemplate": "The Captain of God's Army Appearing to Joshua is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Nieuwegracht 6, Utrecht",
+        "startYear": "1662-01-01"
+      },
+      {
+        "value": "Peace Palace",
+        "startYear": "1913-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17324359",
+    "relation": "location",
+    "queryTemplate": "Salomo ontvangt geschenken is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Nieuwegracht 6, Utrecht",
+        "startYear": "1662-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1892-01-01"
+      },
+      {
+        "value": "Peace Palace",
+        "startYear": "1913-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17324366",
+    "relation": "location",
+    "queryTemplate": "Landscape in Brazil is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1892-09-01"
+      },
+      {
+        "value": "National Gallery",
+        "startYear": "2009-09-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "2014-09-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17324823",
+    "relation": "location",
+    "queryTemplate": "The temptation of St Antony is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1899-01-01"
+      },
+      {
+        "value": "Bonnefanten Museum",
+        "startYear": "1999-01-01"
+      },
+      {
+        "value": "Noordbrabants Museum",
+        "startYear": "2001-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17324927",
+    "relation": "location",
+    "queryTemplate": "Left wing of a triptych with the  Erythraean Sibyl (outer wing) is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Town hall of Delft",
+        "startYear": "1667-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1885-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17325184",
+    "relation": "location",
+    "queryTemplate": "The incredulity of St Thomas is currently held in _X_.",
+    "spans": [
+      {
+        "value": "St. Gertrudis Chappell",
+        "startYear": "1689-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1902-01-01"
+      },
+      {
+        "value": "Museum Gouda",
+        "startYear": "1983-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "2005-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17328760",
+    "relation": "location",
+    "queryTemplate": "Still Life with Books in a Niche is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1909-01-01"
+      },
+      {
+        "value": "Louvre Museum",
+        "startYear": "1927-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1930-01-01"
+      },
+      {
+        "value": "Museum Boijmans Van Beuningen",
+        "startYear": "1989-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17329980",
+    "relation": "location",
+    "queryTemplate": "Balthazar, one of the three Magi, with a servant is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1907-01-01"
+      },
+      {
+        "value": "Museum Arnhem",
+        "startYear": "1959-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17331184",
+    "relation": "location",
+    "queryTemplate": "Procession in the Old Catholic Church in The Hague with priest Cornelis Hendrikus van Vlooten is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1922-04-01"
+      },
+      {
+        "value": "Museum Catharijneconvent",
+        "startYear": "1978-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17331262",
+    "relation": "location",
+    "queryTemplate": "The prodigal son is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Evangelisch Lutherse kerk",
+        "startYear": "1661-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1922-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17331263",
+    "relation": "location",
+    "queryTemplate": "The Pharisee and the publican is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Evangelisch Lutherse kerk",
+        "startYear": "1661-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1922-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17331264",
+    "relation": "location",
+    "queryTemplate": "Lazarus and the rich man is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Evangelisch Lutherse kerk",
+        "startYear": "1661-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1922-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17331363",
+    "relation": "location",
+    "queryTemplate": "Portrait of a Woman, probably Morosina Morosini, Wife of Marino Grimani, the Doge of Venice is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Augusteum",
+        "startYear": "1876-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1923-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17331369",
+    "relation": "location",
+    "queryTemplate": "Portrait of a Woman is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Augusteum",
+        "startYear": "1876-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1923-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17331428",
+    "relation": "location",
+    "queryTemplate": "Virgin and Child is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Augusteum",
+        "startYear": "1876-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1925-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17331441",
+    "relation": "location",
+    "queryTemplate": "Portrait of a young Woman is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Augusteum",
+        "startYear": "1876-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1925-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17331516",
+    "relation": "location",
+    "queryTemplate": "Portrait of a Knight of the Order of Calatrava, probably of the Sorias or Soreau Lineage (Sorel) is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Augusteum",
+        "startYear": "1876-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1928-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17334291",
+    "relation": "location",
+    "queryTemplate": "Virgin and Child with Saint Anne (Anna Selbdritt) is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Augusteum",
+        "startYear": "1876-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1941-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17334389",
+    "relation": "location",
+    "queryTemplate": "The so-called Boerenverdriet on the Spui, Amsterdam is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Huis ter Heide",
+        "startYear": "1940-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1946-01-01"
+      },
+      {
+        "value": "Amsterdam Museum",
+        "startYear": "1977-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17334812",
+    "relation": "location",
+    "queryTemplate": "Interior of the Portuguese synagogue in Amsterdam is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Bode Museum",
+        "startYear": "1847-01-01"
+      },
+      {
+        "value": "Museum Wiesbaden",
+        "startYear": "1884-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17334912",
+    "relation": "location",
+    "queryTemplate": "Carel Herman Aart van der Wijck (1840-1914). Gouverneur-generaal (1893-99) is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Istana Negara",
+        "startYear": "1900-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1950-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17337965",
+    "relation": "location",
+    "queryTemplate": "The Art Gallery of Jan Gildemeester Jansz is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1964-01-01"
+      },
+      {
+        "value": "Amsterdam Museum",
+        "startYear": "2004-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17338285",
+    "relation": "location",
+    "queryTemplate": "Peace Urges the Churches to Tolerance is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1968-01-01"
+      },
+      {
+        "value": "Museum Catharijneconvent",
+        "startYear": "1977-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17338755",
+    "relation": "location",
+    "queryTemplate": "Group portrait with allegorical overtones of the children of Diederic Pietersz van Leyden van Leeuwen (1628-1682), burgomaster of Leiden, and Alida Paets (1625-1673) is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Duivenvoorde Castle",
+        "startYear": "1918-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1972-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17339920",
+    "relation": "location",
+    "queryTemplate": "The Tablets of the Law of the Ten Commandments in calligraphy shown by Moses is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1889-01-01"
+      },
+      {
+        "value": "Museum Catharijneconvent",
+        "startYear": "1977-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17340681",
+    "relation": "location",
+    "queryTemplate": "The Adoration of the Magi is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1973-01-01"
+      },
+      {
+        "value": "Amsterdam Museum",
+        "startYear": "2004-10-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "2010-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17341588",
+    "relation": "location",
+    "queryTemplate": "Portrait of an African Man (Christophle le More?) is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Kenwood House",
+        "startYear": "1998-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "2005-06-01"
+      },
+      {
+        "value": "Museum Boijmans Van Beuningen",
+        "startYear": "2005-10-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "2013-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17341940",
+    "relation": "location",
+    "queryTemplate": "A Hermit is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Amsterdam Museum",
+        "startYear": "1884-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1885-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17342443",
+    "relation": "location",
+    "queryTemplate": "The parable of the prodigal son is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Amsterdam Museum",
+        "startYear": "1843-01-01"
+      },
+      {
+        "value": "Muiderslot",
+        "startYear": "1949-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17342476",
+    "relation": "location",
+    "queryTemplate": "Anne of Austria (1601-66). Wife of Louis XIII, king of France is currently held in _X_.",
+    "spans": [
+      {
+        "value": "collection Adriaan van der Hoop",
+        "startYear": "1854-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1885-01-01"
+      },
+      {
+        "value": "Bonnefanten Museum",
+        "startYear": "2004-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "2011-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17342593",
+    "relation": "location",
+    "queryTemplate": "Officers and other civic guardsmen of the XIth District of Amsterdam, under the command of Captain Geurt Dircksz van Beuningen and Lieutenant Pieter Martensz Hoeffijser is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Handboogdoelen",
+        "startYear": "1613-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1885-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17342997",
+    "relation": "location",
+    "queryTemplate": "Officers and other Civic Guardsmen of the V District in Amsterdam under the command of Captain Cornelis de Graeff and Lieutenant Hendrick Lauwrensz is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Kloveniersdoelen",
+        "startYear": "1653-01-01"
+      },
+      {
+        "value": "Royal Palace of Amsterdam",
+        "startYear": "1715-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1926-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17343205",
+    "relation": "location",
+    "queryTemplate": "Johannes Uyttenbogaert (1557-1644). Remonstrant minister in The Hague is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Arminiuskerk",
+        "startYear": "1951-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1964-01-01"
+      },
+      {
+        "value": "Museum Catharijneconvent",
+        "startYear": "2012-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17347859",
+    "relation": "location",
+    "queryTemplate": "The surrender of the Royal Prince during the Four Days' Battle, 1st -4th June 1666 is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Bridgewater House",
+        "startYear": "1803-01-01"
+      },
+      {
+        "value": "Stetchworth Manor",
+        "startYear": "1940-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17450435",
+    "relation": "location",
+    "queryTemplate": "The Chaste Susannah is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Luxembourg Museum",
+        "startYear": "1867-01-01"
+      },
+      {
+        "value": "Louvre Museum",
+        "startYear": "1929-01-01"
+      },
+      {
+        "value": "Musée d'Orsay",
+        "startYear": "1978-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17490874",
+    "relation": "location",
+    "queryTemplate": "Lying roe is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Ahmed Zabana National Museum",
+        "startYear": "1954-01-01"
+      },
+      {
+        "value": "Musée d'Orsay",
+        "startYear": "2002-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17491165",
+    "relation": "location",
+    "queryTemplate": "Dahlias in a Delft vase is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Louvre Museum",
+        "startYear": "1914-01-01"
+      },
+      {
+        "value": "Galerie nationale du Jeu de Paume",
+        "startYear": "1947-01-01"
+      },
+      {
+        "value": "Musée d'Orsay",
+        "startYear": "1986-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17491197",
+    "relation": "location",
+    "queryTemplate": "Dancers is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Musée d'Orsay",
+        "startYear": "1997-01-01"
+      },
+      {
+        "value": "Musée Hyacinthe-Rigaud",
+        "startYear": "2017-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17492002",
+    "relation": "location",
+    "queryTemplate": "Argenteuil Station is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Musée Camille Pissarro",
+        "startYear": "1986-01-01"
+      },
+      {
+        "value": "Château de la Motte",
+        "startYear": "1997-01-01"
+      },
+      {
+        "value": "general council of Val-d'Oise",
+        "startYear": "2012-01-01"
+      },
+      {
+        "value": "château d'Auvers",
+        "startYear": "2017-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17492363",
+    "relation": "location",
+    "queryTemplate": "Table is currently held in _X_.",
+    "spans": [
+      {
+        "value": "musée Petiet de Limoux",
+        "startYear": "1961-04-13"
+      },
+      {
+        "value": "Musée de Cahors Henri-Martin",
+        "startYear": "2023-06-16"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17492884",
+    "relation": "location",
+    "queryTemplate": "The Body of Saint Cecilia brought to the catacombs of Rome is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Luxembourg Museum",
+        "startYear": "1856-01-01"
+      },
+      {
+        "value": "Louvre Museum",
+        "startYear": "1870-01-01"
+      },
+      {
+        "value": "Luxembourg Museum",
+        "startYear": "1874-01-01"
+      },
+      {
+        "value": "Château de Lunéville",
+        "startYear": "1924-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17493091",
+    "relation": "location",
+    "queryTemplate": "The Bouchardon Mill is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Musée Camille Pissarro",
+        "startYear": "1980-01-01"
+      },
+      {
+        "value": "Musée d'art et d'archéologie de Guéret",
+        "startYear": "2015-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17493477",
+    "relation": "location",
+    "queryTemplate": "The lightning is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Calvet Museum",
+        "startYear": "1848-01-01"
+      },
+      {
+        "value": "Musée des Augustins",
+        "startYear": "2001-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17493756",
+    "relation": "location",
+    "queryTemplate": "Peasants from Flagey back from the Fair is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Musée des Beaux-Arts et d'Archéologie de Besançon",
+        "startYear": "1959-01-01"
+      },
+      {
+        "value": "musée Courbet",
+        "startYear": "2012-01-01"
+      },
+      {
+        "value": "Musée des Beaux-Arts et d'Archéologie de Besançon",
+        "startYear": "2018-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17493959",
+    "relation": "location",
+    "queryTemplate": "Madame Boyd is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Luxembourg Museum",
+        "startYear": "1902-08-01"
+      },
+      {
+        "value": "Galerie nationale du Jeu de Paume",
+        "startYear": "1922-01-01"
+      },
+      {
+        "value": "Musée National d'Art Moderne",
+        "startYear": "1946-01-01"
+      },
+      {
+        "value": "Musée d'Orsay",
+        "startYear": "1980-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17494548",
+    "relation": "location",
+    "queryTemplate": "Nymph abducted by a faun is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Louvre Museum",
+        "startYear": "1881-01-01"
+      },
+      {
+        "value": "Palais des Beaux-Arts de Lille",
+        "startYear": "1885-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17494782",
+    "relation": "location",
+    "queryTemplate": "Landscape in Brittany. The David Mill is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Musée des Arts Décoratifs",
+        "startYear": "2012-01-01"
+      },
+      {
+        "value": "Musée d'Orsay",
+        "startYear": "2022-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17495098",
+    "relation": "location",
+    "queryTemplate": "Portrait of Antonin Proust is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Wallraf–Richartz Museum",
+        "startYear": "1943-06-01"
+      },
+      {
+        "value": "Department of Paintings of the Louvre",
+        "startYear": "1950-01-01"
+      },
+      {
+        "value": "Musée Fabre",
+        "startYear": "1952-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17495354",
+    "relation": "location",
+    "queryTemplate": "Portrait d'Isadora Duncan is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Musée Rodin",
+        "startYear": "1929-01-01"
+      },
+      {
+        "value": "Musée Fabre",
+        "startYear": "1933-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17495367",
+    "relation": "location",
+    "queryTemplate": "Portrait of Marshal Lyautey is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Galerie nationale du Jeu de Paume",
+        "startYear": "1931-01-01"
+      },
+      {
+        "value": "Musée national des Arts d'Afrique et d'Océanie",
+        "startYear": "1935-01-01"
+      },
+      {
+        "value": "Musée du quai Branly",
+        "startYear": "2003-01-01"
+      },
+      {
+        "value": "museum storage",
+        "startYear": "2022-06-28"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17495623",
+    "relation": "location",
+    "queryTemplate": "Siege of a city by the Romans is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Musée d'Orsay",
+        "startYear": "2013-01-01"
+      },
+      {
+        "value": "Musée d'Art Roger-Quilliot",
+        "startYear": "2016-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17495798",
+    "relation": "location",
+    "queryTemplate": "Head of a Woman with blue ribbon is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Musée des Beaux-Arts de Rennes",
+        "startYear": "1966-01-01"
+      },
+      {
+        "value": "Musée départemental de l'Oise",
+        "startYear": "1982-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17496028",
+    "relation": "location",
+    "queryTemplate": "Morning. Dance of the Nymphs is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Luxembourg Museum",
+        "startYear": "1954-01-01"
+      },
+      {
+        "value": "Louvre Museum",
+        "startYear": "1974-01-01"
+      },
+      {
+        "value": "Musée d'Orsay",
+        "startYear": "1986-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17504677",
+    "relation": "location",
+    "queryTemplate": "Fog, Voisins is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Department of Paintings of the Louvre",
+        "startYear": "1937-01-01"
+      },
+      {
+        "value": "Galerie nationale du Jeu de Paume",
+        "startYear": "1947-01-01"
+      },
+      {
+        "value": "Louvre Museum",
+        "startYear": "1954-01-01"
+      },
+      {
+        "value": "Galerie nationale du Jeu de Paume",
+        "startYear": "1967-01-01"
+      },
+      {
+        "value": "Musée d'Orsay",
+        "startYear": "1986-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17524081",
+    "relation": "location",
+    "queryTemplate": "Madonna of Loreto is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Janskerk",
+        "startYear": "1572-01-01"
+      },
+      {
+        "value": "North Holland Archives",
+        "startYear": "2000-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17524925",
+    "relation": "location",
+    "queryTemplate": "Too Bad! is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1898-01-01"
+      },
+      {
+        "value": "Amsterdam Museum",
+        "startYear": "2001-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17524927",
+    "relation": "location",
+    "queryTemplate": "Allegory on the Writing of History is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Huis de Pinto",
+        "startYear": "1754-01-01"
+      },
+      {
+        "value": "Amsterdam Museum",
+        "startYear": "1845-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17531415",
+    "relation": "location",
+    "queryTemplate": "The resurrection of Christ is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Amsterdam Museum",
+        "startYear": "1933-01-01"
+      },
+      {
+        "value": "Bisschoppelijk Museum Haarlem",
+        "startYear": "1935-01-01"
+      },
+      {
+        "value": "Museum Catharijneconvent",
+        "startYear": "1976-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17541790",
+    "relation": "location",
+    "queryTemplate": "Portrait of Jacoba Bicker (1640-1695) is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1881-01-01"
+      },
+      {
+        "value": "Amsterdam Museum",
+        "startYear": "1973-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17542695",
+    "relation": "location",
+    "queryTemplate": "Ceiling pieces \"Day chases the night away\" and \"The four seasons\" is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Herengracht 250, Amsterdam",
+        "startYear": "1744-01-01"
+      },
+      {
+        "value": "Amsterdam Museum",
+        "startYear": "1891-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17543741",
+    "relation": "location",
+    "queryTemplate": "Distribution of food is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Vijzelgracht 2A",
+        "startYear": "1657-01-01"
+      },
+      {
+        "value": "Amsterdam Museum",
+        "startYear": "1873-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17558366",
+    "relation": "location",
+    "queryTemplate": "Allegorical representation of the distribution of turf to the needy is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Vijzelgracht 2A",
+        "startYear": "1657-01-01"
+      },
+      {
+        "value": "Amsterdam Museum",
+        "startYear": "1873-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17558378",
+    "relation": "location",
+    "queryTemplate": "Allegory of feeding the poor is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Vijzelgracht 2A",
+        "startYear": "1657-01-01"
+      },
+      {
+        "value": "Amsterdam Museum",
+        "startYear": "1873-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17627428",
+    "relation": "location",
+    "queryTemplate": "A young woman with a glass and flagon is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Corcoran Gallery of Art",
+        "startYear": "1926-01-01"
+      },
+      {
+        "value": "Frans Hals Museum",
+        "startYear": "2013-09-10"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17791133",
+    "relation": "location",
+    "queryTemplate": "Portrait of Johannes Westrik (1720-1763), Agnisa van Marken (1718-1785) and their two children is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Amsterdam Museum",
+        "startYear": "1982-10-01"
+      },
+      {
+        "value": "Rijksmuseum Twenthe",
+        "startYear": "1996-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17814369",
+    "relation": "location",
+    "queryTemplate": "Regents of the Oudezijds Almshouse, 1705 is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Vijzelgracht 2A",
+        "startYear": "1705-01-01"
+      },
+      {
+        "value": "Amsterdam Museum",
+        "startYear": "1873-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17814402",
+    "relation": "location",
+    "queryTemplate": "Procession of Lepers on Copper Monday, or ‘Koppertjesmaandag' is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Royal Palace of Amsterdam",
+        "startYear": "1860-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1897-01-01"
+      },
+      {
+        "value": "Amsterdam Museum",
+        "startYear": "1926-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17818491",
+    "relation": "location",
+    "queryTemplate": "Girl Singing is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Art Institute of Chicago",
+        "startYear": "1923-01-01"
+      },
+      {
+        "value": "Virginia Museum of Fine Arts",
+        "startYear": "2020-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17889557",
+    "relation": "location",
+    "queryTemplate": "Ships in stormy sea near a rocky coast is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Oudezijds Almshouse",
+        "startYear": "1657-01-01"
+      },
+      {
+        "value": "Amsterdam Museum",
+        "startYear": "1873-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17986633",
+    "relation": "location",
+    "queryTemplate": "Portrait of a woman, possibly Cornelia van der Meer is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Wallraf–Richartz Museum",
+        "startYear": "1936-01-01"
+      },
+      {
+        "value": "Art Depot at Hohenzollern Castle",
+        "startYear": "1942-08-31"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q17987076",
+    "relation": "location",
+    "queryTemplate": "Portrait of a man with his hand on his chest is currently held in _X_.",
+    "spans": [
+      {
+        "value": "City Museum Stettin",
+        "startYear": "1863-01-01"
+      },
+      {
+        "value": "Veste Coburg",
+        "startYear": "1945-01-01"
+      },
+      {
+        "value": "Pomeranian State Museum",
+        "startYear": "1999-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18011066",
+    "relation": "location",
+    "queryTemplate": "Portrait of Nicolaas Stenius is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Akersloot",
+        "startYear": "1650-01-01"
+      },
+      {
+        "value": "Bisschoppelijk Museum Haarlem",
+        "startYear": "1878-01-01"
+      },
+      {
+        "value": "Museum Catharijneconvent",
+        "startYear": "1976-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18042491",
+    "relation": "location",
+    "queryTemplate": "Murder of St. Wenceslas is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Gong",
+        "startYear": "2012-09-28"
+      },
+      {
+        "value": "Church of Saint Wenceslaus, Opava",
+        "startYear": "2014-09-06"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18120979",
+    "relation": "location",
+    "queryTemplate": "Portrait of a seated woman is currently held in _X_.",
+    "spans": [
+      {
+        "value": "City Museum Stettin",
+        "startYear": "1863-01-01"
+      },
+      {
+        "value": "Veste Coburg",
+        "startYear": "1945-01-01"
+      },
+      {
+        "value": "Pomeranian State Museum",
+        "startYear": "2013-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18191198",
+    "relation": "location",
+    "queryTemplate": "Triomphe de Silène is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Jardin du Luxembourg",
+        "startYear": "1899-01-01"
+      },
+      {
+        "value": "Musée d'Orsay",
+        "startYear": "2016-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18572456",
+    "relation": "location",
+    "queryTemplate": "Annunciation is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Cabinet des tableaux du roi",
+        "startYear": "1709-01-01"
+      },
+      {
+        "value": "Surintendant des Bâtiments",
+        "startYear": "1785-01-01"
+      },
+      {
+        "value": "Louvre Palace",
+        "startYear": "1797-01-01"
+      },
+      {
+        "value": "Musée des Beaux-Arts de Dijon",
+        "startYear": "1896-01-01"
+      },
+      {
+        "value": "Louvre Museum",
+        "startYear": "1998-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18608264",
+    "relation": "location",
+    "queryTemplate": "The Company of Captain Banning Cocq is currently held in _X_.",
+    "spans": [
+      {
+        "value": "National Gallery",
+        "startYear": "1857-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1958-07-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18609125",
+    "relation": "location",
+    "queryTemplate": "Memorial to Jacob Beier and Thomas Romstock is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Grote Kerk",
+        "startYear": "1574-01-01"
+      },
+      {
+        "value": "Frans Hals Museum",
+        "startYear": "1866-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18683022",
+    "relation": "location",
+    "queryTemplate": "Building Site with Willows is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Alte Nationalgalerie",
+        "startYear": "1905-01-01"
+      },
+      {
+        "value": "Boston",
+        "startYear": "1909-01-01"
+      },
+      {
+        "value": "Chicago",
+        "startYear": "1909-01-01"
+      },
+      {
+        "value": "Wiesbaden",
+        "startYear": "1947-01-01"
+      },
+      {
+        "value": "Kiel",
+        "startYear": "1956-01-01"
+      },
+      {
+        "value": "Zurich",
+        "startYear": "1959-01-01"
+      },
+      {
+        "value": "Paris",
+        "startYear": "1961-01-01"
+      },
+      {
+        "value": "Düsseldorf",
+        "startYear": "1967-01-01"
+      },
+      {
+        "value": "Hamburg",
+        "startYear": "1976-01-01"
+      },
+      {
+        "value": "Munich",
+        "startYear": "1980-01-01"
+      },
+      {
+        "value": "Paris",
+        "startYear": "1996-01-01"
+      },
+      {
+        "value": "Washington, D.C.",
+        "startYear": "1997-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18683150",
+    "relation": "location",
+    "queryTemplate": "Louis de France (1661–1711), known as the Grand Dauphin is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Élysée Palace",
+        "startYear": "1978-01-01"
+      },
+      {
+        "value": "Musée Bossuet",
+        "startYear": "1990-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18686031",
+    "relation": "location",
+    "queryTemplate": "Portinari Triptych is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Church of Sant'Egidio",
+        "startYear": "1483-01-01"
+      },
+      {
+        "value": "Uffizi Gallery",
+        "startYear": "1900-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18686580",
+    "relation": "location",
+    "queryTemplate": "The Four Elements: Air. A Poultry Market with the Prodigal Son in the Background is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Museum of Fine Arts Ghent (MSK)",
+        "startYear": "1986-01-01"
+      },
+      {
+        "value": "National Gallery",
+        "startYear": "2001-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18686585",
+    "relation": "location",
+    "queryTemplate": "The Four Elements: Earth. A Fruit and Vegetable Market with the Flight into Egypt in the Background is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Museum of Fine Arts Ghent (MSK)",
+        "startYear": "1986-01-01"
+      },
+      {
+        "value": "National Gallery",
+        "startYear": "2001-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18686590",
+    "relation": "location",
+    "queryTemplate": "The Four Elements: Fire. A Kitchen Scene with Christ in the House of Martha and Mary in the Background is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Museum of Fine Arts Ghent (MSK)",
+        "startYear": "1986-01-01"
+      },
+      {
+        "value": "National Gallery",
+        "startYear": "2001-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18686593",
+    "relation": "location",
+    "queryTemplate": "The Four Elements: Water. A Fish Market with the Miraculous Draught of Fishes in the Background is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Museum of Fine Arts Ghent (MSK)",
+        "startYear": "1986-01-01"
+      },
+      {
+        "value": "National Gallery",
+        "startYear": "2001-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18710646",
+    "relation": "location",
+    "queryTemplate": "Still Life with Gingerpot 2 is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Kunstmuseum Den Haag",
+        "startYear": "1971-01-01"
+      },
+      {
+        "value": "Solomon R. Guggenheim Museum",
+        "startYear": "1976-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18809844",
+    "relation": "location",
+    "queryTemplate": "Know Thyself: Youth between Vice and Vertu is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Musée d'art et d'histoire de Saint-Brieuc",
+        "startYear": "1893-01-01"
+      },
+      {
+        "value": "Musée des Beaux-Arts de Rennes",
+        "startYear": "1999-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18889587",
+    "relation": "location",
+    "queryTemplate": "Cabaret is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Stenersen Museum",
+        "startYear": "1994-01-01"
+      },
+      {
+        "value": "Munch Museum",
+        "startYear": "2021-10-22"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18889743",
+    "relation": "location",
+    "queryTemplate": "Dog's Face is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Stenersen Museum",
+        "startYear": "1994-01-01"
+      },
+      {
+        "value": "Munch Museum",
+        "startYear": "2021-10-22"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18889990",
+    "relation": "location",
+    "queryTemplate": "Harry Graf Kessler is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Stenersen Museum",
+        "startYear": "1994-01-01"
+      },
+      {
+        "value": "Munch Museum",
+        "startYear": "2021-10-22"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18890082",
+    "relation": "location",
+    "queryTemplate": "History is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Stenersen Museum",
+        "startYear": "1994-01-01"
+      },
+      {
+        "value": "Munch Museum",
+        "startYear": "2021-10-22"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18890214",
+    "relation": "location",
+    "queryTemplate": "Inger Barth is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Stenersen Museum",
+        "startYear": "1994-01-01"
+      },
+      {
+        "value": "Munch Museum",
+        "startYear": "2021-10-22"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18890252",
+    "relation": "location",
+    "queryTemplate": "Jacob Torkildsen is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Stenersen Museum",
+        "startYear": "1994-01-01"
+      },
+      {
+        "value": "Munch Museum",
+        "startYear": "2021-10-22"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18890347",
+    "relation": "location",
+    "queryTemplate": "Kiss is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Stenersen Museum",
+        "startYear": "1994-01-01"
+      },
+      {
+        "value": "Munch Museum",
+        "startYear": "2021-10-22"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18890361",
+    "relation": "location",
+    "queryTemplate": "Kneeling Nude is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Stenersen Museum",
+        "startYear": "1994-01-01"
+      },
+      {
+        "value": "Munch Museum",
+        "startYear": "2021-10-22"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18890421",
+    "relation": "location",
+    "queryTemplate": "Madonna is currently held in _X_.",
+    "spans": [
+      {
+        "value": "National Gallery of Norway",
+        "startYear": "1909-01-01"
+      },
+      {
+        "value": "National Museum of Art, Architecture and Design",
+        "startYear": "2003-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18890471",
+    "relation": "location",
+    "queryTemplate": "Max Linde in Sailing Outfit is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Stenersen Museum",
+        "startYear": "1994-01-01"
+      },
+      {
+        "value": "Munch Museum",
+        "startYear": "2021-10-22"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18890484",
+    "relation": "location",
+    "queryTemplate": "Melancholy is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Stenersen Museum",
+        "startYear": "1994-01-01"
+      },
+      {
+        "value": "Munch Museum",
+        "startYear": "2021-10-22"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18890571",
+    "relation": "location",
+    "queryTemplate": "Naked Men in the Woods is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Stenersen Museum",
+        "startYear": "1994-01-01"
+      },
+      {
+        "value": "Munch Museum",
+        "startYear": "2021-10-22"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18890599",
+    "relation": "location",
+    "queryTemplate": "Nude in Front of the Mirror is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Stenersen Museum",
+        "startYear": "1994-01-01"
+      },
+      {
+        "value": "Munch Museum",
+        "startYear": "2021-10-22"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18890739",
+    "relation": "location",
+    "queryTemplate": "Rose and Amelie is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Stenersen Museum",
+        "startYear": "1994-01-01"
+      },
+      {
+        "value": "Munch Museum",
+        "startYear": "2021-10-22"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18890831",
+    "relation": "location",
+    "queryTemplate": "Self-Portrait with the Spanish Flu is currently held in _X_.",
+    "spans": [
+      {
+        "value": "National Gallery of Norway",
+        "startYear": "1937-01-01"
+      },
+      {
+        "value": "National Museum of Art, Architecture and Design",
+        "startYear": "2003-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18890903",
+    "relation": "location",
+    "queryTemplate": "Standing Female Nude is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Stenersen Museum",
+        "startYear": "1994-01-01"
+      },
+      {
+        "value": "Munch Museum",
+        "startYear": "2021-10-22"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18890904",
+    "relation": "location",
+    "queryTemplate": "Standing Naked African is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Stenersen Museum",
+        "startYear": "1994-01-01"
+      },
+      {
+        "value": "Munch Museum",
+        "startYear": "2021-10-22"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18890907",
+    "relation": "location",
+    "queryTemplate": "Standing Nude is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Stenersen Museum",
+        "startYear": "1994-01-01"
+      },
+      {
+        "value": "Munch Museum",
+        "startYear": "2021-10-22"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18890920",
+    "relation": "location",
+    "queryTemplate": "Standing Woman with Arms Folded is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Stenersen Museum",
+        "startYear": "1994-01-01"
+      },
+      {
+        "value": "Munch Museum",
+        "startYear": "2021-10-22"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18890965",
+    "relation": "location",
+    "queryTemplate": "Study of an Old Man's Head is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Stenersen Museum",
+        "startYear": "1994-01-01"
+      },
+      {
+        "value": "Munch Museum",
+        "startYear": "2021-10-22"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18891034",
+    "relation": "location",
+    "queryTemplate": "The Dance of Life is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Stenersen Museum",
+        "startYear": "1994-01-01"
+      },
+      {
+        "value": "Munch Museum",
+        "startYear": "2021-10-22"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18891164",
+    "relation": "location",
+    "queryTemplate": "The Seine at Saint-Cloud is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Stenersen Museum",
+        "startYear": "1994-01-01"
+      },
+      {
+        "value": "Munch Museum",
+        "startYear": "2021-10-22"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18891177",
+    "relation": "location",
+    "queryTemplate": "The Sickroom is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Stenersen Museum",
+        "startYear": "1994-01-01"
+      },
+      {
+        "value": "Munch Museum",
+        "startYear": "2021-10-22"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18891240",
+    "relation": "location",
+    "queryTemplate": "Thorvald Torgersen is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Stenersen Museum",
+        "startYear": "1994-01-01"
+      },
+      {
+        "value": "Munch Museum",
+        "startYear": "2021-10-22"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18891266",
+    "relation": "location",
+    "queryTemplate": "Tulla Larsen is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Stenersen Museum",
+        "startYear": "1994-01-01"
+      },
+      {
+        "value": "Munch Museum",
+        "startYear": "2021-10-22"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18891347",
+    "relation": "location",
+    "queryTemplate": "Venus is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Stenersen Museum",
+        "startYear": "1994-01-01"
+      },
+      {
+        "value": "Munch Museum",
+        "startYear": "2021-10-22"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q18891406",
+    "relation": "location",
+    "queryTemplate": "Winter Landscape from Kragerø is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Stenersen Museum",
+        "startYear": "1994-01-01"
+      },
+      {
+        "value": "Munch Museum",
+        "startYear": "2021-10-22"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q19163150",
+    "relation": "location",
+    "queryTemplate": "Charles IV, King of Spain is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Museum of Fine Arts of Córdoba",
+        "startYear": "1924-01-01"
+      },
+      {
+        "value": "Biblioteca Museu Víctor Balaguer",
+        "startYear": "1986-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q19681606",
+    "relation": "location",
+    "queryTemplate": "View of the Grand Canal: Santa Maria della Salute and the Dogana from Campo Santa Maria Zobenigo is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Coombe Abbey",
+        "startYear": "1831-01-01"
+      },
+      {
+        "value": "J. Paul Getty Museum",
+        "startYear": "1991-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q19691909",
+    "relation": "location",
+    "queryTemplate": "Three Way Piece No. 2: The Archer is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Westphalian State Museum of Art and Cultural History",
+        "startYear": "2016-10-12"
+      },
+      {
+        "value": "Sculpture garden of the Neue Nationalgalerie",
+        "startYear": "2021-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q19801102",
+    "relation": "location",
+    "queryTemplate": "Napoleon Crossing the Alps is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Royal Palace of Milan",
+        "startYear": "1803-01-01"
+      },
+      {
+        "value": "Belvedere",
+        "startYear": "1921-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q19801150",
+    "relation": "location",
+    "queryTemplate": "Napoleon Crossing the Alps is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Les Invalides",
+        "startYear": "1802-01-01"
+      },
+      {
+        "value": "Aile du Midi",
+        "startYear": "1834-09-23"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q19824639",
+    "relation": "location",
+    "queryTemplate": "Bust of Edward Snowden is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Fort Greene Park",
+        "startYear": "2015-04-06"
+      },
+      {
+        "value": "police station",
+        "startYear": "2015-04-06"
+      },
+      {
+        "value": "Brooklyn",
+        "startYear": "2015-05-08"
+      },
+      {
+        "value": "Brooklyn Museum",
+        "startYear": "http://www"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q19858551",
+    "relation": "location",
+    "queryTemplate": "Madonna and Child Enthroned with Saints Zenobius, John the Baptist, Reparata and John the Evangelist is currently held in _X_.",
+    "spans": [
+      {
+        "value": "New York Historical",
+        "startYear": "1867-01-01"
+      },
+      {
+        "value": "Brooklyn Museum",
+        "startYear": "1995-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q19861834",
+    "relation": "location",
+    "queryTemplate": "Head of an Italian Woman is currently held in _X_.",
+    "spans": [
+      {
+        "value": "private collection",
+        "startYear": "1844-01-01"
+      },
+      {
+        "value": "Adolphe Goupil",
+        "startYear": "1867-01-01"
+      },
+      {
+        "value": "Hoey",
+        "startYear": "1867-01-01"
+      },
+      {
+        "value": "Everard",
+        "startYear": "1871-05-01"
+      },
+      {
+        "value": "Adolphe Goupil",
+        "startYear": "1871-05-01"
+      },
+      {
+        "value": "M. Knoedler & Co.",
+        "startYear": "1871-07-31"
+      },
+      {
+        "value": "Boussod, Valadon & Cie",
+        "startYear": "1885-01-01"
+      },
+      {
+        "value": "private collection",
+        "startYear": "1976-01-01"
+      },
+      {
+        "value": "Christie's",
+        "startYear": "1976-01-01"
+      },
+      {
+        "value": "Cleveland Museum of Art",
+        "startYear": "1980-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q19882852",
+    "relation": "location",
+    "queryTemplate": "Still Life with Gingerpot I is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Kunstmuseum Den Haag",
+        "startYear": "1950-01-01"
+      },
+      {
+        "value": "Solomon R. Guggenheim Museum",
+        "startYear": "1976-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q19883652",
+    "relation": "location",
+    "queryTemplate": "Street, Berlin is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Kronprinzenpalais",
+        "startYear": "1920-01-01"
+      },
+      {
+        "value": "Haus der Kunst",
+        "startYear": "1937-07-01"
+      },
+      {
+        "value": "Schönhausen Palace",
+        "startYear": "1938-10-01"
+      },
+      {
+        "value": "Museum of Modern Art",
+        "startYear": "1939-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q19884456",
+    "relation": "location",
+    "queryTemplate": "Still Life (Table with Bowl of Fruit) is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Museum of Modern Art",
+        "startYear": "1990-01-01"
+      },
+      {
+        "value": "Museum Barberini",
+        "startYear": "2022-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q19913093",
+    "relation": "location",
+    "queryTemplate": "Still Life with Oysters, a Silver Tazza, and Glassware is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Augusteum",
+        "startYear": "1886-01-01"
+      },
+      {
+        "value": "Metropolitan Museum of Art",
+        "startYear": "2005-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q19928391",
+    "relation": "location",
+    "queryTemplate": "Maid at the Window is currently held in _X_.",
+    "spans": [
+      {
+        "value": "art collection",
+        "startYear": "1799-01-01"
+      },
+      {
+        "value": "Alte Pinakothek",
+        "startYear": "1879-01-01"
+      },
+      {
+        "value": "Willem van der Vorm",
+        "startYear": "1938-12-31"
+      },
+      {
+        "value": "Museum Boijmans Van Beuningen",
+        "startYear": "1972-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q19947675",
+    "relation": "location",
+    "queryTemplate": "Saint Dominic and Saint Francis Protecting the World from the Wrath of Christ is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Louvre Museum",
+        "startYear": "1794-01-01"
+      },
+      {
+        "value": "Museum of Fine Arts of Lyon",
+        "startYear": "1811-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q19960957",
+    "relation": "location",
+    "queryTemplate": "Still Life with Skull, Globe, Books, Crown, Mitre, Bubbles, Mussel Shell with Bubble Pipe, Holly Crown, Watch and Candlestick is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Kunsthandel P. de Boer",
+        "startYear": "1990-01-01"
+      },
+      {
+        "value": "Mount Holyoke College Art Museum",
+        "startYear": "1993-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q19973906",
+    "relation": "location",
+    "queryTemplate": "Man in plumed beret is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Frederiksborg Palace",
+        "startYear": "1775-01-01"
+      },
+      {
+        "value": "Statens Museum for Kunst",
+        "startYear": "1890-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q2016193",
+    "relation": "location",
+    "queryTemplate": "Madonna Enthroned is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Ognissanti Church",
+        "startYear": "1305-01-01"
+      },
+      {
+        "value": "Galleria dell'Accademia",
+        "startYear": "1810-01-01"
+      },
+      {
+        "value": "Room A4 Giotto — Cimabue",
+        "startYear": "1919-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q20179947",
+    "relation": "location",
+    "queryTemplate": "Vertumnus and Pomona is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Museo de Arte de Ponce",
+        "startYear": "1964-01-01"
+      },
+      {
+        "value": "J. Paul Getty Museum",
+        "startYear": "1975-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q20183911",
+    "relation": "location",
+    "queryTemplate": "Saints Bartholomew and Simon is currently held in _X_.",
+    "spans": [
+      {
+        "value": "San Francesco al Prato church",
+        "startYear": "1300-01-01"
+      },
+      {
+        "value": "Metropolitan Museum of Art",
+        "startYear": "1975-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q20197749",
+    "relation": "location",
+    "queryTemplate": "Portrait of a Woman Aged 54 is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Schloss Weißenstein",
+        "startYear": "1719-01-01"
+      },
+      {
+        "value": "Legion of Honor",
+        "startYear": "1985-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q20198429",
+    "relation": "location",
+    "queryTemplate": "America Today is currently held in _X_.",
+    "spans": [
+      {
+        "value": "66 West 12th Street",
+        "startYear": "1931-01-01"
+      },
+      {
+        "value": "AXA Equitable Center",
+        "startYear": "1986-01-01"
+      },
+      {
+        "value": "1290 Avenue of the Americas",
+        "startYear": "1996-01-01"
+      },
+      {
+        "value": "Metropolitan Museum of Art",
+        "startYear": "2012-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q20202622",
+    "relation": "location",
+    "queryTemplate": "Portrait of a Lady with Her Daughter is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Portland Art Museum",
+        "startYear": "1937-01-01"
+      },
+      {
+        "value": "Fine Arts Museums of San Francisco",
+        "startYear": "1961-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q20408396",
+    "relation": "location",
+    "queryTemplate": "Suselen is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Doughty House",
+        "startYear": "1873-01-01"
+      },
+      {
+        "value": "National Gallery of Victoria",
+        "startYear": "1945-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q20540348",
+    "relation": "location",
+    "queryTemplate": "Vase of Flowers in a Niche is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Schloss Weißenstein",
+        "startYear": "1836-01-01"
+      },
+      {
+        "value": "Museum of Fine Arts Boston",
+        "startYear": "1889-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q20545725",
+    "relation": "location",
+    "queryTemplate": "Venus Giving Arms to Aeneas is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Augusteum",
+        "startYear": "1876-01-01"
+      },
+      {
+        "value": "Museum of Fine Arts Boston",
+        "startYear": "1984-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q20550009",
+    "relation": "location",
+    "queryTemplate": "The Crucifixion and Scenes from the Life of Saint John the Baptist is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Galerie Weber in Hamburg",
+        "startYear": "1887-01-01"
+      },
+      {
+        "value": "Museum of Fine Arts Boston",
+        "startYear": "1912-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q20555718",
+    "relation": "location",
+    "queryTemplate": "The Sacrifice of the Old Covenant is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Althorp",
+        "startYear": "1702-01-01"
+      },
+      {
+        "value": "Topsfield",
+        "startYear": "1962-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q20664525",
+    "relation": "location",
+    "queryTemplate": "Still life with glass, flask, pipe and tobacco packet is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1899-01-01"
+      },
+      {
+        "value": "Guildhall Art Gallery",
+        "startYear": "1987-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q20731722",
+    "relation": "location",
+    "queryTemplate": "Saint Catherine of Siena Surrounded by a Garland of Flowers is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Royal Museum of Fine Arts Antwerp",
+        "startYear": "1877-01-01"
+      },
+      {
+        "value": "Rubenshuis",
+        "startYear": "1977-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q20734751",
+    "relation": "location",
+    "queryTemplate": "A Richly Laid Table with Parrots is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Schloss Weißenstein",
+        "startYear": "1719-01-01"
+      },
+      {
+        "value": "John and Mable Ringling Museum of Art",
+        "startYear": "1936-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q20804353",
+    "relation": "location",
+    "queryTemplate": "Hilly Landscape is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Herzog Anton Ulrich Museum",
+        "startYear": "1738-01-01"
+      },
+      {
+        "value": "Louvre Museum",
+        "startYear": "1790-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q20808926",
+    "relation": "location",
+    "queryTemplate": "The Continence of Scipio is currently held in _X_.",
+    "spans": [
+      {
+        "value": "New York Historical",
+        "startYear": "1867-01-01"
+      },
+      {
+        "value": "Philadelphia Museum of Art",
+        "startYear": "1981-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q20820624",
+    "relation": "location",
+    "queryTemplate": "Dune Landscape near Haarlem is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Robert Noortman Gallery",
+        "startYear": "1995-01-01"
+      },
+      {
+        "value": "Susan and Matthew Weatherbie Collection",
+        "startYear": "2011-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q20872034",
+    "relation": "location",
+    "queryTemplate": "The Last Judgment is currently held in _X_.",
+    "spans": [
+      {
+        "value": "convent of Santa Isabel",
+        "startYear": "1614-01-01"
+      },
+      {
+        "value": "Goya Museum",
+        "startYear": "1996-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q20873260",
+    "relation": "location",
+    "queryTemplate": "Le Christ servi par les anges dans le désert is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Monasterio de San Clemente",
+        "startYear": "1616-01-01"
+      },
+      {
+        "value": "Goya Museum",
+        "startYear": "1993-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q21075978",
+    "relation": "location",
+    "queryTemplate": "The Stag Hunt (1659) is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Schloss Weißenstein",
+        "startYear": "1719-01-01"
+      },
+      {
+        "value": "Yale University Art Gallery",
+        "startYear": "2017-01-01"
+      },
+      {
+        "value": "Museum of Fine Arts Boston",
+        "startYear": "2019-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q21177097",
+    "relation": "location",
+    "queryTemplate": "Christening in Tanum Church is currently held in _X_.",
+    "spans": [
+      {
+        "value": "National Gallery of Norway",
+        "startYear": "1959-01-01"
+      },
+      {
+        "value": "National Museum of Art, Architecture and Design",
+        "startYear": "2003-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q21416535",
+    "relation": "location",
+    "queryTemplate": "Head of an Old Man in a Cap is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Bader collection",
+        "startYear": "1979-01-01"
+      },
+      {
+        "value": "Agnes Etherington Art Centre",
+        "startYear": "2003-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q21541684",
+    "relation": "location",
+    "queryTemplate": "Bearded old man is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Augusteum",
+        "startYear": "1876-01-01"
+      },
+      {
+        "value": "Fogg Museum",
+        "startYear": "1930-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q21612479",
+    "relation": "location",
+    "queryTemplate": "Portrait of a Scholar at his Desk (formerly called Lipsius) is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Wallraf–Richartz Museum",
+        "startYear": "1936-01-01"
+      },
+      {
+        "value": "Art Depot at Hohenzollern Castle",
+        "startYear": "1942-08-31"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q21614703",
+    "relation": "location",
+    "queryTemplate": "The Lamentation over the Dead Christ is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Beguinage of Antwerp",
+        "startYear": "1629-01-01"
+      },
+      {
+        "value": "Royal Museum of Fine Arts Antwerp",
+        "startYear": "1810-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q21620479",
+    "relation": "location",
+    "queryTemplate": "Portrait Georg Brandes is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Alte Nationalgalerie",
+        "startYear": "1927-01-01"
+      },
+      {
+        "value": "\"degenerate art\" collection",
+        "startYear": "1937-01-01"
+      },
+      {
+        "value": "Royal Museum of Fine Arts Antwerp",
+        "startYear": "1939-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q21620481",
+    "relation": "location",
+    "queryTemplate": "The Writer Walter Mehring is currently held in _X_.",
+    "spans": [
+      {
+        "value": "\"degenerate art\" collection",
+        "startYear": "1937-01-01"
+      },
+      {
+        "value": "Royal Museum of Fine Arts Antwerp",
+        "startYear": "1939-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q21620482",
+    "relation": "location",
+    "queryTemplate": "Little Jeanne is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Gemäldegalerie Alte Meister",
+        "startYear": "1927-01-01"
+      },
+      {
+        "value": "\"degenerate art\" collection",
+        "startYear": "1937-01-01"
+      },
+      {
+        "value": "Royal Museum of Fine Arts Antwerp",
+        "startYear": "1939-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q21639943",
+    "relation": "location",
+    "queryTemplate": "Testing the strength of Jan Usmar is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Imperial Academy of Arts",
+        "startYear": "1797-01-01"
+      },
+      {
+        "value": "Pavel Svinyin",
+        "startYear": "1819-01-01"
+      },
+      {
+        "value": "Imperial Academy of Arts",
+        "startYear": "1840-01-01"
+      },
+      {
+        "value": "Russian Museum",
+        "startYear": "1923-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q219831",
+    "relation": "location",
+    "queryTemplate": "The Night Watch is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Kloveniersdoelen",
+        "startYear": "1642-01-01"
+      },
+      {
+        "value": "Royal Palace of Amsterdam",
+        "startYear": "1715-01-01"
+      },
+      {
+        "value": "Trippenhuis",
+        "startYear": "1817-01-01"
+      },
+      {
+        "value": "Nightwatch hall",
+        "startYear": "1885-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q22330291",
+    "relation": "location",
+    "queryTemplate": "Pony und Knappe is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Schlosspark Bellevue",
+        "startYear": "1896-01-01"
+      },
+      {
+        "value": "English garden",
+        "startYear": "1958-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q2267440",
+    "relation": "location",
+    "queryTemplate": "A Young Woman seated at a Virginal is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Schloss Weißenstein",
+        "startYear": "1717-01-01"
+      },
+      {
+        "value": "National Gallery",
+        "startYear": "1910-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q2344505",
+    "relation": "location",
+    "queryTemplate": "Madonna of the Goldfinch is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Palazzo Nasi",
+        "startYear": "1506-01-01"
+      },
+      {
+        "value": "Uffizi Gallery",
+        "startYear": "1666-01-01"
+      },
+      {
+        "value": "Villa Medicea of Poggio a Caiano",
+        "startYear": "1940-05-13"
+      },
+      {
+        "value": "Poppi Castle",
+        "startYear": "1940-10-23"
+      },
+      {
+        "value": "Tesoro dei Granduchi",
+        "startYear": "1945-05-21"
+      },
+      {
+        "value": "museum storage",
+        "startYear": "1945-07-06"
+      },
+      {
+        "value": "Uffizi Gallery",
+        "startYear": "1948-06-24"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q2397593",
+    "relation": "location",
+    "queryTemplate": "Tavola Doria is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Naples",
+        "startYear": "1832-01-01"
+      },
+      {
+        "value": "Uffizi Gallery",
+        "startYear": "2014-05-22"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q2418237",
+    "relation": "location",
+    "queryTemplate": "The Kiss is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Luxembourg Museum",
+        "startYear": "1901-01-01"
+      },
+      {
+        "value": "Musée Rodin",
+        "startYear": "1919-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q2448678",
+    "relation": "location",
+    "queryTemplate": "Massacre of the Innocents is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Basilica of San Domenico",
+        "startYear": "1611-01-01"
+      },
+      {
+        "value": "Pinacoteca Nazionale di Bologna",
+        "startYear": "1817-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q2452858",
+    "relation": "location",
+    "queryTemplate": "Madonna del Prato is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Ambras Castle",
+        "startYear": "1663-01-01"
+      },
+      {
+        "value": "Belvedere",
+        "startYear": "1773-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q2467082",
+    "relation": "location",
+    "queryTemplate": "Visitation is currently held in _X_.",
+    "spans": [
+      {
+        "value": "San Silvestro, L'Aquila",
+        "startYear": "1519-01-01"
+      },
+      {
+        "value": "Royal Monastery of San Lorenzo de El Escorial",
+        "startYear": "1655-01-01"
+      },
+      {
+        "value": "Museo del Prado",
+        "startYear": "1837-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q2584518",
+    "relation": "location",
+    "queryTemplate": "Diana of Versailles is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Palace of Fontainebleau",
+        "startYear": "1556-01-01"
+      },
+      {
+        "value": "Louvre Palace",
+        "startYear": "1602-01-01"
+      },
+      {
+        "value": "Hall of Mirrors",
+        "startYear": "1696-01-01"
+      },
+      {
+        "value": "Greek antiquities, room 17",
+        "startYear": "1798-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q2610709",
+    "relation": "location",
+    "queryTemplate": "Madonna of Foligno is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Santa Maria in Aracoeli",
+        "startYear": "1512-01-01"
+      },
+      {
+        "value": "Sant'Anna",
+        "startYear": "1565-01-01"
+      },
+      {
+        "value": "Paris",
+        "startYear": "1797-01-01"
+      },
+      {
+        "value": "Pinacoteca Vaticana",
+        "startYear": "1816-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q2653851",
+    "relation": "location",
+    "queryTemplate": "The Elevation of the Cross is currently held in _X_.",
+    "spans": [
+      {
+        "value": "St Walburga Church",
+        "startYear": "1610-01-01"
+      },
+      {
+        "value": "Louvre Museum",
+        "startYear": "1794-01-01"
+      },
+      {
+        "value": "Onze-Lieve-Vrouwekathedraal",
+        "startYear": "1815-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q26723790",
+    "relation": "location",
+    "queryTemplate": "Bad Bad Boy is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Kauppatori",
+        "startYear": "2014-08-01"
+      },
+      {
+        "value": "Jätkäsaari",
+        "startYear": "2015-02-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q28192927",
+    "relation": "location",
+    "queryTemplate": "Postschneckenstele is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Marzahn",
+        "startYear": "1989-01-01"
+      },
+      {
+        "value": "Busbahnhof Marzahn",
+        "startYear": "2006-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q2838937",
+    "relation": "location",
+    "queryTemplate": "Avenue of Poplars near Moret-sur-Loing is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Galerie nationale du Jeu de Paume",
+        "startYear": "1951-01-01"
+      },
+      {
+        "value": "Musée Masséna",
+        "startYear": "1953-01-01"
+      },
+      {
+        "value": "Musée d'Orsay",
+        "startYear": "2008-07-09"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q28870825",
+    "relation": "location",
+    "queryTemplate": "Horse Tamers is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Berlin Palace",
+        "startYear": "1844-01-01"
+      },
+      {
+        "value": "Kammergericht",
+        "startYear": "1945-01-01"
+      },
+      {
+        "value": "Heinrich-von-Kleist-Park",
+        "startYear": "1945-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q2912117",
+    "relation": "location",
+    "queryTemplate": "The Tub is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Louvre Palace",
+        "startYear": "1914-01-01"
+      },
+      {
+        "value": "Musée d'Orsay",
+        "startYear": "1986-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q2972870",
+    "relation": "location",
+    "queryTemplate": "Five Women on the Street is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Wallraf–Richartz Museum",
+        "startYear": "1947-01-01"
+      },
+      {
+        "value": "Museum Ludwig",
+        "startYear": "1976-02-23"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q3076201",
+    "relation": "location",
+    "queryTemplate": "fontaine de la Porte Dorée is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Palais de la Porte Dorée",
+        "startYear": "1931-01-01"
+      },
+      {
+        "value": "square des Anciens-Combattants-d'Indochine",
+        "startYear": "1935-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q317261",
+    "relation": "location",
+    "queryTemplate": "Prussian Homage is currently held in _X_.",
+    "spans": [
+      {
+        "value": "National Museum in Kraków",
+        "startYear": "1885-01-01"
+      },
+      {
+        "value": "Martin-Gropius-Bau",
+        "startYear": "2011-09-23"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q3178029",
+    "relation": "location",
+    "queryTemplate": "Jeune fille de Mégare is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Luxembourg Museum",
+        "startYear": "1872-01-01"
+      },
+      {
+        "value": "Louvre Museum",
+        "startYear": "1923-01-01"
+      },
+      {
+        "value": "Musée d'Orsay",
+        "startYear": "1986-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q31886427",
+    "relation": "location",
+    "queryTemplate": "equestrian statue of Victor Emmanuel is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Piazza Maggiore",
+        "startYear": "1888-01-01"
+      },
+      {
+        "value": "giardini Margherita",
+        "startYear": "1944-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q3203172",
+    "relation": "location",
+    "queryTemplate": "Christ's Entry Into Brussels in 1889 is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Knokke Casino",
+        "startYear": "1950-01-01"
+      },
+      {
+        "value": "Royal Museum of Fine Arts Antwerp",
+        "startYear": "1954-01-01"
+      },
+      {
+        "value": "Getty Center",
+        "startYear": "1987-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q320328",
+    "relation": "location",
+    "queryTemplate": "Madonna of the Rose Bower is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Wallraf–Richartz Museum",
+        "startYear": "1848-01-01"
+      },
+      {
+        "value": "Art Depot at Hohenzollern Castle",
+        "startYear": "1942-08-31"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q3206709",
+    "relation": "location",
+    "queryTemplate": "La Blonde aux seins nus is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Musée des Arts Décoratifs",
+        "startYear": "1927-01-01"
+      },
+      {
+        "value": "Louvre Museum",
+        "startYear": "1934-01-01"
+      },
+      {
+        "value": "Galerie nationale du Jeu de Paume",
+        "startYear": "1947-01-01"
+      },
+      {
+        "value": "Musée d'Orsay",
+        "startYear": "1986-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q321303",
+    "relation": "location",
+    "queryTemplate": "The Garden of Earthly Delights is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Royal Monastery of San Lorenzo de El Escorial",
+        "startYear": "1593-01-01"
+      },
+      {
+        "value": "Museo del Prado",
+        "startYear": "1933-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q3213794",
+    "relation": "location",
+    "queryTemplate": "Altarpiece from S. Francesco dei Zoccolanti, Matelica is currently held in _X_.",
+    "spans": [
+      {
+        "value": "church of San Francesco (Matelica)",
+        "startYear": "1490-01-01"
+      },
+      {
+        "value": "National Gallery",
+        "startYear": "1862-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q3220784",
+    "relation": "location",
+    "queryTemplate": "Le Canal Saint-Martin is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Musée des Arts Décoratifs",
+        "startYear": "1907-01-01"
+      },
+      {
+        "value": "Louvre Museum",
+        "startYear": "1934-01-01"
+      },
+      {
+        "value": "Galerie nationale du Jeu de Paume",
+        "startYear": "1947-01-01"
+      },
+      {
+        "value": "Musée d'Orsay",
+        "startYear": "1986-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q3221347",
+    "relation": "location",
+    "queryTemplate": "Christ on the Cross is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Église Saint-Patern de Vannes",
+        "startYear": "1835-01-01"
+      },
+      {
+        "value": "musée de la Cohue",
+        "startYear": "1865-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q3226347",
+    "relation": "location",
+    "queryTemplate": "The Feast in the House of Simon the Pharisee is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Louvre Palace",
+        "startYear": "1815-01-01"
+      },
+      {
+        "value": "Nantes Museum of Arts",
+        "startYear": "1982-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q323032",
+    "relation": "location",
+    "queryTemplate": "Miraflores Altarpiece is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Miraflores Charterhouse",
+        "startYear": "1445-01-01"
+      },
+      {
+        "value": "Kneuterdijk Palace",
+        "startYear": "1842-01-01"
+      },
+      {
+        "value": "Bode Museum",
+        "startYear": "1850-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q328079",
+    "relation": "location",
+    "queryTemplate": "Sistine Madonna is currently held in _X_.",
+    "spans": [
+      {
+        "value": "San Sisto, Piacenza",
+        "startYear": "1510-01-01"
+      },
+      {
+        "value": "Dresden",
+        "startYear": "1754-01-01"
+      },
+      {
+        "value": "Pushkin Museum of Fine Arts",
+        "startYear": "1946-01-01"
+      },
+      {
+        "value": "Dresden",
+        "startYear": "1955-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q328523",
+    "relation": "location",
+    "queryTemplate": "Impression, Sunrise is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Musée Marmottan Monet",
+        "startYear": "1938-01-01"
+      },
+      {
+        "value": "Porto-Vecchio",
+        "startYear": "1985-01-01"
+      },
+      {
+        "value": "Musée Marmottan Monet",
+        "startYear": "1990-12-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q33111444",
+    "relation": "location",
+    "queryTemplate": "Anthony Wayne Monument is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Hayden Park",
+        "startYear": "1918-01-01"
+      },
+      {
+        "value": "Freimann Square",
+        "startYear": "1973-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q3497585",
+    "relation": "location",
+    "queryTemplate": "monument to Léon Gambetta is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Tuileries Garden",
+        "startYear": "1888-01-01"
+      },
+      {
+        "value": "square Édouard-Vaillant",
+        "startYear": "1982-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q3637224",
+    "relation": "location",
+    "queryTemplate": "The Vision of the Blessed Gabriele is currently held in _X_.",
+    "spans": [
+      {
+        "value": "San Francesco ad Alto",
+        "startYear": "1489-01-01"
+      },
+      {
+        "value": "National Gallery",
+        "startYear": "1861-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q3686099",
+    "relation": "location",
+    "queryTemplate": "Musical Company is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1976-01-01"
+      },
+      {
+        "value": "Museum De Lakenhal",
+        "startYear": "2021-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q3695962",
+    "relation": "location",
+    "queryTemplate": "Farms near Auvers is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Tate",
+        "startYear": "1933-01-01"
+      },
+      {
+        "value": "National Gallery",
+        "startYear": "1997-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q3713907",
+    "relation": "location",
+    "queryTemplate": "Woman in her Bath Sponging her Leg is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Louvre Museum",
+        "startYear": "1914-01-01"
+      },
+      {
+        "value": "Musée d'Orsay",
+        "startYear": "1986-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q3753366",
+    "relation": "location",
+    "queryTemplate": "Fritillaries in a Copper Vase is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Louvre Museum",
+        "startYear": "1914-01-01"
+      },
+      {
+        "value": "Galerie nationale du Jeu de Paume",
+        "startYear": "1947-01-01"
+      },
+      {
+        "value": "Musée d'Orsay",
+        "startYear": "1986-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q3791331",
+    "relation": "location",
+    "queryTemplate": "The Turkeys is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Louvre Museum",
+        "startYear": "1944-01-01"
+      },
+      {
+        "value": "Galerie nationale du Jeu de Paume",
+        "startYear": "1947-01-01"
+      },
+      {
+        "value": "Musée d'Orsay",
+        "startYear": "1986-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q3797771",
+    "relation": "location",
+    "queryTemplate": "Coronation of the Virgin is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Church of Sant'Egidio",
+        "startYear": "1435-01-01"
+      },
+      {
+        "value": "Uffizi Gallery",
+        "startYear": "1825-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q3824626",
+    "relation": "location",
+    "queryTemplate": "La Toilette is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Louvre Museum",
+        "startYear": "1911-01-01"
+      },
+      {
+        "value": "Musée d'Orsay",
+        "startYear": "1986-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q3873319",
+    "relation": "location",
+    "queryTemplate": "Still life with flesh is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Musée des Arts Décoratifs",
+        "startYear": "1907-01-01"
+      },
+      {
+        "value": "Louvre Museum",
+        "startYear": "1934-01-01"
+      },
+      {
+        "value": "Galerie nationale du Jeu de Paume",
+        "startYear": "1947-01-01"
+      },
+      {
+        "value": "Musée d'Orsay",
+        "startYear": "1986-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q3873330",
+    "relation": "location",
+    "queryTemplate": "Nature morte à la bouilloire (Still life with kettle) is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Galerie nationale du Jeu de Paume",
+        "startYear": "1963-01-01"
+      },
+      {
+        "value": "Musée d'Orsay",
+        "startYear": "1986-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q3874247",
+    "relation": "location",
+    "queryTemplate": "The Denial of Saint Peter is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Hermitage Museum",
+        "startYear": "1781-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1933-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q3907488",
+    "relation": "location",
+    "queryTemplate": "Polyptych of the Duomo of Teramo is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Chiesa di Sant'Agostino",
+        "startYear": "1439-01-01"
+      },
+      {
+        "value": "Basilica of Our Lady of the Assumption",
+        "startYear": "1860-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q3937564",
+    "relation": "location",
+    "queryTemplate": "Hilaire de Gas is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Louvre Museum",
+        "startYear": "1932-01-01"
+      },
+      {
+        "value": "Galerie nationale du Jeu de Paume",
+        "startYear": "1947-01-01"
+      },
+      {
+        "value": "Musée d'Orsay",
+        "startYear": "1986-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q3944500",
+    "relation": "location",
+    "queryTemplate": "The Holy Family di Parte Guelfa is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Palazzo di Parte Guelfa",
+        "startYear": "1485-01-01"
+      },
+      {
+        "value": "Uffizi Gallery",
+        "startYear": "1807-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q3979950",
+    "relation": "location",
+    "queryTemplate": "Tabernacle of the Linaioli is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Residenza dell'Arte dei Linaioli e Rigattieri",
+        "startYear": "1433-01-01"
+      },
+      {
+        "value": "Uffizi Gallery",
+        "startYear": "1777-01-01"
+      },
+      {
+        "value": "Museum of San Marco",
+        "startYear": "1924-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q3985182",
+    "relation": "location",
+    "queryTemplate": "Portrait of Margot is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Galerie nationale du Jeu de Paume",
+        "startYear": "1951-01-01"
+      },
+      {
+        "value": "Musée d'Orsay",
+        "startYear": "1986-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q3998923",
+    "relation": "location",
+    "queryTemplate": "Detroit Trio is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Augusteum",
+        "startYear": "1876-01-01"
+      },
+      {
+        "value": "Julius Böhler AG",
+        "startYear": "1923-01-01"
+      },
+      {
+        "value": "Detroit Institute of Arts",
+        "startYear": "1926-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q3998939",
+    "relation": "location",
+    "queryTemplate": "The Triumph of Fame is currently held in _X_.",
+    "spans": [
+      {
+        "value": "New York Historical",
+        "startYear": "1867-01-01"
+      },
+      {
+        "value": "Metropolitan Museum of Art",
+        "startYear": "1995-01-12"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q3999123",
+    "relation": "location",
+    "queryTemplate": "Madonna and Child with Sts Matthew and Nicholas is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Sacristy of Ognissanti Church",
+        "startYear": "1328-01-01"
+      },
+      {
+        "value": "Uffizi Gallery",
+        "startYear": "1871-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q4009571",
+    "relation": "location",
+    "queryTemplate": "Venus and Adonis is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Hôtel de Soissons",
+        "startYear": "1742-07-30"
+      },
+      {
+        "value": "Ashmolean Museum",
+        "startYear": "2006-04-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q4024897",
+    "relation": "location",
+    "queryTemplate": "Sucrier, poires et tasse bleue is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Musée Granet",
+        "startYear": "1984-01-01"
+      },
+      {
+        "value": "Musée d'Orsay",
+        "startYear": "2004-01-01"
+      },
+      {
+        "value": "Musée Granet",
+        "startYear": "2006-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q4110564",
+    "relation": "location",
+    "queryTemplate": "View of the Sea at Scheveningen is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Nuenen",
+        "startYear": "1885-11-01"
+      },
+      {
+        "value": "Ginnekenstraat",
+        "startYear": "1888-01-01"
+      },
+      {
+        "value": "Breda",
+        "startYear": "1902-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q4528214",
+    "relation": "location",
+    "queryTemplate": "Study of a Nude is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Copenhagen",
+        "startYear": "1892-01-01"
+      },
+      {
+        "value": "Statens Museum for Kunst",
+        "startYear": "1920-01-01"
+      },
+      {
+        "value": "Ny Carlsberg Glyptotek",
+        "startYear": "1922-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q4889277",
+    "relation": "location",
+    "queryTemplate": "Ramon Casas and Pere Romeu on a Tandem is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Els Quatre Gats",
+        "startYear": "1897-01-01"
+      },
+      {
+        "value": "Museu Nacional d'Art de Catalunya",
+        "startYear": "1964-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q49013057",
+    "relation": "location",
+    "queryTemplate": "Captain America is currently held in _X_.",
+    "spans": [
+      {
+        "value": "San Diego Convention Center",
+        "startYear": "2016-07-21"
+      },
+      {
+        "value": "Prospect Park",
+        "startYear": "2016-08-10"
+      },
+      {
+        "value": "Industry City",
+        "startYear": "2016-10-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q50820490",
+    "relation": "location",
+    "queryTemplate": "The Entombment of the Virgin; (left) St Bartholomew; (right) A female Saint is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Wallraf–Richartz Museum",
+        "startYear": "1930-01-01"
+      },
+      {
+        "value": "Fitzwilliam Museum",
+        "startYear": "1938-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q50949765",
+    "relation": "location",
+    "queryTemplate": "Susanna and the Two Elders is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Museum of Fine Arts, Budapest",
+        "startYear": "1946-01-01"
+      },
+      {
+        "value": "Hungarian National Gallery",
+        "startYear": "1946-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q51578276",
+    "relation": "location",
+    "queryTemplate": "The Taking of the 'Kent' by Robert Surcouf in the Gulf of Bengal, 7th October 1800. is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Musée des Beaux-Arts de La Rochelle",
+        "startYear": "1851-01-01"
+      },
+      {
+        "value": "Musée d’Histoire de la Ville et du Pays Malouin",
+        "startYear": "1959-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q5208670",
+    "relation": "location",
+    "queryTemplate": "Daguerre Memorial is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Arts and Industries Building",
+        "startYear": "1890-01-01"
+      },
+      {
+        "value": "Suitland",
+        "startYear": "1969-01-01"
+      },
+      {
+        "value": "National Portrait Gallery",
+        "startYear": "1990-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q52086953",
+    "relation": "location",
+    "queryTemplate": "Paradies is currently held in _X_.",
+    "spans": [
+      {
+        "value": "August-Macke-Haus",
+        "startYear": "1912-01-01"
+      },
+      {
+        "value": "Westphalian State Museum of Art and Cultural History",
+        "startYear": "1980-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q52256613",
+    "relation": "location",
+    "queryTemplate": "The Masters Pattisson: William Henry Ebenezer Pattisson (1801-1832) and Jacob Howell Pattisson (1803-1874) is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Leighton Hall",
+        "startYear": "1860-01-01"
+      },
+      {
+        "value": "Polesden Lacey",
+        "startYear": "1918-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q52723169",
+    "relation": "location",
+    "queryTemplate": "Peasants at an Inn is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Poppi Castle",
+        "startYear": "1942-01-01"
+      },
+      {
+        "value": "Uffizi Gallery",
+        "startYear": "1951-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q53322160",
+    "relation": "location",
+    "queryTemplate": "Forest Path near Meissen is currently held in _X_.",
+    "spans": [
+      {
+        "value": "National Gallery of Norway",
+        "startYear": "1899-01-01"
+      },
+      {
+        "value": "National Museum of Art, Architecture and Design",
+        "startYear": "2003-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q53324655",
+    "relation": "location",
+    "queryTemplate": "Scene from the Surroundings of Meissen is currently held in _X_.",
+    "spans": [
+      {
+        "value": "National Gallery of Norway",
+        "startYear": "1932-01-01"
+      },
+      {
+        "value": "National Museum of Art, Architecture and Design",
+        "startYear": "2003-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q53328954",
+    "relation": "location",
+    "queryTemplate": "Wreck on the Coast of Norway is currently held in _X_.",
+    "spans": [
+      {
+        "value": "National Gallery of Norway",
+        "startYear": "1956-01-01"
+      },
+      {
+        "value": "National Museum of Art, Architecture and Design",
+        "startYear": "2003-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q53358383",
+    "relation": "location",
+    "queryTemplate": "View of Hønefossen is currently held in _X_.",
+    "spans": [
+      {
+        "value": "National Gallery of Norway",
+        "startYear": "1912-01-01"
+      },
+      {
+        "value": "National Museum of Art, Architecture and Design",
+        "startYear": "2003-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q53433079",
+    "relation": "location",
+    "queryTemplate": "The Elbe in the Evening is currently held in _X_.",
+    "spans": [
+      {
+        "value": "National Gallery of Norway",
+        "startYear": "1958-01-01"
+      },
+      {
+        "value": "National Museum of Art, Architecture and Design",
+        "startYear": "2003-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q53441606",
+    "relation": "location",
+    "queryTemplate": "View of Hjelle in Valdres is currently held in _X_.",
+    "spans": [
+      {
+        "value": "National Gallery of Norway",
+        "startYear": "1893-01-01"
+      },
+      {
+        "value": "National Museum of Art, Architecture and Design",
+        "startYear": "2003-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q53444480",
+    "relation": "location",
+    "queryTemplate": "Farm Buildings at Hjelle in Valdres is currently held in _X_.",
+    "spans": [
+      {
+        "value": "National Gallery of Norway",
+        "startYear": "1893-01-01"
+      },
+      {
+        "value": "National Museum of Art, Architecture and Design",
+        "startYear": "2003-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q53447057",
+    "relation": "location",
+    "queryTemplate": "Fredriksberg Fortifications on Nordnes in Bergen is currently held in _X_.",
+    "spans": [
+      {
+        "value": "National Gallery of Norway",
+        "startYear": "1893-01-01"
+      },
+      {
+        "value": "National Museum of Art, Architecture and Design",
+        "startYear": "2003-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q53526050",
+    "relation": "location",
+    "queryTemplate": "Storm Clouds is currently held in _X_.",
+    "spans": [
+      {
+        "value": "National Gallery of Norway",
+        "startYear": "1893-01-01"
+      },
+      {
+        "value": "National Museum of Art, Architecture and Design",
+        "startYear": "2003-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q53758062",
+    "relation": "location",
+    "queryTemplate": "River between steep Rocks is currently held in _X_.",
+    "spans": [
+      {
+        "value": "National Gallery of Norway",
+        "startYear": "1891-01-01"
+      },
+      {
+        "value": "National Museum of Art, Architecture and Design",
+        "startYear": "2003-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q54879557",
+    "relation": "location",
+    "queryTemplate": "Geistkämpfer is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Heiligengeistkirche (Kiel)",
+        "startYear": "1928-11-29"
+      },
+      {
+        "value": "Thaulow-Museum",
+        "startYear": "1937-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q55030476",
+    "relation": "location",
+    "queryTemplate": "Still Life of Fruit on a Kraak Porcelain Dish is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Gemäldegalerie Alte Meister",
+        "startYear": "1991-01-01"
+      },
+      {
+        "value": "Currier Museum of Art",
+        "startYear": "2004-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q5539818",
+    "relation": "location",
+    "queryTemplate": "George Gordon Meade Memorial is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Union Square",
+        "startYear": "1922-01-01"
+      },
+      {
+        "value": "Judiciary Square",
+        "startYear": "1983-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q56063834",
+    "relation": "location",
+    "queryTemplate": "Martyrdom of Saint Stephen (central panel) is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Saint-Amand Abbey",
+        "startYear": "1617-01-01"
+      },
+      {
+        "value": "Louvre Museum",
+        "startYear": "1794-01-01"
+      },
+      {
+        "value": "Musée des Beaux-Arts de Valenciennes",
+        "startYear": "1839-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q57909526",
+    "relation": "location",
+    "queryTemplate": "View of the Elbe with the Bridge is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Klein Döbbern",
+        "startYear": "1914-02-07"
+      },
+      {
+        "value": "Hamburger Kunsthalle",
+        "startYear": "1988-01-01"
+      },
+      {
+        "value": "The Prince-Pückler-Museum Park and Palace Branitz Foundation",
+        "startYear": "2021-08-10"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q5811810",
+    "relation": "location",
+    "queryTemplate": "Garrote vil (Garrotte) is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Museo del Prado",
+        "startYear": "1971-01-01"
+      },
+      {
+        "value": "Museo Nacional Centro de Arte Reina Sofía",
+        "startYear": "1995-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q5965648",
+    "relation": "location",
+    "queryTemplate": "Adoration of the Shepherds is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Toledo",
+        "startYear": "1596-01-01"
+      },
+      {
+        "value": "Madrid",
+        "startYear": "1600-01-01"
+      },
+      {
+        "value": "Peleș Castle",
+        "startYear": "1879-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q5966403",
+    "relation": "location",
+    "queryTemplate": "The Cradle is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Galerie nationale du Jeu de Paume",
+        "startYear": "1947-01-01"
+      },
+      {
+        "value": "Musée d'Orsay",
+        "startYear": "1986-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q59850705",
+    "relation": "location",
+    "queryTemplate": "Tulips is currently held in _X_.",
+    "spans": [
+      {
+        "value": "administrative building of Nord/LB",
+        "startYear": "2004-03-01"
+      },
+      {
+        "value": "Wynn Las Vegas",
+        "startYear": "2013-01-01"
+      },
+      {
+        "value": "Wynn Palace",
+        "startYear": "2016-01-01"
+      },
+      {
+        "value": "Wynn Las Vegas",
+        "startYear": "2019-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q60180918",
+    "relation": "location",
+    "queryTemplate": "Roland furieux is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Jardin du Luxembourg",
+        "startYear": "1869-01-01"
+      },
+      {
+        "value": "Louvre Palace",
+        "startYear": "1900-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q6118477",
+    "relation": "location",
+    "queryTemplate": "Saint Benedict is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Monastery of Saint Dominic of Silos",
+        "startYear": "1577-01-01"
+      },
+      {
+        "value": "Museo del Prado",
+        "startYear": "1830-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q63738499",
+    "relation": "location",
+    "queryTemplate": "Ethyl is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Golden Gate National Recreation Area",
+        "startYear": "2018-10-01"
+      },
+      {
+        "value": "Santa Fe Community College",
+        "startYear": "2019-04-09"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q64097941",
+    "relation": "location",
+    "queryTemplate": "Kneeling Young Man is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Swiss Federal Archives",
+        "startYear": "1954-10-04"
+      },
+      {
+        "value": "Swissmint Building",
+        "startYear": "1980-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q65136544",
+    "relation": "location",
+    "queryTemplate": "Deset deka tanku is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Kinsky Square",
+        "startYear": "2008-08-21"
+      },
+      {
+        "value": "Ke sklárně",
+        "startYear": "2009-12-06"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q65347247",
+    "relation": "location",
+    "queryTemplate": "Socha z klíčů is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Franz Kafka Square",
+        "startYear": "2010-03-09"
+      },
+      {
+        "value": "Horní náměstí",
+        "startYear": "2010-10-19"
+      },
+      {
+        "value": "Ostrava",
+        "startYear": "2010-12-16"
+      },
+      {
+        "value": "Moravské náměstí",
+        "startYear": "2011-02-16"
+      },
+      {
+        "value": "Košice",
+        "startYear": "2013-05-20"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q6553555",
+    "relation": "location",
+    "queryTemplate": "The Holy Trinity is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Monastery of Saint Dominic of Silos",
+        "startYear": "1577-01-01"
+      },
+      {
+        "value": "Museo del Prado",
+        "startYear": "1832-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q65923103",
+    "relation": "location",
+    "queryTemplate": "Christophorus is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Bahnhofplatz",
+        "startYear": "1991-01-01"
+      },
+      {
+        "value": "Mötschwil",
+        "startYear": "2007-01-01"
+      },
+      {
+        "value": "Bahnhofplatz",
+        "startYear": "2015-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q683274",
+    "relation": "location",
+    "queryTemplate": "Bal du moulin de la Galette is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Luxembourg Museum",
+        "startYear": "1896-01-01"
+      },
+      {
+        "value": "Galerie nationale du Jeu de Paume",
+        "startYear": "1947-01-01"
+      },
+      {
+        "value": "Musée d'Orsay",
+        "startYear": "1986-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q7232330",
+    "relation": "location",
+    "queryTemplate": "Portrait of a Seated Woman with a Handkerchief is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Westonbirt Arboretum",
+        "startYear": "1851-01-01"
+      },
+      {
+        "value": "Art Gallery of Ontario",
+        "startYear": "1966-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q7289817",
+    "relation": "location",
+    "queryTemplate": "Ramon Casas and Pere Romeu in an Automobile is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Els Quatre Gats",
+        "startYear": "1900-01-01"
+      },
+      {
+        "value": "Museu Nacional d'Art de Catalunya",
+        "startYear": "2010-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q73567185",
+    "relation": "location",
+    "queryTemplate": "Holidi is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Altstadt",
+        "startYear": "1986-01-01"
+      },
+      {
+        "value": "Rosenberg cemetery",
+        "startYear": "2015-09-10"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q737062",
+    "relation": "location",
+    "queryTemplate": "Olympia is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Luxembourg Museum",
+        "startYear": "1890-01-01"
+      },
+      {
+        "value": "Louvre Museum",
+        "startYear": "1907-01-01"
+      },
+      {
+        "value": "Galerie nationale du Jeu de Paume",
+        "startYear": "1947-01-01"
+      },
+      {
+        "value": "Musée d'Orsay",
+        "startYear": "1986-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q74465048",
+    "relation": "location",
+    "queryTemplate": "Statue of Edward Everett is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Boston Public Garden",
+        "startYear": "1867-01-01"
+      },
+      {
+        "value": "Edward Everett Square",
+        "startYear": "1911-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q75161514",
+    "relation": "location",
+    "queryTemplate": "Equestrian statue of Francisco Pizarro is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Cathedral of Lima",
+        "startYear": "1535-01-28"
+      },
+      {
+        "value": "Plaza Perú",
+        "startYear": "1952-07-26"
+      },
+      {
+        "value": "Parque de la Muralla",
+        "startYear": "2003-04-28"
+      },
+      {
+        "value": "Pasaje Santa Rosa",
+        "startYear": "2025-01-15"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q766782",
+    "relation": "location",
+    "queryTemplate": "The Jewish Bride is currently held in _X_.",
+    "spans": [
+      {
+        "value": "collection Adriaan van der Hoop",
+        "startYear": "1855-01-01"
+      },
+      {
+        "value": "Rijksmuseum",
+        "startYear": "1885-06-30"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q77361878",
+    "relation": "location",
+    "queryTemplate": "The Spirit of Transportation is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Broad Street Station",
+        "startYear": "1895-01-01"
+      },
+      {
+        "value": "30th Street Station",
+        "startYear": "1933-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q8242264",
+    "relation": "location",
+    "queryTemplate": "The Banquet of the Officers of the St George Militia Company in 1616 is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Prinsenhof",
+        "startYear": "1680-01-01"
+      },
+      {
+        "value": "Frans Hals Museum",
+        "startYear": "1862-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q87451924",
+    "relation": "location",
+    "queryTemplate": "Children and satyr children leading a goat to sacrifice is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Hôtel de Mademoiselle de Condé",
+        "startYear": "1781-01-01"
+      },
+      {
+        "value": "Louvre Museum",
+        "startYear": "1979-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q9395955",
+    "relation": "location",
+    "queryTemplate": "St. Luke painting the Virgin is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Grote Kerk",
+        "startYear": "1532-01-01"
+      },
+      {
+        "value": "Haarlem City Hall",
+        "startYear": "1578-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q94952994",
+    "relation": "location",
+    "queryTemplate": "Giuseppe Garibaldi Monument is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Lincoln Park",
+        "startYear": "1901-01-01"
+      },
+      {
+        "value": "Garibaldi Park",
+        "startYear": "1982-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q96634307",
+    "relation": "location",
+    "queryTemplate": "Traffic is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Utrecht Centraal railway station",
+        "startYear": "1940-01-01"
+      },
+      {
+        "value": "Spoorwegmuseum",
+        "startYear": "2011-01-01"
+      }
+    ]
+  },
+  {
+    "subjectId": "Q98162670",
+    "relation": "location",
+    "queryTemplate": "Truus Wijsmuller-Meijer is currently held in _X_.",
+    "spans": [
+      {
+        "value": "Beatrixoord",
+        "startYear": "1965-01-01"
+      },
+      {
+        "value": "Amsterdam-Zuid",
+        "startYear": "1978-01-01"
+      }
+    ]
+  }
+]

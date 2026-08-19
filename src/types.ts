@@ -5,6 +5,7 @@ export interface IngestFactRequest {
   content: string;
   timestamp: string; // ISO 8601
   idempotency_key?: string;
+  skip_classifier?: boolean;
 }
 
 export interface Fact {

@@ -12,18 +12,24 @@
     <p>Naive vector-memory similarity search vs. graph-based supersession tracking on HydraDB.</p>
   </header>
 
+  <section class="legend" aria-label="Graph model">
+    <svg id="legendSvg" viewBox="0 0 720 90" role="img" aria-label="Session states Fact, Fact about Entity, Fact supersedes Fact"></svg>
+  </section>
+
   <section class="controls">
     <label for="scenario">Scenario</label>
     <select id="scenario"></select>
-
-    <label for="asOf">As of</label>
-    <select id="asOf">
-      <option value="beforeEither">Before either fact was stated</option>
-      <option value="afterFirst">After the first fact, before the update</option>
-      <option value="afterSecond" selected>After the update</option>
-    </select>
-
     <button id="run">Run query</button>
+  </section>
+
+  <section id="sliderSection" class="controls slider-controls" hidden>
+    <label for="asOfSlider">As of <span id="asOfLabel"></span></label>
+    <input type="range" id="asOfSlider" min="0" max="1000" value="1000" step="1" />
+    <div class="slider-hint">
+      <span>Before either fact</span>
+      <span id="flipMarkerLabel">supersession boundary</span>
+      <span>After the update</span>
+    </div>
   </section>
 
   <main class="panels">

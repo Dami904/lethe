@@ -1,6 +1,7 @@
 node_modules/
 dist/
 .hydradb-data/
+.minio-data/
 *.log
 .env
 .env.local
