@@ -1,0 +1,11 @@
+{
+  "name": "lethe-monorepo",
+  "private": true,
+  "packageManager": "pnpm@11.21.0",
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm --filter web build",
+    "lint": "pnpm --filter web lint",
+    "preview": "pnpm --filter web preview"
+  }
+}

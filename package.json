@@ -30,7 +30,9 @@
     "ingest:art-provenance": "cross-env DATASET_NAME=art-provenance DATA_PATH=data/art-provenance/subset.json tsx scripts/ingest-temporal-facts.ts",
     "eval:art-provenance": "cross-env DATASET_NAME=art-provenance tsx scripts/eval-temporal-facts.ts",
     "ingest:ceo-succession": "cross-env DATASET_NAME=ceo-succession DATA_PATH=data/ceo-succession/subset.json tsx scripts/ingest-temporal-facts.ts",
-    "eval:ceo-succession": "cross-env DATASET_NAME=ceo-succession tsx scripts/eval-temporal-facts.ts"
+    "eval:ceo-succession": "cross-env DATASET_NAME=ceo-succession tsx scripts/eval-temporal-facts.ts",
+    "ingest:beam": "tsx scripts/ingest-beam.ts",
+    "eval:beam": "tsx scripts/eval-beam.ts"
   },
   "dependencies": {
     "dotenv": "^17.4.2",

@@ -1,7 +1,11 @@
 const DEFAULT_TIMEOUT_MS = 8000;
 const DEFAULT_MAX_RETRIES = 2;
-const MAX_RETRY_DELAY_MS = 20_000;
-const NETWORK_ERROR_RETRY_DELAY_MS = 2_000;
+export const MAX_RETRY_DELAY_MS = 20_000;
+export const NETWORK_ERROR_RETRY_DELAY_MS = 2_000;
+
+export function sleep(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
 
 /**
  * Strips credential-shaped query params and the Authorization header before
@@ -12,7 +16,7 @@ const NETWORK_ERROR_RETRY_DELAY_MS = 2_000;
  * speculative hardening: it was caught by seeing an actual key in test
  * output during development.
  */
-function redactUrl(url: string): string {
+export function redactUrl(url: string): string {
   try {
     const parsed = new URL(url);
     for (const key of [...parsed.searchParams.keys()]) {
@@ -26,10 +30,6 @@ function redactUrl(url: string): string {
   }
 }
 
-function sleep(ms: number): Promise<void> {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
-
 /**
  * A 429 body's shape is provider-specific -- this only recognizes Gemini's
  * `error.details[].retryDelay` ("12s"-style) since that's the provider that
@@ -38,7 +38,7 @@ function sleep(ms: number): Promise<void> {
  * seconds). Returns null, not a guessed default, when nothing parseable is
  * found -- the caller decides the fallback delay.
  */
-function parseGeminiRetryDelaySeconds(bodyText: string): number | null {
+export function parseGeminiRetryDelaySeconds(bodyText: string): number | null {
   try {
     const parsed = JSON.parse(bodyText) as {
       error?: { details?: Array<{ retryDelay?: string }> };
@@ -151,4 +151,60 @@ export async function fetchJsonOrNull(
     }
   }
   return null;
+}
+
+export type SingleAttemptResult =
+  | { ok: true; json: unknown }
+  | { ok: false; status: number; retryAfterSeconds: number | null; bodyText: string }
+  | { ok: false; status: null; retryAfterSeconds: null; bodyText: null; networkError: unknown };
+
+/**
+ * One fetch attempt, no retry, no sleep -- the primitive `fetchJsonOrNull`
+ * above is built on conceptually, extracted out for `geminiProvider.ts`'s
+ * multi-key rotation (see docs/API_NOTES.md): rotating to a *different* key
+ * on a 429 needs to know it was specifically a 429 (and the delay hint) to
+ * decide whether to bench that key and move on, which a function that
+ * already retried-and-collapsed-to-null can't tell the caller.
+ */
+export async function fetchJsonSingleAttempt(
+  url: string,
+  init: RequestInit,
+  timeoutMs = DEFAULT_TIMEOUT_MS,
+): Promise<SingleAttemptResult> {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    const response = await fetch(url, { ...init, signal: controller.signal });
+    const bodyText = await response.text();
+    if (!response.ok) {
+      let retryAfterSeconds: number | null = null;
+      if (response.status === 429) {
+        const headerDelaySeconds = Number(response.headers.get("retry-after"));
+        retryAfterSeconds =
+          (Number.isFinite(headerDelaySeconds) && headerDelaySeconds > 0
+            ? headerDelaySeconds
+            : null) ??
+          parseGeminiRetryDelaySeconds(bodyText) ??
+          5;
+      }
+      return { ok: false, status: response.status, retryAfterSeconds, bodyText };
+    }
+    try {
+      return { ok: true, json: JSON.parse(bodyText) };
+    } catch (parseError) {
+      return {
+        ok: false,
+        status: null,
+        retryAfterSeconds: null,
+        bodyText: null,
+        networkError: new Error(
+          `response body was not valid JSON: ${(parseError as Error).message}`,
+        ),
+      };
+    }
+  } catch (error) {
+    return { ok: false, status: null, retryAfterSeconds: null, bodyText: null, networkError: error };
+  } finally {
+    clearTimeout(timer);
+  }
 }

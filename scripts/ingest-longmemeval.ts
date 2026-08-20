@@ -30,7 +30,24 @@ const DATA_PATH = path.resolve(
   process.cwd(),
   process.env["LONGMEMEVAL_DATA_PATH"] ?? "data/longmemeval/eval_subset.json",
 );
-const OUTPUT_PATH = path.resolve(process.cwd(), ".cache/ingested-longmemeval.json");
+// Every distinct DATA_PATH gets its own graph namespace AND its own output
+// file -- found necessary live: this script's entity namespace used to be
+// bare `${question_id}:${entity}`, with no discriminator for WHICH data
+// file's extraction pass a fact came from. eval_subset_full.json (oracle,
+// pre-filtered evidence sessions) and eval_subset_full_haystack.json (the
+// real full 30-60 session haystack) both cover the SAME 78 question_ids,
+// so running one after the other wrote two logically-different extraction
+// generations into the SAME entity+attribute space in HydraDB -- risking
+// spurious SUPERSEDES edges between an oracle-extracted fact and a
+// full-haystack-extracted fact that happen to differ slightly in wording
+// for what's actually the same underlying information, corrupting the
+// exact invariant this project exists to guarantee. Tagging both the
+// entity namespace and the output file by DATA_PATH's own basename makes
+// two different datasets (or two runs of the same dataset with different
+// LONGMEMEVAL_DATA_PATH values) structurally unable to collide, rather
+// than relying on the operator to remember never to reuse a data file.
+const DATASET_TAG = path.basename(DATA_PATH, path.extname(DATA_PATH));
+const OUTPUT_PATH = path.resolve(process.cwd(), `.cache/ingested-longmemeval-${DATASET_TAG}.json`);
 
 interface LongMemEvalInstance {
   question_id: string;
@@ -77,18 +94,21 @@ export async function ingestInstance(
 
     for (const fact of extracted) {
       knownAttributes.add(fact.attribute);
-      // Namespaced per instance: LongMemEval's 500 instances each describe a
-      // DIFFERENT synthetic persona, but the extractor defaults to the
-      // generic entity name "user" for all of them. Without this prefix,
-      // facts from unrelated instances would collide on entity+attribute
-      // and produce spurious cross-instance SUPERSEDES edges.
-      const namespacedEntity = `${instance.question_id}:${fact.entity}`;
+      // Namespaced per instance AND per dataset variant (see DATASET_TAG
+      // above): LongMemEval's 500 instances each describe a DIFFERENT
+      // synthetic persona, but the extractor defaults to the generic
+      // entity name "user" for all of them. Without the instance prefix,
+      // facts from unrelated instances would collide on entity+attribute;
+      // without the dataset-tag prefix, running the oracle and
+      // full-haystack variants of the SAME instance would collide with
+      // each other instead.
+      const namespacedEntity = `${DATASET_TAG}-${instance.question_id}:${fact.entity}`;
 
       const response = await fetch(`${BASE_URL}/facts`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          session_id: `${instance.question_id}-s${sessionIndex}`,
+          session_id: `${DATASET_TAG}-${instance.question_id}-s${sessionIndex}`,
           entity: namespacedEntity,
           attribute: fact.attribute,
           content: fact.content,
@@ -114,6 +134,41 @@ export async function ingestInstance(
   return { ingested, sessionsFailed };
 }
 
+/**
+ * Runs `worker` over `items` with at most `concurrency` in flight at once.
+ * Instances are fully independent of each other (separate question_id
+ * namespaces, no shared state -- see ingestInstance's namespacing comment),
+ * so parallelizing ACROSS instances is safe and doesn't change extraction
+ * behavior. Sessions WITHIN one instance stay sequential (see
+ * ingestInstance) because knownAttributes deliberately accumulates across
+ * a single instance's sessions to keep the extractor's attribute slugs
+ * consistent -- parallelizing that would change what gets extracted, not
+ * just how fast.
+ *
+ * Written by hand rather than pulling in a concurrency-limiter dependency
+ * for one call site. Found necessary live: a naive sequential loop over
+ * ~3,700 real full-haystack sessions left a 5-key rotation pool almost
+ * entirely idle (only 1 rotation event in the first 7+ minutes, zero
+ * instances completed) because each real extraction call's latency is
+ * dominated by the model's own generation time, not rate-limit waits --
+ * multiple keys only help if multiple requests are actually in flight
+ * across them at once.
+ */
+async function runWithConcurrency<T>(
+  items: T[],
+  concurrency: number,
+  worker: (item: T, index: number) => Promise<void>,
+): Promise<void> {
+  let nextIndex = 0;
+  async function runner(): Promise<void> {
+    while (nextIndex < items.length) {
+      const index = nextIndex++;
+      await worker(items[index]!, index);
+    }
+  }
+  await Promise.all(Array.from({ length: Math.min(concurrency, items.length) }, runner));
+}
+
 async function main(): Promise<void> {
   if (!getLlmProvider()) {
     console.error(
@@ -126,26 +181,78 @@ async function main(): Promise<void> {
 
   const allInstances = JSON.parse(readFileSync(DATA_PATH, "utf8")) as LongMemEvalInstance[];
   const limit = process.env["LONGMEMEVAL_LIMIT"] ? Number(process.env["LONGMEMEVAL_LIMIT"]) : undefined;
-  const instances = limit ? allInstances.slice(0, limit) : allInstances;
+  const targetInstances = limit ? allInstances.slice(0, limit) : allInstances;
+
+  // Resumable by design: the previous version only wrote OUTPUT_PATH once,
+  // at the very end -- an interrupted run (killed to change config, a crash,
+  // the process dying mid-run) lost every already-extracted fact's record,
+  // even though the facts themselves were already durably written to
+  // HydraDB via POST /facts. Found live: this exact scenario, needing to
+  // restart mid-run with a different key pool after 28/78 instances had
+  // already completed. Loading prior output and skipping already-completed
+  // question_ids (not a raw index/count offset -- under concurrency,
+  // instances finish out of dispatch order, so "first N by array position"
+  // is not the same set as "first N to actually complete") makes a restart
+  // safe and cheap instead of re-burning LLM quota re-extracting instances
+  // already done. Pass LONGMEMEVAL_FRESH=1 to ignore prior output and start
+  // clean.
+  let allIngested: IngestedFactRecord[] = [];
+  if (!process.env["LONGMEMEVAL_FRESH"] && existsSync(OUTPUT_PATH)) {
+    try {
+      allIngested = JSON.parse(readFileSync(OUTPUT_PATH, "utf8")) as IngestedFactRecord[];
+    } catch {
+      console.error(`Could not parse existing ${OUTPUT_PATH} as JSON -- starting fresh.`);
+    }
+  }
+  const alreadyDone = new Set(allIngested.map((r) => r.instanceId));
+  const instances = targetInstances.filter((i) => !alreadyDone.has(i.question_id));
+  const skipped = targetInstances.length - instances.length;
+
+  // Defaults to 5 to match a typical GEMINI_API_KEYS pool size (each key is
+  // a separate GCP project's own 15 req/min quota -- see
+  // src/lib/llm/geminiProvider.ts) -- override with LONGMEMEVAL_CONCURRENCY
+  // if your pool is a different size, or 1 to restore strictly sequential
+  // processing.
+  const concurrency = process.env["LONGMEMEVAL_CONCURRENCY"]
+    ? Number(process.env["LONGMEMEVAL_CONCURRENCY"])
+    : 5;
   console.log(
-    `Ingesting ${instances.length}${limit ? ` of ${allInstances.length}` : ""} LongMemEval instances into ${BASE_URL} ...`,
+    `Ingesting ${instances.length}${limit ? ` of ${allInstances.length}` : ""} LongMemEval instances into ${BASE_URL} (concurrency ${concurrency})` +
+      `${skipped > 0 ? ` -- resuming, ${skipped} already completed and loaded from ${OUTPUT_PATH}` : ""} ...`,
   );
 
-  const allIngested: IngestedFactRecord[] = [];
-  let totalSessionsFailed = 0;
-
-  for (const instance of instances) {
-    process.stdout.write(`  ${instance.question_id} (${instance.question_type})... `);
-    const { ingested, sessionsFailed } = await ingestInstance(instance);
-    allIngested.push(...ingested);
-    totalSessionsFailed += sessionsFailed;
-    console.log(`${ingested.length} facts extracted${sessionsFailed > 0 ? ` (${sessionsFailed} sessions failed extraction)` : ""}`);
+  if (instances.length === 0) {
+    console.log("\nNothing left to do -- all target instances already completed.");
+    console.log(`Wrote ${OUTPUT_PATH} for scripts/eval-longmemeval.ts.`);
+    return;
   }
 
   if (!existsSync(path.dirname(OUTPUT_PATH))) mkdirSync(path.dirname(OUTPUT_PATH), { recursive: true });
-  writeFileSync(OUTPUT_PATH, JSON.stringify(allIngested, null, 2));
 
-  console.log(`\nDone. ${allIngested.length} facts ingested across ${instances.length} instances.`);
+  let totalSessionsFailed = 0;
+  let completed = 0;
+
+  await runWithConcurrency(instances, concurrency, async (instance) => {
+    const { ingested, sessionsFailed } = await ingestInstance(instance);
+    allIngested.push(...ingested);
+    totalSessionsFailed += sessionsFailed;
+    completed++;
+    // Persist after every completed instance, not just at the end -- see
+    // the resumability note above. A concurrent push from another worker
+    // between building `allIngested` and this write is fine: JS is
+    // single-threaded, so the push above and this write can't interleave
+    // with another worker's push.
+    writeFileSync(OUTPUT_PATH, JSON.stringify(allIngested, null, 2));
+    // One atomic console.log per completed instance, not a write-then-log
+    // pair -- with several instances finishing concurrently, interleaved
+    // partial lines from separate instances would otherwise corrupt the
+    // output.
+    console.log(
+      `  [${completed}/${instances.length}] ${instance.question_id} (${instance.question_type}): ${ingested.length} facts extracted${sessionsFailed > 0 ? ` (${sessionsFailed} sessions failed extraction)` : ""}`,
+    );
+  });
+
+  console.log(`\nDone. ${allIngested.length} facts ingested across ${targetInstances.length} instances${skipped > 0 ? ` (${skipped} resumed from a prior run)` : ""}.`);
   if (totalSessionsFailed > 0) {
     console.log(`${totalSessionsFailed} sessions failed extraction and were skipped (not silently dropped -- logged above).`);
   }

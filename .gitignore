@@ -9,3 +9,10 @@ coverage/
 lethe-claude-code-prompt.md
 .claude/scheduled_tasks.lock
 .cache/
+
+# Large downloaded source datasets -- fetched by scripts/prepare-*.mjs or
+# pointed at via an env var (see .env.example / docs), not committed.
+data/longmemeval-full/
+# Derived from data/longmemeval-full/ via scripts/prepare-longmemeval-full-haystack.mjs
+# -- ~40MB, regenerate locally rather than committing.
+data/longmemeval/eval_subset_full_haystack.json

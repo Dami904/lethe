@@ -362,6 +362,80 @@ to improve the number — a 92%/91%/1% split, with the "later" misses traced
 to a real, explained cause rather than left as an unexplained gap, reads as
 more credible than a number nobody checked.
 
+## BEAM: a second, independent long-term-memory benchmark, deliberately not LongMemEval
+
+Everything above (LongMemEval, both oracle and full-haystack) shares one
+source lineage. To demonstrate the invariant on data with no relationship
+to that lineage at all, this project also integrates
+[BEAM](https://github.com/mohammadtavakoli78/BEAM)
+(`scripts/ingest-beam.ts`, `scripts/eval-beam.ts`,
+`src/ingest/parseBeamDate.ts`) -- real multi-turn conversations, a
+completely different format and generation process than LongMemEval, with
+10 independently-scored memory-ability categories (including its own
+`knowledge_update`, `contradiction_resolution`, and `abstention`
+questions) hand-authored per chat in each chat's own
+`probing_questions/probing_questions.json`.
+
+**Not bundled in this repo.** BEAM's smallest ("100K") tier alone is tens
+of MB of real conversation JSON per chat across 20 chats (measured live:
+`chats/100K/` is ~41MB uncompressed); larger tiers (500K/1M/10M) run into
+hundreds of MB to multiple GB. `BEAM_DATA_ROOT` must point at your own
+clone of the upstream repo -- see the README's "Also run against BEAM"
+section for the exact commands.
+
+**Local inference was tried first for extraction, and found genuinely
+unreliable at the model size this environment could support.** Before
+using Gemini, a local Ollama container (`src/lib/llm/ollamaProvider.ts`,
+still shipped as a real, tested capability) was tried specifically to keep
+BEAM's extraction load independent of any other ingest job's API usage.
+`qwen2.5:3b` was chosen for a real ~4.8GB-available-RAM constraint in this
+environment (a 7B model would risk OOM/swap under real load, not just
+theoretically -- alone, quantized, a 7B model is already close to that
+ceiling before context/KV-cache growth on BEAM's long batches).
+Live-tested against a real BEAM chat: 24s/call at a warm start on a short
+prompt (real session content is longer), and it repeatedly returned
+narrative prose instead of the required JSON schema -- **0 of the facts
+extracted from 1 full chat's 5 batches validated against the extraction
+schema**, all rejected by the same zod validation every other extractor
+call in this repo goes through (`src/ingest/extractFacts.ts`). This is a
+genuine capability gap at this model size on structured extraction, not a
+prompt bug -- the exact same prompt reliably produces valid
+schema-conforming output from Gemini. The provider is kept in the repo as
+a real, working, tested piece of infrastructure (see `test/`-adjacent
+smoke-testing done live during this session), useful with a model
+actually sized for the task; it is simply not what BEAM's real numbers
+below were run against.
+
+**Gemini was used instead** (`gemini-3.1-flash-lite`, same provider and
+model as LongMemEval's runs -- see `src/lib/llm/geminiProvider.ts` and
+`docs/API_NOTES.md` for its measured rate-limit/retry behavior).
+
+**Same eval methodology as LongMemEval, deliberately** -- `scripts/
+eval-beam.ts` is eval-longmemeval.ts's approach applied to BEAM's own
+extracted (entity, attribute) update pairs: does `/recall` return the
+earlier fact when queried before the update, and the later fact once
+queried after it. It does NOT grade against BEAM's own hand-authored
+`ideal_answer`/`rubric` fields in `probing_questions.json` -- the same
+reasoning as LongMemEval's eval script: doing that honestly would need a
+further LLM-judge call to compare a paraphrased answer against a rubric,
+an unverified error source that would muddy exactly what's being measured
+(supersession-mechanism correctness, not extraction-and-grading-pipeline
+accuracy).
+
+**Run for real against all 20 chats in the "100K" tier** (Gemini,
+`gemini-3.1-flash-lite`): **970 facts ingested across 20/20 chats, zero
+failed extraction batches. N = 155 auto-extracted update pairs.**
+- Lethe, correct at the earlier as_of: **91% (141/155)**
+- Lethe, correct at the later as_of (the invariant that actually matters):
+  **100% (155/155)**
+- Naive baseline (no time dimension): **1% (2/155)**
+
+This is the same 91%-earlier/100%-later/~1%-baseline shape LongMemEval
+produced independently -- two datasets with no shared source data,
+generation process, or question authorship landing on structurally the
+same result, which is a stronger signal for the invariant actually holding
+than either number alone.
+
 ## No auth/multi-tenancy on the Lethe API itself
 
 `/facts`, `/recall`, `/connect` etc. have no authentication layer of their
