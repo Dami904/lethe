@@ -6,6 +6,7 @@ import { Bento } from '@/components/landing/Bento'
 import { MemoryPlayground } from '@/components/landing/MemoryPlayground'
 import { Architecture } from '@/components/landing/Architecture'
 import { BenchmarkSection } from '@/components/landing/BenchmarkSection'
+import { BeamBenchmarkSection } from '@/components/landing/BeamBenchmarkSection'
 import { Cli } from '@/components/landing/Cli'
 import { Footer } from '@/components/landing/Footer'
 import { useLandingEffects } from '@/components/landing/useLandingEffects'
@@ -26,6 +27,7 @@ export default function Landing() {
         <MemoryPlayground />
         <Architecture />
         <BenchmarkSection />
+        <BeamBenchmarkSection />
         <Cli />
         <Footer />
       </main>

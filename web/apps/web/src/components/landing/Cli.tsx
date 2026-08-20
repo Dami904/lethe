@@ -54,7 +54,7 @@ export function Cli() {
               <div>
                 <span className="text-purple-400">$</span> bash scripts/hydradb-up.sh
               </div>
-              <div className="text-gray-500 text-xs pl-4">&gt; HydraDB v0.8.2 started on :8080 [READY]</div>
+              <div className="text-gray-500 text-xs pl-4">&gt; Waiting for HydraDB readiness on :9090/readyz ... HydraDB is ready.</div>
               <div>
                 <span className="text-purple-400">$</span> pnpm seed
               </div>

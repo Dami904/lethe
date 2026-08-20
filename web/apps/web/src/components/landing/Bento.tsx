@@ -145,9 +145,6 @@ export function Bento() {
               <div><span className="text-accent">{`{"id": 48192, "entity": "user", "attribute": "tennis_frequency",`}</span></div>
               <div><span className="text-accent">{` "content": "Plays every other week, Sunday", "valid": true}`}</span></div>
             </div>
-            <div className="text-right text-[10px] text-gray-400 font-mono z-10">
-              Sub-millisecond memory resolution
-            </div>
           </div>
         </div>
       </div>

@@ -24,7 +24,7 @@ export function Footer() {
       <div className="max-w-[1400px] mx-auto relative z-10 flex flex-col md:flex-row justify-between items-start md:items-end gap-12">
         <div>
           <div className="flex items-center gap-3 mb-4">
-            <img src="/lethe-logo.png" alt="Lethe Logo" className="w-8 h-8 rounded-lg object-cover border border-accent/40" />
+            <img src="/lethe-icon.png" alt="Lethe" className="w-8 h-8 rounded-lg object-cover border border-accent/40" />
             <span className="font-display font-bold text-xl text-white">LETHE</span>
           </div>
           <p className="text-gray-400 text-sm max-w-md leading-relaxed mb-6 font-light">
@@ -55,12 +55,14 @@ export function Footer() {
             <a href="#playground" className="hover:text-accent transition-colors">Playground</a>
             <a href="#architecture" className="hover:text-accent transition-colors">Architecture</a>
             <a href="#benchmarks" className="hover:text-accent transition-colors">Benchmarks</a>
+            <a href="#beam-benchmark" className="hover:text-accent transition-colors">BEAM</a>
           </div>
           <div className="flex flex-col gap-3">
             <span className="text-white">Hack Hydra</span>
             <a href="https://github.com/Dami904/lethe" target="_blank" rel="noreferrer" className="hover:text-accent transition-colors">Documentation</a>
             <a href="https://github.com/hydra-db/hydradb" target="_blank" rel="noreferrer" className="hover:text-accent transition-colors">HydraDB</a>
             <a href="https://github.com/xiaowu0162/LongMemEval" target="_blank" rel="noreferrer" className="hover:text-accent transition-colors">LongMemEval</a>
+            <a href="https://github.com/mohammadtavakoli78/BEAM" target="_blank" rel="noreferrer" className="hover:text-accent transition-colors">BEAM</a>
           </div>
         </div>
       </div>

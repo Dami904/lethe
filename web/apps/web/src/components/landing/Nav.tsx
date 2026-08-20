@@ -8,6 +8,7 @@ const LINKS = [
   { label: 'PLAYGROUND', href: '#playground' },
   { label: 'ARCHITECTURE', href: '#architecture' },
   { label: 'BENCHMARKS', href: '#benchmarks' },
+  { label: 'BEAM', href: '#beam-benchmark' },
   { label: 'CLI', href: '#cli' },
 ]
 
@@ -19,9 +20,9 @@ export function Nav() {
       <nav className="fixed top-0 w-full z-50 border-b border-white/5 bg-[#040406]/85 backdrop-blur-md">
         <div className="flex h-20 max-w-7xl mx-auto px-6 items-center justify-between">
           <Link to="/" className="group flex items-center gap-3 z-50">
-            <img src="/lethe-logo.png" alt="Lethe Logo" className="w-9 h-9 rounded-xl object-cover border border-accent/40 shadow-lg shadow-accent/20" />
+            <img src="/lethe-icon.png" alt="Lethe" className="w-9 h-9 rounded-xl object-cover border border-accent/40 shadow-lg shadow-accent/20" />
             <span className="group-hover:text-accent transition-colors text-xl font-bold text-white tracking-tighter font-display">
-              LETHE<span className="text-accent group-hover:text-white transition-colors">//</span>MEMORY
+              LETHE
             </span>
           </Link>
 
