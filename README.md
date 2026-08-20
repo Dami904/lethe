@@ -4,6 +4,8 @@ A temporal, self-correcting agent memory system on [HydraDB](https://github.com/
 
 Built for Hack Hydra (Track 3: Agent Memory).
 
+**Live landing page:** [lethe-hydradb.vercel.app](https://lethe-hydradb.vercel.app)
+
 ## The problem
 
 mem0/Zep-style agent memory stores facts as embeddings and retrieves by

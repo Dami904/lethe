@@ -22,3 +22,5 @@ docs/smoke/
 
 # video build harness — outputs, caches and secrets
 video/
+.vercel
+.env*

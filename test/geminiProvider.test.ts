@@ -175,6 +175,42 @@ describe("geminiProvider multi-key rotation", () => {
     const result = await geminiProvider.generateText({ userPrompt: "hi" });
 
     expect(result).toBe("second key worked");
+  });
+
+  it("a 503 (documented-transient provider overload) rotates and retries instead of discarding the call outright", async () => {
+    // Live-observed during a real LongMemEval batch ingest: Gemini's 503
+    // body literally says "Spikes in demand are usually temporary. Please
+    // try again later," but the pre-fix code treated it as a permanent
+    // failure and gave up on the whole extraction call (an entire
+    // session's worth of real work) on the very first occurrence.
+    process.env["GEMINI_API_KEYS"] = "overload-key-1,overload-key-2";
+    const fetchMock = vi
+      .fn()
+      .mockResolvedValueOnce(
+        jsonResponse(503, {
+          error: { code: 503, status: "UNAVAILABLE", message: "This model is currently experiencing high demand." },
+        }),
+      )
+      .mockResolvedValueOnce(geminiSuccess("succeeded after the provider blip"));
+    vi.stubGlobal("fetch", fetchMock);
+
+    const result = await geminiProvider.generateText({ userPrompt: "hi" });
+
+    expect(result).toBe("succeeded after the provider blip");
+    expect(fetchMock).toHaveBeenCalledTimes(2);
+  });
+
+  it("a 500 also rotates rather than failing the call outright", async () => {
+    process.env["GEMINI_API_KEYS"] = "flaky-key-1,flaky-key-2";
+    const fetchMock = vi
+      .fn()
+      .mockResolvedValueOnce(jsonResponse(500, { error: "internal error" }))
+      .mockResolvedValueOnce(geminiSuccess("second key worked"));
+    vi.stubGlobal("fetch", fetchMock);
+
+    const result = await geminiProvider.generateText({ userPrompt: "hi" });
+
+    expect(result).toBe("second key worked");
     expect(fetchMock).toHaveBeenCalledTimes(2);
   });
 

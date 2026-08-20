@@ -206,11 +206,31 @@ export const geminiProvider: LlmProvider = {
         continue;
       }
 
-      // Any other non-ok status (400/404/500/503, ...) is treated as this
-      // call's failure, not this key's -- retrying it against a different
-      // key is unlikely to help a malformed request or a provider-side
-      // outage, and looping through the whole pool on every such call
-      // would just multiply latency for no benefit.
+      if (result.status >= 500) {
+        // 500/502/503/504 -- a provider-side outage, not this key's fault
+        // specifically, but also not permanent: Gemini's own 503 body says
+        // "Spikes in demand are usually temporary. Please try again
+        // later," and empirically DOES clear within seconds on a retry.
+        // Live-observed: previously this branch gave up on the whole
+        // extraction call immediately on the first 503, discarding one
+        // real session's worth of work outright rather than treating a
+        // documented-transient condition as transient -- a genuine
+        // reliability gap, not a hypothetical one. Benching (not the same
+        // key forever, just briefly) and rotating keeps a batch job
+        // moving through a provider blip the same way the network-error
+        // branch above already does.
+        benchedUntil.set(key, now + NETWORK_ERROR_RETRY_DELAY_MS);
+        console.error(
+          `[gemini] provider error (${result.status})${keyLabel}, benching briefly${multiKey ? " and trying next key" : ""}: ${result.bodyText}`,
+        );
+        continue;
+      }
+
+      // Any other non-ok status (400/404, ...) is treated as this call's
+      // failure, not this key's -- retrying it against a different key is
+      // unlikely to help a malformed request, and looping through the
+      // whole pool on every such call would just multiply latency for no
+      // benefit.
       console.error(`[gemini] failed${keyLabel}: ${result.status} ${result.bodyText}`);
       return null;
     }
