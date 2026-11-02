@@ -15,7 +15,7 @@ export function Cli() {
             <div className="group flex gap-4 p-4 border border-white/5 hover:border-accent/40 bg-white/[0.02] hover:bg-accent/5 rounded-xl transition-all cursor-pointer">
               <div className="text-gray-500 group-hover:text-accent font-bold text-sm">01</div>
               <div>
-                <h4 className="font-bold text-white text-sm font-display">pnpm baseline:eval</h4>
+                <h4 className="font-bold text-white text-sm font-display">pnpm eval:longmemeval</h4>
                 <p className="text-xs text-gray-400 font-sans mt-1">Scores Lethe's graph supersession against a naive cosine similarity store on LongMemEval transcripts.</p>
               </div>
             </div>
@@ -56,6 +56,10 @@ export function Cli() {
               </div>
               <div className="text-gray-500 text-xs pl-4">&gt; Waiting for HydraDB readiness on :9090/readyz ... HydraDB is ready.</div>
               <div>
+                <span className="text-purple-400">$</span> pnpm dev
+              </div>
+              <div className="text-gray-500 text-xs pl-4">&gt; Lethe listening on http://127.0.0.1:3000</div>
+              <div>
                 <span className="text-purple-400">$</span> pnpm seed
               </div>
               <div className="text-gray-500 text-xs pl-4">&gt; Ingested LongMemEval oracle facts (tennis, ratio, apex)</div>
@@ -66,8 +70,9 @@ export function Cli() {
                 {`{"answer":"The user now plays tennis with friends at the local park every other week, on Sunday.","method":"supersedes_edge_walk"}`}
               </div>
               <div>
-                <span className="text-purple-400">$</span> pnpm eval:longmemeval
+                <span className="text-purple-400">$</span> pnpm ingest:longmemeval &amp;&amp; pnpm eval:longmemeval
               </div>
+              <div className="text-gray-500 text-xs pl-4">&gt; requires an LLM key (GEMINI_API_KEYS or similar) for extraction — see .env.example</div>
               <div className="text-gray-400 text-xs pl-4">
                 Lethe Accuracy: <span className="text-green-400 font-bold">91% (164/181)</span> | Baseline: <span className="text-red-400 font-bold">1% (2/181)</span>
               </div>

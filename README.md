@@ -1,10 +1,28 @@
-# Lethe
+<p align="center">
+  <img src="web/apps/web/public/lethe-graph-hero.jpg" alt="Lethe temporal graph memory visualization" width="100%" />
+</p>
 
-A temporal, self-correcting agent memory system on [HydraDB](https://github.com/hydra-db/hydradb).
+<h1 align="center">Lethe</h1>
 
-Built for Hack Hydra (Track 3: Agent Memory).
+<p align="center">
+  A temporal, self-correcting agent memory system on <a href="https://github.com/hydra-db/hydradb">HydraDB</a>.
+  <br />
+  Built for Hack Hydra — Track 3: Agent Memory.
+</p>
 
-**Live landing page:** [lethe-hydradb.vercel.app](https://lethe-hydradb.vercel.app)
+<p align="center">
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-e11d48?style=flat-square" />
+  <img alt="Node" src="https://img.shields.io/badge/node-20%2B-111111?style=flat-square" />
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-strict-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+  <img alt="HydraDB" src="https://img.shields.io/badge/HydraDB-graph--native-e11d48?style=flat-square" />
+  <img alt="Hack Hydra" src="https://img.shields.io/badge/Hack%20Hydra-Track%203%20·%20Agent%20Memory-e11d48?style=flat-square" />
+</p>
+
+<p align="center">
+  <a href="https://lethe-hydradb.vercel.app"><strong>Live landing page →</strong></a>
+</p>
+
+---
 
 ## The problem
 
@@ -12,8 +30,8 @@ mem0/Zep-style agent memory stores facts as embeddings and retrieves by
 cosine similarity. That can't tell a fresh fact from a contradicted one —
 "I live in London" and "I live in Tokyo" are both highly similar to the
 question "where do I live?", and a similarity search has no principled way
-to prefer the current one. See the naive baseline in this repo reproduce
-exactly that failure (`src/baseline/`).
+to prefer the current one. The naive baseline in this repo (`src/baseline/`)
+reproduces exactly that failure, measurably, below.
 
 ## The fix
 
@@ -26,9 +44,39 @@ qualifying points at — not a similarity guess. If no fact ever existed,
 "no_fact_stated"}`) backed by an actual non-existence check, not a guessed
 "I don't know."
 
-**The invariant that must never break:** a `/recall` response never returns
-a superseded fact, and abstains rather than guesses when nothing is valid.
-See `CLAUDE.md` and `test/recall.test.ts`.
+> **The invariant that must never break:** a `/recall` response never
+> returns a superseded fact, and abstains rather than guesses when nothing
+> is valid. See [`CLAUDE.md`](CLAUDE.md) and [`test/recall.test.ts`](test/recall.test.ts).
+
+## Results
+
+Measured by scoring Lethe's extracted-and-superseded answer against the
+correct answer at two points in time — before an update fact exists, and
+after — versus the naive cosine-similarity baseline on the same data.
+
+| Benchmark | Update pairs (N) | Lethe — before update | Lethe — after update (the invariant) | Naive baseline |
+|---|---|---|---|---|
+| [LongMemEval](https://github.com/xiaowu0162/LongMemEval) (oracle, full 78-instance set) | 181 | 92% (166/181) | **91% (164/181)** | 1% (2/181) |
+| [BEAM](https://github.com/mohammadtavakoli78/BEAM) (100K tier, all 20 chats) | 155 | 91% (141/155) | **100% (155/155)** | 1% (2/155) |
+
+Reproduce these with `pnpm eval:longmemeval` / `pnpm eval:beam` — see
+[Optional: LLM-powered features](#optional-llm-powered-features) below.
+
+<details>
+<summary>Why the "before update" numbers aren't 100%, and why an earlier <em>misleadingly clean</em> 100% wasn't more correct</summary>
+
+The "before" misses are not a `/recall` correctness bug — traced directly
+against live `/recall` and `/chain` output, some (entity, attribute) pairs
+are multiple simultaneously-true facts sharing one attribute slug (e.g. two
+different, non-contradicting shopping preferences from the same session),
+correctly left unsuperseded by the semantic classifier, which the eval
+script's linear-chain assumption doesn't account for. An earlier run showed
+a misleadingly clean 100% here — that was itself an artifact of a
+then-flakier classifier silently falling back more often, not a
+more-correct result. See [`docs/LIMITATIONS.md`](docs/LIMITATIONS.md) for
+the full investigation.
+
+</details>
 
 ## How HydraDB is used (judged criterion: "Best Use of HydraDB")
 
@@ -101,10 +149,11 @@ pnpm baseline:eval
 ```
 
 Optional: for semantic conflict detection and automated LongMemEval
-extraction (see "Optional: LLM-powered features" below), set exactly one of
-`ANTHROPIC_API_KEY`, `OPENAI_API_KEY`, or `GEMINI_API_KEY` in `.env`. With
-none set, everything above works identically — conflict detection falls
-back to exact-string matching automatically.
+extraction (see [Optional: LLM-powered features](#optional-llm-powered-features)
+below), set exactly one of `ANTHROPIC_API_KEY`, `OPENAI_API_KEY`, or
+`GEMINI_API_KEY` in `.env`. With none set, everything above works
+identically — conflict detection falls back to exact-string matching
+automatically.
 
 On native Windows with Docker Desktop and no bash (no WSL, no Git Bash),
 replace step 1 with:
@@ -160,21 +209,7 @@ pnpm eval:longmemeval     # scores Lethe's supersession correctness, with N stat
 # Or, against the full 78-instance set:
 LONGMEMEVAL_DATA_PATH=data/longmemeval/eval_subset_full.json pnpm ingest:longmemeval
 ```
-Run for real against the full 78 instances, oracle setting (Gemini,
-`gemini-3.1-flash-lite`): **N = 181 auto-extracted update pairs (593
-facts), 1 session-extraction failure across all 78 instances. Lethe: 92%
-(166/181) correct at the earlier timestamp, 91% (164/181) correct once
-enough time has passed for an update to apply. Naive baseline: 1%
-(2/181).** The "later" misses are not a `/recall` correctness bug — traced
-directly against live `/recall` and `/chain` output: some (entity,
-attribute) pairs are multiple simultaneously-true facts sharing one
-attribute slug (e.g. two different, non-contradicting shopping
-preferences from the same session), correctly left unsuperseded by the
-semantic classifier, which the eval script's linear-chain assumption
-doesn't account for. See `docs/LIMITATIONS.md` for the full investigation,
-including why an earlier run's *misleadingly clean* 100% number was itself
-an artifact of a then-flakier classifier silently falling back more often,
-not a more-correct result.
+See [Results](#results) above for real numbers from this run.
 
 **Also run against BEAM** ([mohammadtavakoli78/BEAM](https://github.com/mohammadtavakoli78/BEAM)),
 a genuinely different long-term-memory benchmark — real multi-turn
@@ -191,11 +226,8 @@ pnpm eval:beam                                  # scores Lethe's supersession co
 ```
 Run for real against all 20 chats in the "100K" tier (confirmed live:
 ~200k+ tokens/chat once parsed, not literally 100K — BEAM's own tier
-label, not a token guarantee; Gemini, `gemini-3.1-flash-lite`): **970 facts
-ingested across 20/20 chats, zero failed extraction batches. N = 155
-auto-extracted update pairs. Lethe: 91% (141/155) correct at the earlier
-timestamp, 100% (155/155) correct once enough time has passed for an
-update to apply — the actual invariant. Naive baseline: 1% (2/155).** Same
+label, not a token guarantee; Gemini, `gemini-3.1-flash-lite`): 970 facts
+ingested across 20/20 chats, zero failed extraction batches. Same
 methodology as the LongMemEval eval above (`scripts/eval-beam.ts`),
 deliberately: comparing Lethe's extracted-and-superseded answer against
 the extractor's own last-written content, not BEAM's hand-authored
@@ -205,13 +237,12 @@ to compare against, an unverified error source in its own right — see
 
 ## Docs
 
-- [`docs/API_NOTES.md`](docs/API_NOTES.md) — measured HydraDB HTTP API
-  behavior, and what's still unverified against a live node.
-- [`docs/LIMITATIONS.md`](docs/LIMITATIONS.md) — what's explicitly not
-  handled, stated plainly.
-- [`docs/THREAT_MODEL.md`](docs/THREAT_MODEL.md) — trust assumptions.
-- [`CLAUDE.md`](CLAUDE.md) — the invariant and engineering rules this repo
-  was built against.
+| Doc | What's in it |
+|---|---|
+| [`docs/API_NOTES.md`](docs/API_NOTES.md) | Measured HydraDB HTTP API behavior, and what's still unverified against a live node. |
+| [`docs/LIMITATIONS.md`](docs/LIMITATIONS.md) | What's explicitly not handled, stated plainly. |
+| [`docs/THREAT_MODEL.md`](docs/THREAT_MODEL.md) | Trust assumptions. |
+| [`CLAUDE.md`](CLAUDE.md) | The invariant and engineering rules this repo was built against. |
 
 ## License
 

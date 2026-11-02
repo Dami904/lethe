@@ -104,17 +104,32 @@ export async function ingestInstance(
       // each other instead.
       const namespacedEntity = `${DATASET_TAG}-${instance.question_id}:${fact.entity}`;
 
-      const response = await fetch(`${BASE_URL}/facts`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          session_id: `${DATASET_TAG}-${instance.question_id}-s${sessionIndex}`,
-          entity: namespacedEntity,
-          attribute: fact.attribute,
-          content: fact.content,
-          timestamp,
-        }),
-      });
+      // A bare `await fetch()` here previously had no error handling at
+      // all -- a thrown network error (not an HTTP error response, an
+      // actual connection failure) propagated straight out of
+      // ingestInstance and crashed the whole batch run. Found live: the
+      // dev server auto-restarting mid-request (tsx watch picking up an
+      // unrelated source edit) closed this exact in-flight connection and
+      // took down a multi-hour ingest run with it. One fact failing to
+      // post should cost that one fact, the same as a non-2xx response
+      // below -- not the entire process.
+      let response: Response;
+      try {
+        response = await fetch(`${BASE_URL}/facts`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            session_id: `${DATASET_TAG}-${instance.question_id}-s${sessionIndex}`,
+            entity: namespacedEntity,
+            attribute: fact.attribute,
+            content: fact.content,
+            timestamp,
+          }),
+        });
+      } catch (error) {
+        console.error(`  ingest request failed for ${namespacedEntity}/${fact.attribute}:`, error);
+        continue;
+      }
       if (!response.ok) {
         console.error(
           `  ingest failed for ${namespacedEntity}/${fact.attribute}: ${response.status}`,

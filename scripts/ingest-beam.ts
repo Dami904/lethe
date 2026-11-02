@@ -132,18 +132,28 @@ export async function ingestChat(
       // entity+attribute.
       const namespacedEntity = `beam-${TIER}-${chatId}:${fact.entity}`;
 
-      const response = await fetch(`${BASE_URL}/facts`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          session_id: `beam-${TIER}-${chatId}-b${batch.batch_number}`,
-          entity: namespacedEntity,
-          attribute: fact.attribute,
-          content: fact.content,
-          timestamp,
-          skip_classifier: true,
-        }),
-      });
+      // See the identical fix in ingest-longmemeval.ts for why this is
+      // wrapped: a thrown network error here (not an HTTP error response)
+      // used to crash the whole batch run instead of costing just this
+      // one fact.
+      let response: Response;
+      try {
+        response = await fetch(`${BASE_URL}/facts`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            session_id: `beam-${TIER}-${chatId}-b${batch.batch_number}`,
+            entity: namespacedEntity,
+            attribute: fact.attribute,
+            content: fact.content,
+            timestamp,
+            skip_classifier: true,
+          }),
+        });
+      } catch (error) {
+        console.error(`  ingest request failed for ${namespacedEntity}/${fact.attribute}:`, error);
+        continue;
+      }
       if (!response.ok) {
         console.error(`  ingest failed for ${namespacedEntity}/${fact.attribute}: ${response.status}`);
         continue;
